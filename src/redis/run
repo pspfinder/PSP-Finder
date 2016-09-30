@@ -1,0 +1,29 @@
+1、complie c code
+cd..
+在redis和pycpaser父目录下
+
+（1）测试一个文件是否能顺利编译
+cc -nostdinc -E -D'__attribute__(x)='  -Iredis/src  -Ipycparser/utils/fake_libc_include -Iredis/deps/lua/src -Iredis/deps/hiredis -Iredis/deps/linenoise -Iredis/complimentary redis/src/memtest.c > memtest_pp.c
+（2）使用compile.sh批量编译，第一个参数为输入文件路径，第二个参数为输出文件路径
+格式：sudo ./compile.sh inFolder outFolder
+a、根文件夹 sudo ./compile_redis.sh redis/src redis_pp
+b、子文件夹 sudo ./compile_redis.sh redis/src/modules redis_pp
+
+
+2、函数定义
+(1)测试是否能分析一个文件，生成函数调用情况
+python AnylysisFuncs_redis.py redis_pp/aof_pp.c >test-redis.result
+(2)使用GetFuncCalls_redis.sh批量分析文件，生成函数调用情况
+格式：sudo ./GetFuncCalls_redis.sh inFolder outFolder
+sudo ./GetFuncCalls_redis.sh redis_pp redis_Funcs
+注：cluster.c生成AST失败，不纳入分析
+(3)生成数据分析文件
+python GenerateFuncData_redis.py redis_Funcs/ 
+数据输出到func_redis.data中
+(4)分析
+python fpGrowth_func_redis.py >fuc_redis.rules
+设置minsup=15,1519×0.01
+
+
+3、路径
+
