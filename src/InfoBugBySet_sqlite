@@ -1,0 +1,180 @@
+[['sqlite3GetVdbe()'], ['assert()']]
+conf:0.9,45/50
+[['sqlite3ReleaseTempReg()'], ['assert()']]
+conf:0.9,18/20
+[['sqlite3VdbeResolveLabel()'], ['sqlite3VdbeMakeLabel()']]
+conf:0.9,18/20
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp3()'], ['assert()']]
+conf:0.9,27/30
+[['sqlite3VdbeResolveLabel()'], ['assert()', 'sqlite3VdbeMakeLabel()']]
+conf:0.9,18/20
+[['sqlite3_mutex_leave()', 'sqlite3ApiExit()'], ['sqlite3_mutex_enter()']]
+conf:0.9,18/20
+[['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp2()']]
+conf:0.9,18/20
+[['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+conf:0.9,18/20
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeChangeP5()'], ['sqlite3VdbeAddOp3()']]
+conf:0.9047619047619048,19/21
+[['sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()'], ['sqlite3VdbeAddOp2()']]
+conf:0.9047619047619048,19/21
+[['sqlite3Get4byte()'], ['assert()']]
+conf:0.90625,29/32
+[['sqlite3Put4byte()'], ['assert()']]
+conf:0.9090909090909091,20/22
+[['releasePage()'], ['assert()']]
+conf:0.9090909090909091,20/22
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+conf:0.9166666666666666,22/24
+[['sqlite3CorruptError()'], ['assert()']]
+conf:0.9285714285714286,39/42
+[['sqlite3VdbeJumpHere()'], ['assert()']]
+conf:0.9285714285714286,26/28
+[['sqlite3BtreeLeave()'], ['sqlite3BtreeEnter()']]
+conf:0.9333333333333333,42/45
+[['sqlite3BtreeEnter()'], ['sqlite3BtreeLeave()']]
+conf:0.9333333333333333,42/45
+[['sqlite3VdbeChangeP5()'], ['assert()']]
+conf:0.9375,30/32
+[['sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]
+conf:0.9397590361445783,78/83
+[['assert()', 'sqlite3VdbeResolveLabel()'], ['sqlite3VdbeMakeLabel()']]
+conf:0.9473684210526315,18/19
+[['sqlite3_mutex_enter()', 'sqlite3ApiExit()'], ['sqlite3_mutex_leave()']]
+conf:0.9473684210526315,18/19
+[['sqlite3VdbeResolveLabel()'], ['assert()']]
+conf:0.95,19/20
+[['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+conf:0.95,19/20
+[['sqlite3VdbeAddOp1()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+conf:0.95,19/20
+[['sqlite3VdbeAddOp1()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp2()']]
+conf:0.95,19/20
+[['sqlite3VdbeAddOp1()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+conf:0.95,19/20
+[['assert()', 'sqlite3_mutex_leave()'], ['sqlite3_mutex_enter()']]
+conf:0.9512195121951219,39/41
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeChangeP5()'], ['assert()']]
+conf:0.9523809523809523,20/21
+[['sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()'], ['assert()']]
+conf:0.9523809523809523,20/21
+[['sqlite3VdbeAddOp4()', 'sqlite3VdbeChangeP5()'], ['assert()']]
+conf:0.9523809523809523,20/21
+[['sqlite3VdbeMakeLabel()'], ['assert()']]
+conf:0.9545454545454546,21/22
+[['sqlite3GetVdbe()', 'sqlite3VdbeAddOp4()'], ['assert()']]
+conf:0.9545454545454546,21/22
+[['sqlite3VdbeAddOp3()', 'sqlite3VdbeAddOp1()'], ['assert()']]
+conf:0.9545454545454546,21/22
+[['sqlite3PagerWrite()'], ['assert()']]
+conf:0.9565217391304348,22/23
+[['sqlite3VdbeAddOp2()', 'sqlite3GetVdbe()'], ['assert()']]
+conf:0.9565217391304348,22/23
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp1()'], ['assert()']]
+conf:0.9565217391304348,22/23
+[['sqlite3VdbeAddOp3()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+conf:0.9565217391304348,22/23
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp1()'], ['sqlite3VdbeAddOp3()']]
+conf:0.9565217391304348,22/23
+[['sqlite3VdbeAddOp3()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp2()']]
+conf:0.9565217391304348,22/23
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+conf:0.9583333333333334,23/24
+[['assert()', 'sqlite3BtreeLeave()'], ['sqlite3BtreeEnter()']]
+conf:0.9642857142857143,27/28
+[['assert()', 'sqlite3BtreeEnter()'], ['sqlite3BtreeLeave()']]
+conf:0.9642857142857143,27/28
+[['sqlite3SchemaToIndex()'], ['assert()']]
+conf:0.9714285714285714,34/35
+[['assert()', 'sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]
+conf:0.975,39/40
+[['sqlite3VdbeGoto()'], ['assert()']]
+conf:1.0,18/18
+[['sqlite3VdbeAddOp2()', 'sqlite3VdbeMakeLabel()'], ['assert()']]
+conf:1.0,18/18
+[['sqlite3GetVdbe()', 'sqlite3SchemaToIndex()'], ['assert()']]
+conf:1.0,20/20
+[['sqlite3VdbeAddOp3()', 'sqlite3VdbeAddOp4()'], ['assert()']]
+conf:1.0,18/18
+[['sqlite3VdbeMakeLabel()', 'sqlite3VdbeResolveLabel()'], ['assert()']]
+conf:1.0,18/18
+[['sqlite3VdbeAddOp3()', 'sqlite3VdbeAddOp1()'], ['sqlite3VdbeAddOp2()']]
+conf:1.0,22/22
+findBugsByFPRules finished! analysis 1721 function calls for 51 rules, including 6 rules with confidence 1. Find 77 Bugs.
+1, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3GetVdbe()', '@Analysis-sqlite3CodeOnce-@sqlite3.c@line: 91098.....@index:1114'], against rule: [['sqlite3GetVdbe()'], ['assert()']]
+2, Find a bug in: ['sqlite3SetHasNullFlag()', 'sqlite3ExprCachePush()', 'sqlite3MPrintf()', 'sqlite3CodeOnce()', 'sqlite3VdbeJumpHere()', 'sqlite3ExprCachePop()', 'sqlite3VdbeAddOp4()', 'sqlite3GetVdbe()', '@Analysis-sqlite3CodeSubselect-@sqlite3.c@line: 91363.....@index:1118'], against rule: [['sqlite3GetVdbe()'], ['assert()']]
+3, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3GetVdbe()', '@Analysis-loadAnalysis-@sqlite3.c@line: 95924.....@index:1176'], against rule: [['sqlite3GetVdbe()'], ['assert()']]
+4, Find a bug in: ['sqlite3TableLock()', 'sqlite3GetVdbe()', 'sqlite3VdbeAddOp4Int()', '@Analysis-sqlite3OpenMasterTable-@sqlite3.c@line: 98083.....@index:1219'], against rule: [['sqlite3GetVdbe()'], ['assert()']]
+5, Find a bug in: ['sqlite3VdbeUsesBtree()', 'sqlite3VdbeAddOp2()', 'sqlite3GetVdbe()', '@Analysis-sqlite3Vacuum-@sqlite3.c@line: 121439.....@index:1520'], against rule: [['sqlite3GetVdbe()'], ['assert()']]
+6, Find a bug in: ['sqlite3GetTempReg()', 'sqlite3ExprCompare()', 'sqlite3ReleaseTempReg()', 'sqlite3ExprCodeTarget()', 'sqlite3ExprCodeAtInit()', 'sqlite3ExprSkipCollate()', 'sqlite3ExprIsConstantNotJoin()', '@Analysis-sqlite3ExprCodeTemp-@sqlite3.c@line: 92792.....@index:1135'], against rule: [['sqlite3ReleaseTempReg()'], ['assert()']]
+7, Find a bug in: ['sqlite3GetTempReg()', 'sqlite3ReleaseTempReg()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeAddOp4Int()', '@Analysis-codeDistinct-@sqlite3.c@line: 114132.....@index:1436'], against rule: [['sqlite3ReleaseTempReg()'], ['assert()']]
+8, Find a bug in: ['sqlite3ExprCachePop()', 'sqlite3VdbeResolveLabel()', '@Analysis-sqlite3ResolvePartIdxLabel-@sqlite3.c@line: 103200.....@index:1303'], against rule: [['sqlite3VdbeResolveLabel()'], ['sqlite3VdbeMakeLabel()']]
+9, Find a bug in: ['sqlite3VdbeAddOp1()', 'translateColumnToCopy()', 'sqlite3VdbeGetOp()', 'sqlite3VdbeGoto()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeCurrentAddr()', 'whereInfoFree()', 'sqlite3VdbeJumpHere()', 'assert()', 'sqlite3VdbeAddOp3()', 'sqlite3PrimaryKeyIndex()', 'sqlite3VdbeChangeP5()', 'sqlite3ExprCacheClear()', 'sqlite3VdbeResolveLabel()', 'sqlite3ColumnOfIndex()', '@Analysis-sqlite3WhereEnd-@sqlite3.c@line: 131350.....@index:1628'], against rule: [['sqlite3VdbeResolveLabel()'], ['sqlite3VdbeMakeLabel()']]
+10, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp3()'], ['assert()']]
+11, Find a bug in: ['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp3()', 'sqlite3ColumnDefault()', 'sqlite3ColumnOfIndex()', '@Analysis-sqlite3ExprCodeGetColumnOfTable-@sqlite3.c@line: 91991.....@index:1127'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp3()'], ['assert()']]
+12, Find a bug in: ['sqlite3GetTempReg()', 'sqlite3ReleaseTempReg()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeAddOp4Int()', '@Analysis-codeDistinct-@sqlite3.c@line: 114132.....@index:1436'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp3()'], ['assert()']]
+13, Find a bug in: ['sqlite3ExprCachePop()', 'sqlite3VdbeResolveLabel()', '@Analysis-sqlite3ResolvePartIdxLabel-@sqlite3.c@line: 103200.....@index:1303'], against rule: [['sqlite3VdbeResolveLabel()'], ['assert()', 'sqlite3VdbeMakeLabel()']]
+14, Find a bug in: ['sqlite3VdbeAddOp1()', 'translateColumnToCopy()', 'sqlite3VdbeGetOp()', 'sqlite3VdbeGoto()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeCurrentAddr()', 'whereInfoFree()', 'sqlite3VdbeJumpHere()', 'assert()', 'sqlite3VdbeAddOp3()', 'sqlite3PrimaryKeyIndex()', 'sqlite3VdbeChangeP5()', 'sqlite3ExprCacheClear()', 'sqlite3VdbeResolveLabel()', 'sqlite3ColumnOfIndex()', '@Analysis-sqlite3WhereEnd-@sqlite3.c@line: 131350.....@index:1628'], against rule: [['sqlite3VdbeResolveLabel()'], ['assert()', 'sqlite3VdbeMakeLabel()']]
+15, Find a bug in: ['sqlite3_mutex_leave()', 'sqlite3ApiExit()', '@Analysis-columnMallocFailure-@sqlite3.c@line: 75930.....@index:916'], against rule: [['sqlite3_mutex_leave()', 'sqlite3ApiExit()'], ['sqlite3_mutex_enter()']]
+16, Find a bug in: ['sqlite3VdbeMemSetStr()', 'vdbeUnbind()', 'xDel()', 'sqlite3Error()', 'sqlite3_mutex_leave()', 'sqlite3ApiExit()', 'sqlite3VdbeChangeEncoding()', '@Analysis-bindText-@sqlite3.c@line: 76215.....@index:933'], against rule: [['sqlite3_mutex_leave()', 'sqlite3ApiExit()'], ['sqlite3_mutex_enter()']]
+17, Find a bug in: ['sqlite3VdbeDeletePriorOpcode()', 'sqlite3VdbeUsesBtree()', 'sqlite3ExprCode()', 'sqlite3VdbeGoto()', 'sqlite3AutoincrementBegin()', 'sqlite3VdbeJumpHere()', 'sqlite3GetVTable()', 'sqlite3VdbeMakeReady()', 'assert()', 'sqlite3VdbeAddOp0()', 'sqlite3VdbeChangeP5()', 'codeTableLocks()', 'sqlite3VdbeAddOp4()', 'sqlite3GetVdbe()', 'sqlite3VdbeAddOp4Int()', '@Analysis-sqlite3FinishCoding-@sqlite3.c@line: 97517.....@index:1203'], against rule: [['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp2()']]
+18, Find a bug in: ['sqlite3VdbeAddOp1()', 'codeDistinct()', 'sqlite3ExprCode()', 'sqlite3ExprCodeExprList()', 'sqlite3ReleaseTempRange()', 'sqlite3GetTempRange()', 'sqlite3VdbeJumpHere()', 'assert()', 'sqlite3VdbeMakeLabel()', 'sqlite3ExprCollSeq()', 'sqlite3VdbeChangeP5()', 'sqlite3ExprCacheClear()', 'sqlite3VdbeResolveLabel()', 'sqlite3ExprCacheAffinityChange()', 'sqlite3VdbeAddOp4()', '@Analysis-updateAccumulator-@sqlite3.c@line: 118200.....@index:1484'], against rule: [['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp2()']]
+19, Find a bug in: ['sqlite3VdbeDeletePriorOpcode()', 'sqlite3VdbeUsesBtree()', 'sqlite3ExprCode()', 'sqlite3VdbeGoto()', 'sqlite3AutoincrementBegin()', 'sqlite3VdbeJumpHere()', 'sqlite3GetVTable()', 'sqlite3VdbeMakeReady()', 'assert()', 'sqlite3VdbeAddOp0()', 'sqlite3VdbeChangeP5()', 'codeTableLocks()', 'sqlite3VdbeAddOp4()', 'sqlite3GetVdbe()', 'sqlite3VdbeAddOp4Int()', '@Analysis-sqlite3FinishCoding-@sqlite3.c@line: 97517.....@index:1203'], against rule: [['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+20, Find a bug in: ['sqlite3VdbeAddOp1()', 'codeDistinct()', 'sqlite3ExprCode()', 'sqlite3ExprCodeExprList()', 'sqlite3ReleaseTempRange()', 'sqlite3GetTempRange()', 'sqlite3VdbeJumpHere()', 'assert()', 'sqlite3VdbeMakeLabel()', 'sqlite3ExprCollSeq()', 'sqlite3VdbeChangeP5()', 'sqlite3ExprCacheClear()', 'sqlite3VdbeResolveLabel()', 'sqlite3ExprCacheAffinityChange()', 'sqlite3VdbeAddOp4()', '@Analysis-updateAccumulator-@sqlite3.c@line: 118200.....@index:1484'], against rule: [['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+21, Find a bug in: ['sqlite3NestedParse()', 'sqlite3VdbeAddOp2()', 'sqlite3FindTable()', 'assert()', 'sqlite3VdbeChangeP5()', 'sqlite3TableLock()', 'sqlite3GetVdbe()', 'sqlite3VdbeAddOp4Int()', '@Analysis-openStatTable-@sqlite3.c@line: 94821.....@index:1169'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeChangeP5()'], ['sqlite3VdbeAddOp3()']]
+22, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3CodeRowTrigger()', 'sqlite3ExprCodeGetColumnOfTable()', 'sqlite3VdbeChangeP4()', 'sqlite3FkCheck()', 'sqlite3VdbeAddOp2()', 'sqlite3FkOldmask()', 'sqlite3VdbeCurrentAddr()', 'sqlite3FkActions()', 'assert()', 'sqlite3VdbeMakeLabel()', 'sqlite3GenerateRowIndexDelete()', 'sqlite3VdbeChangeP5()', 'sqlite3TriggerColmask()', 'sqlite3VdbeResolveLabel()', 'sqlite3FkRequired()', 'sqlite3VdbeAddOp4Int()', '@Analysis-sqlite3GenerateRowDelete-@sqlite3.c@line: 102934.....@index:1300'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeChangeP5()'], ['sqlite3VdbeAddOp3()']]
+23, Find a bug in: ['sqlite3OpenTable()', 'assert()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeSetP4KeyInfo()', 'sqlite3VdbeChangeP5()', 'sqlite3TableLock()', 'sqlite3GetVdbe()', 'sqlite3SchemaToIndex()', '@Analysis-sqlite3OpenTableAndIndices-@sqlite3.c@line: 108210.....@index:1383'], against rule: [['sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()'], ['sqlite3VdbeAddOp2()']]
+24, Find a bug in: ['sqlite3WhereExplainOneScan()', 'constructAutomaticIndex()', 'isDistinctRedundant()', 'sqlite3WhereCodeOneLoopStart()', 'sqlite3DbMallocZero()', 'whereShortCut()', 'sqlite3ErrorMsg()', 'createMask()', 'sqlite3VdbeChangeP4()', 'sqlite3WhereExprListUsage()', 'sqlite3VdbeCurrentAddr()', 'whereInfoFree()', 'sqlite3OpenTable()', 'memset()', 'sqlite3DbFree()', 'sqlite3GetVTable()', 'assert()', 'sqlite3VdbeMakeLabel()', 'sqlite3WhereTabFuncArgs()', 'sqlite3VdbeAddOp3()', 'sqlite3WhereExprAnalyze()', 'wherePathSolver()', 'sqlite3VdbeSetP4KeyInfo()', 'sqlite3WhereSplit()', 'sqlite3VdbeChangeP5()', 'sqlite3TableLock()', 'sqlite3VdbeAddOp4()', 'whereLoopInit()', 'sqlite3CodeVerifySchema()', 'sqlite3ExprIfFalse()', 'sqlite3SchemaToIndex()', 'whereLoopAddAll()', 'sqlite3ExprIsConstantNotJoin()', 'sqlite3WhereClauseInit()', '@Analysis-sqlite3WhereBegin-@sqlite3.c@line: 130891.....@index:1627'], against rule: [['sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()'], ['sqlite3VdbeAddOp2()']]
+25, Find a bug in: ['sqlite3Get4byte()', 'sqlite3OsRead()', '@Analysis-read32bits-@sqlite3.c@line: 47337.....@index:393'], against rule: [['sqlite3Get4byte()'], ['assert()']]
+26, Find a bug in: ['sqlite3Get4byte()', 'sqlite3Put4byte()', '@Analysis-pager_write_changecounter-@sqlite3.c@line: 49255.....@index:419'], against rule: [['sqlite3Get4byte()'], ['assert()']]
+27, Find a bug in: ['sqlite3Get4byte()', 'checkPtrmap()', 'sqlite3PagerUnref()', 'checkAppendMsg()', 'sqlite3PagerGet()', 'sqlite3PagerGetData()', 'checkRef()', '@Analysis-checkList-@sqlite3.c@line: 67053.....@index:698'], against rule: [['sqlite3Get4byte()'], ['assert()']]
+28, Find a bug in: ['sqlite3Put4byte()', 'sqlite3OsWrite()', '@Analysis-write32bits-@sqlite3.c@line: 47356.....@index:394'], against rule: [['sqlite3Put4byte()'], ['assert()']]
+29, Find a bug in: ['sqlite3Get4byte()', 'sqlite3Put4byte()', '@Analysis-pager_write_changecounter-@sqlite3.c@line: 49255.....@index:419'], against rule: [['sqlite3Put4byte()'], ['assert()']]
+30, Find a bug in: ['releasePage()', '@Analysis-btreeReleaseAllCursorPages-@sqlite3.c@line: 58734.....@index:563'], against rule: [['releasePage()'], ['assert()']]
+31, Find a bug in: ['sqlite3CorruptError()', 'sqlite3PagerPageRefcount()', 'releasePage()', 'btreeGetPage()', '@Analysis-btreeGetUnusedPage-@sqlite3.c@line: 60195.....@index:597'], against rule: [['releasePage()'], ['assert()']]
+32, Find a bug in: ['sqlite3HashInsert()', 'sqlite3CheckObjectName()', 'sqlite3TwoPartName()', 'sqlite3ResolveSelfReference()', 'sqlite3DefaultRowEst()', 'sqlite3SrcListDelete()', 'sqlite3LocateTableItem()', 'sqlite3NestedParse()', 'sqlite3ExprListAppend()', 'hasColumn()', 'sqlite3MPrintf()', 'sqlite3ErrorMsg()', 'sqlite3ExprListDup()', 'sqlite3NameFromToken()', 'sqlite3_strnicmp()', 'sqlite3VdbeAddOp2()', 'sqlite3FindIndex()', 'sqlite3FindTable()', 'sqlite3LocateCollSeq()', 'sqlite3VdbeJumpHere()', 'sqlite3ExprListCheckLength()', 'sqlite3ExprListSetSortOrder()', 'sqlite3OomFault()', 'sqlite3DbFree()', 'assert()', 'sqlite3FixInit()', 'sqlite3Strlen30()', 'sqlite3StringToId()', 'sqlite3ChangeCookie()', 'sqlite3VdbeAddOp0()', 'sqlite3VdbeAddParseSchemaOp()', 'sqlite3PrimaryKeyIndex()', 'sqlite3BeginWriteOperation()', 'sqlite3FixSrcList()', 'sqlite3AllocateIndexObject()', 'estimateIndexWidth()', 'freeIndex()', 'sqlite3RefillIndex()', 'sqlite3SrcListLookup()', 'sqlite3ExprSkipCollate()', 'sqlite3TokenInit()', 'sqlite3GetVdbe()', 'sqlite3CodeVerifySchema()', 'sqlite3SchemaToIndex()', 'sqlite3StrICmp()', 'sqlite3ReadSchema()', 'memcpy()', 'sqlite3ColumnOfIndex()', 'sqlite3ExprListDelete()', 'sqlite3ExprDelete()', '@Analysis-sqlite3CreateIndex-@sqlite3.c@line: 100268.....@index:1253'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+33, Find a bug in: ['sqlite3Expr()', 'exprTableColumn()', 'sqlite3WhereBegin()', 'sqlite3ResolveExprNames()', 'sqlite3ExprAnd()', 'sqlite3VdbeAddOp2()', 'exprTableRegister()', 'sqlite3VdbeJumpHere()', 'memset()', 'assert()', 'sqlite3PrimaryKeyIndex()', 'sqlite3WhereEnd()', 'sqlite3GetVdbe()', 'sqlite3PExpr()', 'sqlite3ExprDelete()', '@Analysis-fkScanChildren-@sqlite3.c@line: 105596.....@index:1358'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+34, Find a bug in: ['sqlite3CorruptError()', 'sqlite3PagerPageRefcount()', 'releasePage()', 'btreeGetPage()', '@Analysis-btreeGetUnusedPage-@sqlite3.c@line: 60195.....@index:597'], against rule: [['sqlite3CorruptError()'], ['assert()']]
+35, Find a bug in: ['sqlite3BtreeEnter()', 'sqlite3CorruptError()', 'sqlite3BtreeLeave()', 'btreeCursor()', '@Analysis-sqlite3BtreeCursor-@sqlite3.c@line: 62291.....@index:637'], against rule: [['sqlite3CorruptError()'], ['assert()']]
+36, Find a bug in: ['sqlite3CorruptError()', 'sqlite3MPrintf()', 'sqlite3DbFree()', '@Analysis-corruptSchema-@sqlite3.c@line: 112651.....@index:1409'], against rule: [['sqlite3CorruptError()'], ['assert()']]
+37, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeJumpHere()'], ['assert()']]
+38, Find a bug in: ['sqlite3SetHasNullFlag()', 'sqlite3ExprCachePush()', 'sqlite3MPrintf()', 'sqlite3CodeOnce()', 'sqlite3VdbeJumpHere()', 'sqlite3ExprCachePop()', 'sqlite3VdbeAddOp4()', 'sqlite3GetVdbe()', '@Analysis-sqlite3CodeSubselect-@sqlite3.c@line: 91363.....@index:1118'], against rule: [['sqlite3VdbeJumpHere()'], ['assert()']]
+39, Find a bug in: ['assert()', 'sqlite3BtreeLeave()', '@Analysis-sqlite3BtreeLeaveAll-@sqlite3.c@line: 58031.....@index:551'], against rule: [['sqlite3BtreeLeave()'], ['sqlite3BtreeEnter()']]
+40, Find a bug in: ['sqlite3BtreeLeave()', '@Analysis-sqlite3BtreeLeaveCursor-@sqlite3.c@line: 58127.....@index:553'], against rule: [['sqlite3BtreeLeave()'], ['sqlite3BtreeEnter()']]
+41, Find a bug in: ['sqlite3BtreeLeave()', '@Analysis-vdbeLeave-@sqlite3.c@line: 71764.....@index:812'], against rule: [['sqlite3BtreeLeave()'], ['sqlite3BtreeEnter()']]
+42, Find a bug in: ['sqlite3BtreeEnter()', 'assert()', '@Analysis-sqlite3BtreeEnterAll-@sqlite3.c@line: 58022.....@index:550'], against rule: [['sqlite3BtreeEnter()'], ['sqlite3BtreeLeave()']]
+43, Find a bug in: ['sqlite3BtreeEnter()', '@Analysis-sqlite3BtreeEnterCursor-@sqlite3.c@line: 58123.....@index:552'], against rule: [['sqlite3BtreeEnter()'], ['sqlite3BtreeLeave()']]
+44, Find a bug in: ['sqlite3BtreeEnter()', '@Analysis-sqlite3VdbeEnter-@sqlite3.c@line: 71743.....@index:811'], against rule: [['sqlite3BtreeEnter()'], ['sqlite3BtreeLeave()']]
+45, Find a bug in: ['sqlite3BinaryCompareCollSeq()', 'binaryCompareP5()', 'sqlite3VdbeChangeP5()', 'sqlite3VdbeAddOp4()', '@Analysis-codeCompare-@sqlite3.c@line: 89751.....@index:1069'], against rule: [['sqlite3VdbeChangeP5()'], ['assert()']]
+46, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeChangeP5()'], ['assert()']]
+47, Find a bug in: ['sqlite3_mutex_enter()', '@Analysis-unixEnterMutex-@sqlite3.c@line: 30004.....@index:255'], against rule: [['sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]
+48, Find a bug in: ['sqlite3_mutex_enter()', 'assert()', '@Analysis-lockBtreeMutex-@sqlite3.c@line: 57863.....@index:545'], against rule: [['sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]
+49, Find a bug in: ['sqlite3BtreeEnter()', 'sqlite3Error()', 'sqlite3_mutex_enter()', 'sqlite3_free()', 'sqlite3BtreeLeave()', 'sqlite3LeaveMutexAndCloseZombie()', 'sqlite3PagerBackupPtr()', 'sqlite3BtreeRollback()', '@Analysis-sqlite3_backup_finish-@sqlite3.c@line: 68450.....@index:720'], against rule: [['sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]
+50, Find a bug in: ['sqlite3VdbeFinalize()', 'sqlite3_mutex_enter()', 'sqlite3ApiExit()', 'vdbeSafety()', 'sqlite3MisuseError()', 'sqlite3LeaveMutexAndCloseZombie()', 'invokeProfileCallback()', '@Analysis-sqlite3_finalize-@sqlite3.c@line: 75041.....@index:866'], against rule: [['sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]
+51, Find a bug in: ['columnNullValue()', 'sqlite3Error()', 'sqlite3_mutex_enter()', '@Analysis-columnMem-@sqlite3.c@line: 75894.....@index:915'], against rule: [['sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]
+52, Find a bug in: ['sqlite3VdbeAddOp1()', 'translateColumnToCopy()', 'sqlite3VdbeGetOp()', 'sqlite3VdbeGoto()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeCurrentAddr()', 'whereInfoFree()', 'sqlite3VdbeJumpHere()', 'assert()', 'sqlite3VdbeAddOp3()', 'sqlite3PrimaryKeyIndex()', 'sqlite3VdbeChangeP5()', 'sqlite3ExprCacheClear()', 'sqlite3VdbeResolveLabel()', 'sqlite3ColumnOfIndex()', '@Analysis-sqlite3WhereEnd-@sqlite3.c@line: 131350.....@index:1628'], against rule: [['assert()', 'sqlite3VdbeResolveLabel()'], ['sqlite3VdbeMakeLabel()']]
+53, Find a bug in: ['sqlite3VdbeFinalize()', 'sqlite3_mutex_enter()', 'sqlite3ApiExit()', 'vdbeSafety()', 'sqlite3MisuseError()', 'sqlite3LeaveMutexAndCloseZombie()', 'invokeProfileCallback()', '@Analysis-sqlite3_finalize-@sqlite3.c@line: 75041.....@index:866'], against rule: [['sqlite3_mutex_enter()', 'sqlite3ApiExit()'], ['sqlite3_mutex_leave()']]
+54, Find a bug in: ['sqlite3ExprCachePop()', 'sqlite3VdbeResolveLabel()', '@Analysis-sqlite3ResolvePartIdxLabel-@sqlite3.c@line: 103200.....@index:1303'], against rule: [['sqlite3VdbeResolveLabel()'], ['assert()']]
+55, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeChangeP5()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+56, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp1()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+57, Find a bug in: ['sqlite3VdbeAddOp1()', 'codeDistinct()', 'sqlite3ExprCode()', 'sqlite3ExprCodeExprList()', 'sqlite3ReleaseTempRange()', 'sqlite3GetTempRange()', 'sqlite3VdbeJumpHere()', 'assert()', 'sqlite3VdbeMakeLabel()', 'sqlite3ExprCollSeq()', 'sqlite3VdbeChangeP5()', 'sqlite3ExprCacheClear()', 'sqlite3VdbeResolveLabel()', 'sqlite3ExprCacheAffinityChange()', 'sqlite3VdbeAddOp4()', '@Analysis-updateAccumulator-@sqlite3.c@line: 118200.....@index:1484'], against rule: [['sqlite3VdbeAddOp1()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp2()']]
+58, Find a bug in: ['sqlite3VdbeAddOp1()', 'codeDistinct()', 'sqlite3ExprCode()', 'sqlite3ExprCodeExprList()', 'sqlite3ReleaseTempRange()', 'sqlite3GetTempRange()', 'sqlite3VdbeJumpHere()', 'assert()', 'sqlite3VdbeMakeLabel()', 'sqlite3ExprCollSeq()', 'sqlite3VdbeChangeP5()', 'sqlite3ExprCacheClear()', 'sqlite3VdbeResolveLabel()', 'sqlite3ExprCacheAffinityChange()', 'sqlite3VdbeAddOp4()', '@Analysis-updateAccumulator-@sqlite3.c@line: 118200.....@index:1484'], against rule: [['sqlite3VdbeAddOp1()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp3()']]
+59, Find a bug in: ['sqlite3_mutex_leave()', 'assert()', '@Analysis-unlockBtreeMutex-@sqlite3.c@line: 57877.....@index:546'], against rule: [['assert()', 'sqlite3_mutex_leave()'], ['sqlite3_mutex_enter()']]
+60, Find a bug in: ['connectionIsBusy()', 'sqlite3CloseSavepoints()', 'sqlite3BtreeClose()', 'xDel()', 'sqlite3RollbackAll()', 'sqlite3Error()', 'sqlite3CloseExtensions()', 'sqlite3_mutex_leave()', 'sqlite3DbFree()', 'sqlite3VtabEponymousTableClear()', 'sqlite3_free()', 'assert()', 'sqlite3_mutex_free()', 'sqlite3HashClear()', 'sqlite3VtabUnlockList()', 'xDestroy()', 'functionDestroy()', 'sqlite3CollapseDatabaseArray()', 'sqlite3ValueFree()', 'sqlite3SchemaClear()', '@Analysis-sqlite3LeaveMutexAndCloseZombie-@sqlite3.c@line: 137592.....@index:1666'], against rule: [['assert()', 'sqlite3_mutex_leave()'], ['sqlite3_mutex_enter()']]
+61, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeChangeP5()'], ['assert()']]
+62, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()'], ['assert()']]
+63, Find a bug in: ['sqlite3BinaryCompareCollSeq()', 'binaryCompareP5()', 'sqlite3VdbeChangeP5()', 'sqlite3VdbeAddOp4()', '@Analysis-codeCompare-@sqlite3.c@line: 89751.....@index:1069'], against rule: [['sqlite3VdbeAddOp4()', 'sqlite3VdbeChangeP5()'], ['assert()']]
+64, Find a bug in: ['sqlite3ExprCachePush()', 'sqlite3VdbeDeletePriorOpcode()', 'sqlite3ReleaseTempRange()', 'sqlite3GetTempRange()', 'sqlite3ExprIfFalseDup()', 'sqlite3VdbeMakeLabel()', 'sqlite3VdbeAddOp3()', 'sqlite3ExprCodeLoadIndexColumn()', '@Analysis-sqlite3GenerateIndexKey-@sqlite3.c@line: 103142.....@index:1302'], against rule: [['sqlite3VdbeMakeLabel()'], ['assert()']]
+65, Find a bug in: ['sqlite3SetHasNullFlag()', 'sqlite3ExprCachePush()', 'sqlite3MPrintf()', 'sqlite3CodeOnce()', 'sqlite3VdbeJumpHere()', 'sqlite3ExprCachePop()', 'sqlite3VdbeAddOp4()', 'sqlite3GetVdbe()', '@Analysis-sqlite3CodeSubselect-@sqlite3.c@line: 91363.....@index:1118'], against rule: [['sqlite3GetVdbe()', 'sqlite3VdbeAddOp4()'], ['assert()']]
+66, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp3()', 'sqlite3VdbeAddOp1()'], ['assert()']]
+67, Find a bug in: ['sqlite3PagerWrite()', 'memcpy()', '@Analysis-copyPayload-@sqlite3.c@line: 62525.....@index:644'], against rule: [['sqlite3PagerWrite()'], ['assert()']]
+68, Find a bug in: ['sqlite3VdbeUsesBtree()', 'sqlite3VdbeAddOp2()', 'sqlite3GetVdbe()', '@Analysis-sqlite3Vacuum-@sqlite3.c@line: 121439.....@index:1520'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3GetVdbe()'], ['assert()']]
+69, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp1()'], ['assert()']]
+70, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp3()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+71, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3CodeRowTrigger()', 'sqlite3ExprCodeGetColumnOfTable()', 'sqlite3VdbeChangeP4()', 'sqlite3FkCheck()', 'sqlite3VdbeAddOp2()', 'sqlite3FkOldmask()', 'sqlite3VdbeCurrentAddr()', 'sqlite3FkActions()', 'assert()', 'sqlite3VdbeMakeLabel()', 'sqlite3GenerateRowIndexDelete()', 'sqlite3VdbeChangeP5()', 'sqlite3TriggerColmask()', 'sqlite3VdbeResolveLabel()', 'sqlite3FkRequired()', 'sqlite3VdbeAddOp4Int()', '@Analysis-sqlite3GenerateRowDelete-@sqlite3.c@line: 102934.....@index:1300'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeAddOp1()'], ['sqlite3VdbeAddOp3()']]
+72, Find a bug in: ['sqlite3SetHasNullFlag()', 'sqlite3BinaryCompareCollSeq()', 'isCandidateForInOpt()', 'sqlite3CodeSubselect()', 'sqlite3CodeOnce()', 'sqlite3VdbeJumpHere()', 'sqlite3OpenTable()', 'assert()', 'sqlite3InRhsIsConstant()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeSetP4KeyInfo()', 'sqlite3IndexAffinityOk()', 'sqlite3TableLock()', 'sqlite3FindCollSeq()', 'sqlite3GetVdbe()', 'sqlite3CodeVerifySchema()', 'sqlite3SchemaToIndex()', '@Analysis-sqlite3FindInIndex-@sqlite3.c@line: 91208.....@index:1117'], against rule: [['sqlite3VdbeAddOp3()', 'sqlite3VdbeJumpHere()'], ['sqlite3VdbeAddOp2()']]
+73, Find a bug in: ['sqlite3VdbeAddOp1()', 'sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()', 'sqlite3VdbeAddOp3()', 'sqlite3VdbeChangeP5()', '@Analysis-sqlite3SetHasNullFlag-@sqlite3.c@line: 91109.....@index:1115'], against rule: [['sqlite3VdbeAddOp2()', 'sqlite3VdbeJumpHere()'], ['assert()']]
+74, Find a bug in: ['assert()', 'sqlite3BtreeLeave()', '@Analysis-sqlite3BtreeLeaveAll-@sqlite3.c@line: 58031.....@index:551'], against rule: [['assert()', 'sqlite3BtreeLeave()'], ['sqlite3BtreeEnter()']]
+75, Find a bug in: ['sqlite3BtreeEnter()', 'assert()', '@Analysis-sqlite3BtreeEnterAll-@sqlite3.c@line: 58022.....@index:550'], against rule: [['assert()', 'sqlite3BtreeEnter()'], ['sqlite3BtreeLeave()']]
+76, Find a bug in: ['collationMatch()', 'sqlite3BeginWriteOperation()', 'sqlite3RefillIndex()', 'sqlite3SchemaToIndex()', '@Analysis-reindexTable-@sqlite3.c@line: 101612.....@index:1279'], against rule: [['sqlite3SchemaToIndex()'], ['assert()']]
+77, Find a bug in: ['sqlite3_mutex_enter()', 'assert()', '@Analysis-lockBtreeMutex-@sqlite3.c@line: 57863.....@index:545'], against rule: [['assert()', 'sqlite3_mutex_enter()'], ['sqlite3_mutex_leave()']]

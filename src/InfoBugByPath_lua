@@ -1,0 +1,5 @@
+[['luaL_pushresult()'], ['luaL_buffinit()']]
+conf:0.9285714285714286,13/14
+Input 9 rules, reduce rule finished! analysis 1304 function call paths(in 756functions), generate 1 rules, including 0 rules with confidence 1.
+findBugsByFPRules finished! analysis 1304 function calls for 1 rules, find 1 Bugs.
+1.1, Find a bug in: ['luaL_pushresult()', '@Analysis-luaL_pushresultsize-@lauxlib.c@line: 553.....@index:1048'], against rule: [['luaL_pushresult()'], ['luaL_buffinit()']]

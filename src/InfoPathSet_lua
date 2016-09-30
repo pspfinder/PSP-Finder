@@ -1,0 +1,71 @@
+output directory  lua_Graphs  already exist
+./lua_pp/lapi_pp.c
+python generateCallGraph.py ./lua_pp/lapi_pp.c >lua_Graphs/lapi_pp.c.result
+./lua_pp/lauxlib_pp.c
+python generateCallGraph.py ./lua_pp/lauxlib_pp.c >lua_Graphs/lauxlib_pp.c.result
+./lua_pp/lbaselib_pp.c
+python generateCallGraph.py ./lua_pp/lbaselib_pp.c >lua_Graphs/lbaselib_pp.c.result
+./lua_pp/lbitlib_pp.c
+python generateCallGraph.py ./lua_pp/lbitlib_pp.c >lua_Graphs/lbitlib_pp.c.result
+./lua_pp/lcode_pp.c
+python generateCallGraph.py ./lua_pp/lcode_pp.c >lua_Graphs/lcode_pp.c.result
+./lua_pp/lcorolib_pp.c
+python generateCallGraph.py ./lua_pp/lcorolib_pp.c >lua_Graphs/lcorolib_pp.c.result
+./lua_pp/lctype_pp.c
+python generateCallGraph.py ./lua_pp/lctype_pp.c >lua_Graphs/lctype_pp.c.result
+./lua_pp/ldblib_pp.c
+python generateCallGraph.py ./lua_pp/ldblib_pp.c >lua_Graphs/ldblib_pp.c.result
+./lua_pp/ldebug_pp.c
+python generateCallGraph.py ./lua_pp/ldebug_pp.c >lua_Graphs/ldebug_pp.c.result
+./lua_pp/ldo_pp.c
+python generateCallGraph.py ./lua_pp/ldo_pp.c >lua_Graphs/ldo_pp.c.result
+./lua_pp/ldump_pp.c
+python generateCallGraph.py ./lua_pp/ldump_pp.c >lua_Graphs/ldump_pp.c.result
+./lua_pp/lfunc_pp.c
+python generateCallGraph.py ./lua_pp/lfunc_pp.c >lua_Graphs/lfunc_pp.c.result
+./lua_pp/lgc_pp.c
+python generateCallGraph.py ./lua_pp/lgc_pp.c >lua_Graphs/lgc_pp.c.result
+./lua_pp/linit_pp.c
+python generateCallGraph.py ./lua_pp/linit_pp.c >lua_Graphs/linit_pp.c.result
+./lua_pp/liolib_pp.c
+python generateCallGraph.py ./lua_pp/liolib_pp.c >lua_Graphs/liolib_pp.c.result
+./lua_pp/llex_pp.c
+python generateCallGraph.py ./lua_pp/llex_pp.c >lua_Graphs/llex_pp.c.result
+./lua_pp/lmathlib_pp.c
+python generateCallGraph.py ./lua_pp/lmathlib_pp.c >lua_Graphs/lmathlib_pp.c.result
+./lua_pp/lmem_pp.c
+python generateCallGraph.py ./lua_pp/lmem_pp.c >lua_Graphs/lmem_pp.c.result
+./lua_pp/loadlib_pp.c
+python generateCallGraph.py ./lua_pp/loadlib_pp.c >lua_Graphs/loadlib_pp.c.result
+./lua_pp/lobject_pp.c
+python generateCallGraph.py ./lua_pp/lobject_pp.c >lua_Graphs/lobject_pp.c.result
+./lua_pp/lopcodes_pp.c
+python generateCallGraph.py ./lua_pp/lopcodes_pp.c >lua_Graphs/lopcodes_pp.c.result
+./lua_pp/loslib_pp.c
+python generateCallGraph.py ./lua_pp/loslib_pp.c >lua_Graphs/loslib_pp.c.result
+./lua_pp/lparser_pp.c
+python generateCallGraph.py ./lua_pp/lparser_pp.c >lua_Graphs/lparser_pp.c.result
+./lua_pp/lstate_pp.c
+python generateCallGraph.py ./lua_pp/lstate_pp.c >lua_Graphs/lstate_pp.c.result
+./lua_pp/lstring_pp.c
+python generateCallGraph.py ./lua_pp/lstring_pp.c >lua_Graphs/lstring_pp.c.result
+./lua_pp/lstrlib_pp.c
+python generateCallGraph.py ./lua_pp/lstrlib_pp.c >lua_Graphs/lstrlib_pp.c.result
+./lua_pp/ltable_pp.c
+python generateCallGraph.py ./lua_pp/ltable_pp.c >lua_Graphs/ltable_pp.c.result
+./lua_pp/ltablib_pp.c
+python generateCallGraph.py ./lua_pp/ltablib_pp.c >lua_Graphs/ltablib_pp.c.result
+./lua_pp/ltm_pp.c
+python generateCallGraph.py ./lua_pp/ltm_pp.c >lua_Graphs/ltm_pp.c.result
+./lua_pp/luac_pp.c
+python generateCallGraph.py ./lua_pp/luac_pp.c >lua_Graphs/luac_pp.c.result
+./lua_pp/lua_pp.c
+python generateCallGraph.py ./lua_pp/lua_pp.c >lua_Graphs/lua_pp.c.result
+./lua_pp/lundump_pp.c
+python generateCallGraph.py ./lua_pp/lundump_pp.c >lua_Graphs/lundump_pp.c.result
+./lua_pp/lutf8lib_pp.c
+python generateCallGraph.py ./lua_pp/lutf8lib_pp.c >lua_Graphs/lutf8lib_pp.c.result
+./lua_pp/lvm_pp.c
+python generateCallGraph.py ./lua_pp/lvm_pp.c >lua_Graphs/lvm_pp.c.result
+./lua_pp/lzio_pp.c
+python generateCallGraph.py ./lua_pp/lzio_pp.c >lua_Graphs/lzio_pp.c.result

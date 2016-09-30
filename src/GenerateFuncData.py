@@ -2,12 +2,8 @@
 from __future__ import print_function
 import sys, os
 
-# This is not required if you've installed pycparser into
-# your site-packages/ with setup.py
-#
 sys.path.extend(['.', '..'])
 
-#文件类型
 
 functionSet=set()
 fileCount=0
@@ -15,7 +11,7 @@ funcCount=0
 funcDefCount=0
 funcList=list(functionSet)
 
-#分析每一行
+#analysis each line
 def analysisLine(line):
    print(line)
    global funcCount 
@@ -30,13 +26,13 @@ def analysisLine(line):
          funcCount=funcCount+1
          functionSet.add(str(line[16:pos+2]))    
 
-#读取reulst文件
+#load reulst file
 def readResultFile(file):
    input = open(file, 'r')
    for line in input:
      analysisLine(line)
 
-#输出functioncallDef for weka
+#output functioncallDef
 def outputFuncCallDefs():
    global funcList 
    funcList = list(functionSet)
@@ -46,7 +42,7 @@ def outputFuncCallDefs():
       outFile.write('@attribute '+str(func)+' {F, T}\n')
 
 
-#输出每一个函数内的函数调用
+#output function call statement in each function definition
 index=1
 def outputFuncCallInFunc(file):
    global funcList,index
@@ -99,7 +95,7 @@ for line in dirlist:
    dotPos = fileString.rfind('.') 
    fileType = fileString[dotPos:]
    #print(fileType)
-   if(fileType=='.result'):#result 文件
+   if(fileType=='.result'):#result file
       #print(line)
       fileCount=fileCount+1
       fullPathFile = os.path.join(outputFileDic,line)
@@ -124,7 +120,7 @@ for line in dirlist:
    dotPos = fileString.rfind('.') 
    fileType = fileString[dotPos:]
    #print(fileType)
-   if(fileType=='.result'):#result 文件
+   if(fileType=='.result'):#result file
       #print(line)
       #fileCount=fileCount+1
       fullPathFile = os.path.join(outputFileDic,line)

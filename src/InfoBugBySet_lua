@@ -1,0 +1,11 @@
+[['luaL_pushresult()'], ['luaL_buffinit()']]
+conf:0.9285714285714286,13/14
+[['luaL_buffinit()'], ['luaL_pushresult()']]
+conf:0.9285714285714286,13/14
+[['lua_type()', 'luaL_checktype()'], ['lua_settop()']]
+conf:1.0,7/7
+[['lua_settop()', 'lua_setfield()'], ['lua_pushvalue()']]
+conf:1.0,10/10
+findBugsByFPRules finished! analysis 756 function calls for 4 rules, including 2 rules with confidence 1. Find 2 Bugs.
+1, Find a bug in: ['luaL_pushresult()', '@Analysis-luaL_pushresultsize-@lauxlib.c@line: 553.....@index:612'], against rule: [['luaL_pushresult()'], ['luaL_buffinit()']]
+2, Find a bug in: ['luaL_prepbuffsize()', 'luaL_buffinit()', '@Analysis-luaL_buffinitsize-@lauxlib.c@line: 578.....@index:614'], against rule: [['luaL_buffinit()'], ['luaL_pushresult()']]

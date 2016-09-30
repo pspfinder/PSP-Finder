@@ -1,0 +1,169 @@
+directory  lua_pp  already exist
+compiling ./lua/src/lapi.c >lua_pp/lapi.c.c ......
+lapi.c
+lapi_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lauxlib.c >lua_pp/lauxlib.c.c ......
+lauxlib.c
+lauxlib_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lbaselib.c >lua_pp/lbaselib.c.c ......
+lbaselib.c
+lbaselib_pp.c
+compile finished!
+compiling ./lua/src/lbitlib.c >lua_pp/lbitlib.c.c ......
+lbitlib.c
+lbitlib_pp.c
+compile finished!
+compiling ./lua/src/lcode.c >lua_pp/lcode.c.c ......
+lcode.c
+lcode_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lcorolib.c >lua_pp/lcorolib.c.c ......
+lcorolib.c
+lcorolib_pp.c
+compile finished!
+compiling ./lua/src/lctype.c >lua_pp/lctype.c.c ......
+lctype.c
+lctype_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/ldblib.c >lua_pp/ldblib.c.c ......
+ldblib.c
+ldblib_pp.c
+compile finished!
+compiling ./lua/src/ldebug.c >lua_pp/ldebug.c.c ......
+ldebug.c
+ldebug_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/ldo.c >lua_pp/ldo.c.c ......
+ldo.c
+ldo_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/ldump.c >lua_pp/ldump.c.c ......
+ldump.c
+ldump_pp.c
+compile finished!
+compiling ./lua/src/lfunc.c >lua_pp/lfunc.c.c ......
+lfunc.c
+lfunc_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lgc.c >lua_pp/lgc.c.c ......
+lgc.c
+lgc_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/linit.c >lua_pp/linit.c.c ......
+linit.c
+linit_pp.c
+compile finished!
+compiling ./lua/src/liolib.c >lua_pp/liolib.c.c ......
+liolib.c
+liolib_pp.c
+compile finished!
+compiling ./lua/src/llex.c >lua_pp/llex.c.c ......
+llex.c
+llex_pp.c
+compile finished!
+not .c file
+not .c file
+compiling ./lua/src/lmathlib.c >lua_pp/lmathlib.c.c ......
+lmathlib.c
+lmathlib_pp.c
+compile finished!
+compiling ./lua/src/lmem.c >lua_pp/lmem.c.c ......
+lmem.c
+lmem_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/loadlib.c >lua_pp/loadlib.c.c ......
+loadlib.c
+loadlib_pp.c
+compile finished!
+compiling ./lua/src/lobject.c >lua_pp/lobject.c.c ......
+lobject.c
+lobject_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lopcodes.c >lua_pp/lopcodes.c.c ......
+lopcodes.c
+lopcodes_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/loslib.c >lua_pp/loslib.c.c ......
+loslib.c
+loslib_pp.c
+compile finished!
+compiling ./lua/src/lparser.c >lua_pp/lparser.c.c ......
+lparser.c
+lparser_pp.c
+compile finished!
+not .c file
+not .c file
+compiling ./lua/src/lstate.c >lua_pp/lstate.c.c ......
+lstate.c
+lstate_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lstring.c >lua_pp/lstring.c.c ......
+lstring.c
+lstring_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lstrlib.c >lua_pp/lstrlib.c.c ......
+lstrlib.c
+lstrlib_pp.c
+compile finished!
+compiling ./lua/src/ltable.c >lua_pp/ltable.c.c ......
+ltable.c
+ltable_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/ltablib.c >lua_pp/ltablib.c.c ......
+ltablib.c
+ltablib_pp.c
+compile finished!
+compiling ./lua/src/ltm.c >lua_pp/ltm.c.c ......
+ltm.c
+ltm_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lua.c >lua_pp/lua.c.c ......
+lua.c
+lua_pp.c
+compile finished!
+compiling ./lua/src/luac.c >lua_pp/luac.c.c ......
+luac.c
+luac_pp.c
+compile finished!
+not .c file
+not .c file
+not .c file
+not .c file
+compiling ./lua/src/lundump.c >lua_pp/lundump.c.c ......
+lundump.c
+lundump_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lutf8lib.c >lua_pp/lutf8lib.c.c ......
+lutf8lib.c
+lutf8lib_pp.c
+compile finished!
+compiling ./lua/src/lvm.c >lua_pp/lvm.c.c ......
+lvm.c
+lvm_pp.c
+compile finished!
+not .c file
+compiling ./lua/src/lzio.c >lua_pp/lzio.c.c ......
+lzio.c
+lzio_pp.c
+compile finished!
+not .c file
+not .c file
+35 file compiled!

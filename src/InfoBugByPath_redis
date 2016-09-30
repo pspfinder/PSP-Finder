@@ -1,0 +1,61 @@
+[['checkType()', 'notifyKeyspaceEvent()'], ['signalModifiedKey()']]
+conf:0.9545454545454546,21/22
+[['fopen()'], ['fclose()']]
+conf:0.9473684210526315,18/19
+[['notifyKeyspaceEvent()', 'lookupKeyWrite()'], ['signalModifiedKey()']]
+conf:0.9411764705882353,16/17
+[['addReply()', 'signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+conf:0.9615384615384616,25/26
+[['dictReleaseIterator()'], ['dictNext()']]
+conf:0.9375,45/48
+[['signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+conf:0.9111111111111111,41/45
+[['dictNext()'], ['dictReleaseIterator()']]
+conf:0.9183673469387755,45/49
+[['dictGetIterator()'], ['dictNext()']]
+conf:0.925,37/40
+[['getDecodedObject()'], ['decrRefCount()']]
+conf:0.9444444444444444,17/18
+[['addReply()', 'lookupKeyReadOrReply()'], ['checkType()']]
+conf:0.9545454545454546,21/22
+[['addReplyLongLong()', 'signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+conf:0.9545454545454546,21/22
+[['lookupKeyReadOrReply()'], ['checkType()']]
+conf:0.9696969696969697,32/33
+[['dictNext()', 'dictGetIterator()'], ['dictReleaseIterator()']]
+conf:0.972972972972973,36/37
+Input 61 rules, reduce rule finished! analysis 3908 function call paths(in 1534functions), generate 13 rules, including 0 rules with confidence 1.
+findBugsByFPRules finished! analysis 3908 function calls for 13 rules, find 33 Bugs.
+1.1, Find a bug in: ['getDecodedObject()', 'notifyKeyspaceEvent()', 'createObject()', 'setKey()', 'decrRefCount()', 'strcasecmp()', 'sdslen()', 'lookupKeyRead()', 'zmalloc()', 'checkType()', 'addReplyLongLong()', 'zfree()', '@Analysis-bitopCommand-@bitops.c@line: 584.....@index:464'], against rule: [['checkType()', 'notifyKeyspaceEvent()'], ['signalModifiedKey()']]
+2.1, Find a bug in: ['listTypeLength()', 'lookupKeyWriteOrReply()', 'notifyKeyspaceEvent()', 'getLongFromObjectOrReply()', 'dbDelete()', 'listTypeNext()', 'checkType()', 'addReplyLongLong()', 'listTypeReleaseIterator()', 'listTypeInitIterator()', '@Analysis-lremCommand-@t_list.c@line: 490.....@index:945'], against rule: [['checkType()', 'notifyKeyspaceEvent()'], ['signalModifiedKey()']]
+3.1, Find a bug in: ['notifyKeyspaceEvent()', 'setKey()', 'decrRefCount()', 'geoArrayCreate()', 'membersOfAllNeighbors()', 'geoArrayFree()', 'lookupKeyReadOrReply()', 'checkType()', 'addReplyLongLong()', 'addReplyError()', 'geohashGetAreasByRadiusWGS84()', 'zsetConvertToZiplistIfNeeded()', 'extractDistanceOrReply()', '@Analysis-georadiusGeneric-@geo.c@line: 438.....@index:2482'], against rule: [['checkType()', 'notifyKeyspaceEvent()'], ['signalModifiedKey()']]
+4.1, Find a bug in: ['fopen()', '@Analysis-createPidFile-@server.c@line: 3214.....@index:387'], against rule: [['fopen()'], ['fclose()']]
+5.1, Find a bug in: ['sdsfree()', 'getDotfilePath()', 'fopen()', '@Analysis-cliLoadPreferences-@redis-cli.c@line: 1243.....@index:2135'], against rule: [['fopen()'], ['fclose()']]
+6.1, Find a bug in: ['fopen()', 'fread()', '@Analysis-getRandomHexChars-@util.c@line: 543.....@index:3015'], against rule: [['fopen()'], ['fclose()']]
+7.1, Find a bug in: ['notifyKeyspaceEvent()', 'addReply()', 'setKey()', 'lookupKeyWrite()', '@Analysis-setGenericCommand-@t_string.c@line: 67.....@index:3616'], against rule: [['notifyKeyspaceEvent()', 'lookupKeyWrite()'], ['signalModifiedKey()']]
+8.1, Find a bug in: ['getLongFromObjectOrReply()', 'addReply()', 'createStringObject()', 'decrRefCount()', 'strcasecmp()', 'signalModifiedKey()', 'snprintf()', 'dictExpand()', 'lookupKeyWrite()', 'dbAdd()', '@Analysis-debugCommand-@debug.c@line: 261.....@index:1025'], against rule: [['addReply()', 'signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+9.1, Find a bug in: ['setTypeInitIterator()', 'setTypeSize()', 'addReply()', 'dbDelete()', 'decrRefCount()', 'signalModifiedKey()', 'qsort()', 'setTypeNext()', 'zmalloc()', 'createIntsetObject()', 'setTypeReleaseIterator()', 'zfree()', '@Analysis-sinterGenericCommand-@t_set.c@line: 788.....@index:3421'], against rule: [['addReply()', 'signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+10.1, Find a bug in: ['setTypeSize()', 'addReply()', 'dbDelete()', 'decrRefCount()', 'signalModifiedKey()', 'zmalloc()', 'createIntsetObject()', 'zfree()', '@Analysis-sunionDiffGenericCommand-@t_set.c@line: 927.....@index:3439'], against rule: [['addReply()', 'signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+11.1, Find a bug in: ['dictReleaseIterator()', 'zfree()', '@Analysis-hashTypeReleaseIterator-@t_hash.c@line: 340.....@index:55'], against rule: [['dictReleaseIterator()'], ['dictNext()']]
+12.1, Find a bug in: ['rioWrite()', 'serverLog()', 'mstime()', 'rioInitWithFile()', 'dictReleaseIterator()', 'write()', 'fsync()', 'fflush()', 'fopen()', 'aofReadDiffFromParent()', 'rename()', 'syncRead()', 'anetNonBlock()', 'sdsempty()', 'unlink()', 'fclose()', 'snprintf()', '@Analysis-rewriteAppendOnlyFile-@aof.c@line: 1025.....@index:831'], against rule: [['dictReleaseIterator()'], ['dictNext()']]
+13.1, Find a bug in: ['rioWrite()', 'mstime()', 'dictReleaseIterator()', 'rdbSaveType()', 'rdbSaveInfoAuxFields()', 'rdbWriteRaw()', 'snprintf()', '@Analysis-rdbSaveRio-@rdb.c@line: 840.....@index:1194'], against rule: [['dictReleaseIterator()'], ['dictNext()']]
+14.1, Find a bug in: ['dictReleaseIterator()', '@Analysis-zuiClearIterator-@t_zset.c@line: 1855.....@index:3217'], against rule: [['dictReleaseIterator()'], ['dictNext()']]
+15.1, Find a bug in: ['dictReleaseIterator()', 'zfree()', '@Analysis-setTypeReleaseIterator-@t_set.c@line: 135.....@index:3361'], against rule: [['dictReleaseIterator()'], ['dictNext()']]
+16.1, Find a bug in: ['getLongFromObjectOrReply()', 'addReply()', 'createStringObject()', 'decrRefCount()', 'strcasecmp()', 'signalModifiedKey()', 'snprintf()', 'dictExpand()', 'lookupKeyWrite()', 'dbAdd()', '@Analysis-debugCommand-@debug.c@line: 261.....@index:1025'], against rule: [['signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+17.1, Find a bug in: ['RM_ZsetRangeStop()', 'decrRefCount()', 'signalModifiedKey()', 'autoMemoryFreed()', 'zfree()', '@Analysis-RM_CloseKey-@module.c@line: 1180.....@index:1793'], against rule: [['signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+18.1, Find a bug in: ['hllCount()', 'dbUnshareStringValue()', 'isHLLObjectOrReply()', 'signalModifiedKey()', 'addReplyLongLong()', 'lookupKeyWrite()', '@Analysis-pfcountCommand-@hyperloglog.c@line: 1195.....@index:2696'], against rule: [['signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+19.1, Find a bug in: ['setTypeInitIterator()', 'setTypeSize()', 'addReply()', 'dbDelete()', 'decrRefCount()', 'signalModifiedKey()', 'qsort()', 'setTypeNext()', 'zmalloc()', 'createIntsetObject()', 'setTypeReleaseIterator()', 'zfree()', '@Analysis-sinterGenericCommand-@t_set.c@line: 788.....@index:3421'], against rule: [['signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+20.1, Find a bug in: ['setTypeSize()', 'addReply()', 'dbDelete()', 'decrRefCount()', 'signalModifiedKey()', 'zmalloc()', 'createIntsetObject()', 'zfree()', '@Analysis-sunionDiffGenericCommand-@t_set.c@line: 927.....@index:3439'], against rule: [['signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+21.1, Find a bug in: ['removeExpire()', 'signalModifiedKey()', 'dbOverwrite()', 'incrRefCount()', 'lookupKeyWrite()', '@Analysis-setKey-@db.c@line: 194.....@index:3804'], against rule: [['signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+22.1, Find a bug in: ['dictNext()', '@Analysis-hashTypeNext-@t_hash.c@line: 348.....@index:56'], against rule: [['dictNext()'], ['dictReleaseIterator()']]
+23.1, Find a bug in: ['dictGetIterator()', 'dictNext()', '@Analysis-zuiInitIterator-@t_zset.c@line: 1819.....@index:3216'], against rule: [['dictNext()'], ['dictReleaseIterator()']]
+24.1, Find a bug in: ['memset()', 'dictNext()', '@Analysis-zuiNext-@t_zset.c@line: 1912.....@index:3222'], against rule: [['dictNext()'], ['dictReleaseIterator()']]
+25.1, Find a bug in: ['dictNext()', '@Analysis-setTypeNext-@t_set.c@line: 154.....@index:3363'], against rule: [['dictNext()'], ['dictReleaseIterator()']]
+26.1, Find a bug in: ['dictGetIterator()', 'zmalloc()', '@Analysis-hashTypeInitIterator-@t_hash.c@line: 324.....@index:53'], against rule: [['dictGetIterator()'], ['dictNext()']]
+27.1, Find a bug in: ['dictGetIterator()', '@Analysis-dictGetSafeIterator-@dict.c@line: 571.....@index:186'], against rule: [['dictGetIterator()'], ['dictNext()']]
+28.1, Find a bug in: ['dictGetIterator()', 'zmalloc()', '@Analysis-setTypeInitIterator-@t_set.c@line: 121.....@index:3359'], against rule: [['dictGetIterator()'], ['dictNext()']]
+29.1, Find a bug in: ['addReplyBulk()', 'getDecodedObject()', 'addReply()', 'listSearchKey()', 'zmalloc()', 'addReplyLongLong()', 'listAddNodeTail()', 'incrRefCount()', '@Analysis-pubsubSubscribePattern-@pubsub.c@line: 127.....@index:1291'], against rule: [['getDecodedObject()'], ['decrRefCount()']]
+30.1, Find a bug in: ['addReply()', 'lookupKeyReadOrReply()', '@Analysis-getGenericCommand-@t_string.c@line: 157.....@index:3626'], against rule: [['addReply()', 'lookupKeyReadOrReply()'], ['checkType()']]
+31.1, Find a bug in: ['hllCount()', 'dbUnshareStringValue()', 'isHLLObjectOrReply()', 'signalModifiedKey()', 'addReplyLongLong()', 'lookupKeyWrite()', '@Analysis-pfcountCommand-@hyperloglog.c@line: 1195.....@index:2696'], against rule: [['addReplyLongLong()', 'signalModifiedKey()'], ['notifyKeyspaceEvent()']]
+32.1, Find a bug in: ['addReplyBulk()', 'lookupKeyReadOrReply()', '@Analysis-getGenericCommand-@t_string.c@line: 157.....@index:3625'], against rule: [['lookupKeyReadOrReply()'], ['checkType()']]
+33.1, Find a bug in: ['dictGetIterator()', 'dictNext()', '@Analysis-zuiInitIterator-@t_zset.c@line: 1819.....@index:3216'], against rule: [['dictNext()', 'dictGetIterator()'], ['dictReleaseIterator()']]

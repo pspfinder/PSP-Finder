@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#创建输出目录
+#create output directory
 if [ -d $2 ]
   then
-  echo '输出目录' $2 '已存在'
+  echo 'output directory ' $2 ' already exist'
 else
-  echo '创建输出目录' $2 
+  echo 'create output directory ' $2 
   mkdir $2
   sudo chmod 777 $2
 fi

@@ -1,0 +1,5 @@
+output directory  sqlite_Graphs  already exist
+./sqlite_pp/shell_pp.c
+python generateCallGraph.py ./sqlite_pp/shell_pp.c >sqlite_Graphs/shell_pp.c.result
+./sqlite_pp/sqlite3_pp.c
+python generateCallGraph.py ./sqlite_pp/sqlite3_pp.c >sqlite_Graphs/sqlite3_pp.c.result

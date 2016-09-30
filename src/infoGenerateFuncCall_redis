@@ -1,0 +1,139 @@
+output directory  redis_Funcs  already exist
+./redis_pp/adlist_pp.c
+python AnylysisFuncs.py ./redis_pp/adlist_pp.c >redis_Funcs/adlist_pp.c.result
+./redis_pp/ae_epoll_pp.c
+python AnylysisFuncs.py ./redis_pp/ae_epoll_pp.c >redis_Funcs/ae_epoll_pp.c.result
+./redis_pp/ae_evport_pp.c
+python AnylysisFuncs.py ./redis_pp/ae_evport_pp.c >redis_Funcs/ae_evport_pp.c.result
+./redis_pp/ae_kqueue_pp.c
+python AnylysisFuncs.py ./redis_pp/ae_kqueue_pp.c >redis_Funcs/ae_kqueue_pp.c.result
+./redis_pp/ae_pp.c
+python AnylysisFuncs.py ./redis_pp/ae_pp.c >redis_Funcs/ae_pp.c.result
+./redis_pp/ae_select_pp.c
+python AnylysisFuncs.py ./redis_pp/ae_select_pp.c >redis_Funcs/ae_select_pp.c.result
+./redis_pp/anet_pp.c
+python AnylysisFuncs.py ./redis_pp/anet_pp.c >redis_Funcs/anet_pp.c.result
+./redis_pp/aof_pp.c
+python AnylysisFuncs.py ./redis_pp/aof_pp.c >redis_Funcs/aof_pp.c.result
+./redis_pp/bio_pp.c
+python AnylysisFuncs.py ./redis_pp/bio_pp.c >redis_Funcs/bio_pp.c.result
+./redis_pp/bitops_pp.c
+python AnylysisFuncs.py ./redis_pp/bitops_pp.c >redis_Funcs/bitops_pp.c.result
+./redis_pp/blocked_pp.c
+python AnylysisFuncs.py ./redis_pp/blocked_pp.c >redis_Funcs/blocked_pp.c.result
+./redis_pp/config_pp.c
+python AnylysisFuncs.py ./redis_pp/config_pp.c >redis_Funcs/config_pp.c.result
+./redis_pp/crc16_pp.c
+python AnylysisFuncs.py ./redis_pp/crc16_pp.c >redis_Funcs/crc16_pp.c.result
+./redis_pp/crc64_pp.c
+python AnylysisFuncs.py ./redis_pp/crc64_pp.c >redis_Funcs/crc64_pp.c.result
+./redis_pp/db_pp.c
+python AnylysisFuncs.py ./redis_pp/db_pp.c >redis_Funcs/db_pp.c.result
+./redis_pp/debug_pp.c
+python AnylysisFuncs.py ./redis_pp/debug_pp.c >redis_Funcs/debug_pp.c.result
+./redis_pp/dict_pp.c
+python AnylysisFuncs.py ./redis_pp/dict_pp.c >redis_Funcs/dict_pp.c.result
+./redis_pp/endianconv_pp.c
+python AnylysisFuncs.py ./redis_pp/endianconv_pp.c >redis_Funcs/endianconv_pp.c.result
+./redis_pp/evict_pp.c
+python AnylysisFuncs.py ./redis_pp/evict_pp.c >redis_Funcs/evict_pp.c.result
+./redis_pp/expire_pp.c
+python AnylysisFuncs.py ./redis_pp/expire_pp.c >redis_Funcs/expire_pp.c.result
+./redis_pp/geohash_helper_pp.c
+python AnylysisFuncs.py ./redis_pp/geohash_helper_pp.c >redis_Funcs/geohash_helper_pp.c.result
+./redis_pp/geohash_pp.c
+python AnylysisFuncs.py ./redis_pp/geohash_pp.c >redis_Funcs/geohash_pp.c.result
+./redis_pp/geo_pp.c
+python AnylysisFuncs.py ./redis_pp/geo_pp.c >redis_Funcs/geo_pp.c.result
+./redis_pp/hellotype_pp.c
+python AnylysisFuncs.py ./redis_pp/hellotype_pp.c >redis_Funcs/hellotype_pp.c.result
+./redis_pp/helloworld_pp.c
+python AnylysisFuncs.py ./redis_pp/helloworld_pp.c >redis_Funcs/helloworld_pp.c.result
+./redis_pp/hyperloglog_pp.c
+python AnylysisFuncs.py ./redis_pp/hyperloglog_pp.c >redis_Funcs/hyperloglog_pp.c.result
+./redis_pp/intset_pp.c
+python AnylysisFuncs.py ./redis_pp/intset_pp.c >redis_Funcs/intset_pp.c.result
+./redis_pp/latency_pp.c
+python AnylysisFuncs.py ./redis_pp/latency_pp.c >redis_Funcs/latency_pp.c.result
+./redis_pp/lazyfree_pp.c
+python AnylysisFuncs.py ./redis_pp/lazyfree_pp.c >redis_Funcs/lazyfree_pp.c.result
+./redis_pp/lzf_c_pp.c
+python AnylysisFuncs.py ./redis_pp/lzf_c_pp.c >redis_Funcs/lzf_c_pp.c.result
+./redis_pp/lzf_d_pp.c
+python AnylysisFuncs.py ./redis_pp/lzf_d_pp.c >redis_Funcs/lzf_d_pp.c.result
+./redis_pp/memtest_pp.c
+python AnylysisFuncs.py ./redis_pp/memtest_pp.c >redis_Funcs/memtest_pp.c.result
+./redis_pp/module_pp.c
+python AnylysisFuncs.py ./redis_pp/module_pp.c >redis_Funcs/module_pp.c.result
+./redis_pp/multi_pp.c
+python AnylysisFuncs.py ./redis_pp/multi_pp.c >redis_Funcs/multi_pp.c.result
+./redis_pp/networking_pp.c
+python AnylysisFuncs.py ./redis_pp/networking_pp.c >redis_Funcs/networking_pp.c.result
+./redis_pp/notify_pp.c
+python AnylysisFuncs.py ./redis_pp/notify_pp.c >redis_Funcs/notify_pp.c.result
+./redis_pp/object_pp.c
+python AnylysisFuncs.py ./redis_pp/object_pp.c >redis_Funcs/object_pp.c.result
+./redis_pp/pqsort_pp.c
+python AnylysisFuncs.py ./redis_pp/pqsort_pp.c >redis_Funcs/pqsort_pp.c.result
+./redis_pp/pubsub_pp.c
+python AnylysisFuncs.py ./redis_pp/pubsub_pp.c >redis_Funcs/pubsub_pp.c.result
+./redis_pp/quicklist_pp.c
+python AnylysisFuncs.py ./redis_pp/quicklist_pp.c >redis_Funcs/quicklist_pp.c.result
+./redis_pp/rand_pp.c
+python AnylysisFuncs.py ./redis_pp/rand_pp.c >redis_Funcs/rand_pp.c.result
+./redis_pp/rdb_pp.c
+python AnylysisFuncs.py ./redis_pp/rdb_pp.c >redis_Funcs/rdb_pp.c.result
+./redis_pp/redis-benchmark_pp.c
+python AnylysisFuncs.py ./redis_pp/redis-benchmark_pp.c >redis_Funcs/redis-benchmark_pp.c.result
+./redis_pp/redis-check-aof_pp.c
+python AnylysisFuncs.py ./redis_pp/redis-check-aof_pp.c >redis_Funcs/redis-check-aof_pp.c.result
+./redis_pp/redis-check-rdb_pp.c
+python AnylysisFuncs.py ./redis_pp/redis-check-rdb_pp.c >redis_Funcs/redis-check-rdb_pp.c.result
+./redis_pp/redis-cli_pp.c
+python AnylysisFuncs.py ./redis_pp/redis-cli_pp.c >redis_Funcs/redis-cli_pp.c.result
+./redis_pp/release_pp.c
+python AnylysisFuncs.py ./redis_pp/release_pp.c >redis_Funcs/release_pp.c.result
+./redis_pp/replication_pp.c
+python AnylysisFuncs.py ./redis_pp/replication_pp.c >redis_Funcs/replication_pp.c.result
+./redis_pp/rio_pp.c
+python AnylysisFuncs.py ./redis_pp/rio_pp.c >redis_Funcs/rio_pp.c.result
+./redis_pp/scripting_pp.c
+python AnylysisFuncs.py ./redis_pp/scripting_pp.c >redis_Funcs/scripting_pp.c.result
+./redis_pp/sds_pp.c
+python AnylysisFuncs.py ./redis_pp/sds_pp.c >redis_Funcs/sds_pp.c.result
+./redis_pp/sentinel_pp.c
+python AnylysisFuncs.py ./redis_pp/sentinel_pp.c >redis_Funcs/sentinel_pp.c.result
+./redis_pp/server_pp.c
+python AnylysisFuncs.py ./redis_pp/server_pp.c >redis_Funcs/server_pp.c.result
+./redis_pp/setproctitle_pp.c
+python AnylysisFuncs.py ./redis_pp/setproctitle_pp.c >redis_Funcs/setproctitle_pp.c.result
+./redis_pp/sha1_pp.c
+python AnylysisFuncs.py ./redis_pp/sha1_pp.c >redis_Funcs/sha1_pp.c.result
+./redis_pp/slowlog_pp.c
+python AnylysisFuncs.py ./redis_pp/slowlog_pp.c >redis_Funcs/slowlog_pp.c.result
+./redis_pp/sort_pp.c
+python AnylysisFuncs.py ./redis_pp/sort_pp.c >redis_Funcs/sort_pp.c.result
+./redis_pp/sparkline_pp.c
+python AnylysisFuncs.py ./redis_pp/sparkline_pp.c >redis_Funcs/sparkline_pp.c.result
+./redis_pp/syncio_pp.c
+python AnylysisFuncs.py ./redis_pp/syncio_pp.c >redis_Funcs/syncio_pp.c.result
+./redis_pp/testmodule_pp.c
+python AnylysisFuncs.py ./redis_pp/testmodule_pp.c >redis_Funcs/testmodule_pp.c.result
+./redis_pp/t_hash_pp.c
+python AnylysisFuncs.py ./redis_pp/t_hash_pp.c >redis_Funcs/t_hash_pp.c.result
+./redis_pp/t_list_pp.c
+python AnylysisFuncs.py ./redis_pp/t_list_pp.c >redis_Funcs/t_list_pp.c.result
+./redis_pp/t_set_pp.c
+python AnylysisFuncs.py ./redis_pp/t_set_pp.c >redis_Funcs/t_set_pp.c.result
+./redis_pp/t_string_pp.c
+python AnylysisFuncs.py ./redis_pp/t_string_pp.c >redis_Funcs/t_string_pp.c.result
+./redis_pp/t_zset_pp.c
+python AnylysisFuncs.py ./redis_pp/t_zset_pp.c >redis_Funcs/t_zset_pp.c.result
+./redis_pp/util_pp.c
+python AnylysisFuncs.py ./redis_pp/util_pp.c >redis_Funcs/util_pp.c.result
+./redis_pp/ziplist_pp.c
+python AnylysisFuncs.py ./redis_pp/ziplist_pp.c >redis_Funcs/ziplist_pp.c.result
+./redis_pp/zipmap_pp.c
+python AnylysisFuncs.py ./redis_pp/zipmap_pp.c >redis_Funcs/zipmap_pp.c.result
+./redis_pp/zmalloc_pp.c
+python AnylysisFuncs.py ./redis_pp/zmalloc_pp.c >redis_Funcs/zmalloc_pp.c.result

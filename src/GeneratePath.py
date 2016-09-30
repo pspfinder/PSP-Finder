@@ -7,7 +7,6 @@ import sys, os,copy
 #
 sys.path.extend(['.', '..'])
 
-#文件类型
 
 functionSet=set()
 fileCount=0
@@ -15,7 +14,7 @@ funcCount=0
 funcDefCount=0
 funcList=list(functionSet)
 
-#分析每一行
+#analysis each line
 def analysisLine(line):
    #print(line)
    global funcCount 
@@ -33,7 +32,7 @@ def analysisLine(line):
       functionSet.add(fromFunc)   
       functionSet.add(inFunc)   
 
-#读取reulst文件
+#read reulst file
 def readResultFile(file):
    input = open(file, 'r')
    for line in input:
@@ -50,14 +49,14 @@ def outputFuncCallDefs():
       print(str(funcList.index(func))+','+str(func))   
       arffFile.write('@attribute '+str(func)+' {F, T}\n')
 
-#生成并输出函数调用路径
-index=1#记录输出行数
+#generate and output function call paths
+index=1#record lines outputed
 def outputPathsInGraph(dic,posStr):
     global funcList,index
 
-    threshold=0#生成threshold条路径之后，只生成含未覆盖元素到路径
+    threshold=0#when number of threshold paths are generated, only generate paths with uncover elements
     pathCount=0
-    totalPathCount=0#所有路径，不管是否是包含新元素到路径
+    totalPathCount=0#the number of all the paths
     completePath=[]
     path=['f_entry()']
     visited=set()
@@ -148,7 +147,7 @@ def outputPathsInGraph(dic,posStr):
     
 
 
-#加载函数调用图
+#load function call graph
 def loadGraph(file):
    dic={'':['']}
    del dic['']
@@ -212,7 +211,7 @@ for line in dirlist:
    dotPos = fileString.rfind('.') 
    fileType = fileString[dotPos:]
    #print(fileType)
-   if(fileType=='.result'):#result 文件
+   if(fileType=='.result'):#result file
       #print(line)
       fileCount=fileCount+1
       fullPathFile = os.path.join(outputFileDic,line)
@@ -232,14 +231,14 @@ arffFile.write("@relation 'FunctionCallsInPaths'\n")
 outputFuncCallDefs()
 arffFile.write("@data\n")
 
-#通过图生成路径
+#generate paths by graphs
 arffFile
 for line in dirlist:
    fileString = str(line)
    dotPos = fileString.rfind('.') 
    fileType = fileString[dotPos:]
    #print(fileType)
-   if(fileType=='.result'):#result 文件
+   if(fileType=='.result'):#result file
       #print(line)
       fileCount=fileCount+1
       fullPathFile = os.path.join(outputFileDic,line)

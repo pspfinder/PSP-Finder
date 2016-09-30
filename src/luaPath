@@ -1,0 +1,4921 @@
+/home/czq/SACExpriment/sacSubmit/lua_Graphs/
+read 35 files, 896 Function Defs, 4545 function calls, contain  665 unrepeat function calls
+@relation 'FunctionCalls'
+0,luaD_precall()
+1,addtoclib()
+2,luaH_setint()
+3,separatetobefnz()
+4,luaO_utf8esc()
+5,luaT_callorderTM()
+6,luaL_loadbufferx()
+7,memchr()
+8,luaT_gettm()
+9,createclibstable()
+10,luaC_newobj()
+11,open_func()
+12,luaL_where()
+13,luaX_init()
+14,addreturn()
+15,l_str2dloc()
+16,LoadString()
+17,system()
+18,luaL_checktype()
+19,luaT_callbinTM()
+20,assignment()
+21,mainfunc()
+22,docall()
+23,str_find_aux()
+24,luaT_gettmbyobj()
+25,luaL_checkoption()
+26,report()
+27,luaL_addvalue()
+28,lua_iscfunction()
+29,luaL_gsub()
+30,skipcomment()
+31,DumpBlock()
+32,luaF_findupval()
+33,lua_getfield()
+34,lua_pushfstring()
+35,luaC_fullgc()
+36,searchvar()
+37,strpbrk()
+38,lua_pushvalue()
+39,luaE_shrinkCI()
+40,cannot()
+41,freopen()
+42,fixjump()
+43,GCTM()
+44,block_follow()
+45,luaG_typeerror()
+46,luaT_trybinTM()
+47,lua_touserdata()
+48,luaC_fix()
+49,numusearray()
+50,check_capture()
+51,getenv()
+52,strlen()
+53,errorlimit()
+54,fseek()
+55,getdebt()
+56,luaK_exp2anyregup()
+57,checkrepeated()
+58,fread()
+59,lua_createtable()
+60,utf8_decode()
+61,add_value()
+62,luaK_reserveregs()
+63,lua_rawseti()
+64,DumpHeader()
+65,LoadBlock()
+66,lastlevel()
+67,luaG_runerror()
+68,fatal()
+69,toupper()
+70,luaB_error()
+71,need_value()
+72,lua_isinteger()
+73,check_conflict()
+74,getobjname()
+75,test_then_block()
+76,luaD_shrinkstack()
+77,doREPL()
+78,luaF_newproto()
+79,luaK_setreturns()
+80,luaK_concat()
+81,countint()
+82,luaH_new()
+83,funcname()
+84,lsys_load()
+85,lua_rawset()
+86,luaH_getshortstr()
+87,PrintHeader()
+88,auxgetstr()
+89,lua_load()
+90,luaZ_init()
+91,lexerror()
+92,lua_tothread()
+93,printf()
+94,lua_tonumberx()
+95,lua_close()
+96,errfile()
+97,panic()
+98,freeexp()
+99,lua_newstate()
+100,findgotos()
+101,luaF_close()
+102,fchecksize()
+103,new_localvarliteral_()
+104,LoadNumber()
+105,luaS_newlstr()
+106,luaO_tostring()
+107,DumpNumber()
+108,nextc()
+109,fwrite()
+110,lua_pushvfstring()
+111,lastlistfield()
+112,aux_upvalue()
+113,close_state()
+114,resume_error()
+115,singlestep()
+116,lua_pushcclosure()
+117,readdigits()
+118,swapextra()
+119,luaT_callTM()
+120,luaL_optinteger()
+121,lua_isnumber()
+122,semerror()
+123,freeexps()
+124,treatstackoption()
+125,luaK_jump()
+126,luaK_exp2val()
+127,simpleexp()
+128,luaK_infix()
+129,luaL_prepbuffsize()
+130,lua_getinfo()
+131,load_aux()
+132,luaL_checkudata()
+133,luaK_patchtohere()
+134,esccheck()
+135,lua_dump()
+136,memcmp()
+137,dofile()
+138,lua_rawgeti()
+139,luaL_callmeta()
+140,getdetails()
+141,getnum()
+142,luaL_buffinit()
+143,parlist()
+144,getupvalref()
+145,b_str2int()
+146,srand()
+147,offsetof()
+148,luaK_exp2anyreg()
+149,lua_pushlightuserdata()
+150,luaO_int2fb()
+151,setarrayvector()
+152,fprintf()
+153,signal()
+154,checkliteral()
+155,findfield()
+156,l_message()
+157,DumpConstants()
+158,dischargejpc()
+159,lua_rawgetp()
+160,clearvalues()
+161,iscleared()
+162,newprefile()
+163,registerlocalvar()
+164,mainposition()
+165,luaC_runtilstate()
+166,lua_setmetatable()
+167,reprepstate()
+168,lua_isstring()
+169,lookforfunc()
+170,lua_upvaluejoin()
+171,lua_type()
+172,skipnoopstat()
+173,pushline()
+174,opencheck()
+175,longjmp()
+176,luaL_addstring()
+177,pairsmeta()
+178,aux_close()
+179,luaC_upvdeccount()
+180,PrintFunction()
+181,LoadUpvalues()
+182,luaK_indexed()
+183,luaO_chunkid()
+184,exp2reg()
+185,findvararg()
+186,luaL_fileresult()
+187,luaK_prefix()
+188,luaS_clearcache()
+189,log2f()
+190,luaZ_read()
+191,mktime()
+192,lua_pushnil()
+193,lua_gc()
+194,l_str2d()
+195,checkclib()
+196,DumpProtos()
+197,entersweep()
+198,codeclosure()
+199,newlabelentry()
+200,luaL_buffinitsize()
+201,luaM_toobig()
+202,setvbuf()
+203,DumpString()
+204,luaF_newCclosure()
+205,luaK_dischargevars()
+206,clearkeys()
+207,checklimit()
+208,adjustlocalvars()
+209,lua_getupvalue()
+210,lua_pushboolean()
+211,l_checktime()
+212,strncmp()
+213,digit()
+214,lua_rotate()
+215,ferror()
+216,luaT_objtypename()
+217,luaL_execresult()
+218,sort_comp()
+219,logf()
+220,usage()
+221,rand()
+222,luaY_parser()
+223,save()
+224,luaV_finishOp()
+225,isdigit()
+226,luaH_newkey()
+227,createstrobj()
+228,checkHeader()
+229,DumpInt()
+230,luaV_execute()
+231,isspace()
+232,findlabel()
+233,preinit_thread()
+234,prepstate()
+235,markbeingfnz()
+236,push_onecapture()
+237,findsetreg()
+238,setboolfield()
+239,luaD_inctop()
+240,luaV_concat()
+241,expr()
+242,yindex()
+243,lua_resume()
+244,pushfuncname()
+245,fopen()
+246,luaO_arith()
+247,luaL_openlibs()
+248,collectvalidlines()
+249,checknext()
+250,luaL_argerror()
+251,luaD_protectedparser()
+252,checkfield()
+253,markupval()
+254,removevars()
+255,settabss()
+256,addk()
+257,ungetc()
+258,sweeplist()
+259,rehash()
+260,auxsetstr()
+261,lua_rawsetp()
+262,PrintDebug()
+263,g_iofile()
+264,luaU_undump()
+265,closegoto()
+266,luaD_rawrunprotected()
+267,PrintConstant()
+268,lua_setupvalue()
+269,findindex()
+270,luaL_checklstring()
+271,getoption()
+272,l_print()
+273,luaK_patchlist()
+274,snprintf()
+275,scanformat()
+276,luaV_tonumber_()
+277,settabsb()
+278,convergeephemerons()
+279,luaX_setinput()
+280,LoadCode()
+281,lua_stringtonumber()
+282,testnext()
+283,error()
+284,strspn()
+285,setfield()
+286,lua_len()
+287,traversestrongtable()
+288,subexpr()
+289,DumpUpvalues()
+290,stackinuse()
+291,luaK_setlist()
+292,luaK_posfix()
+293,clock()
+294,lua_pushthread()
+295,luaC_barrierback_()
+296,lua_yieldk()
+297,getjump()
+298,luaM_growaux_()
+299,luaK_nil()
+300,luaH_resize()
+301,auxresume()
+302,getjumpcontrol()
+303,luaG_addinfo()
+304,patchtestreg()
+305,get_prompt()
+306,abort()
+307,lua_tointegerx()
+308,lmemfind()
+309,runafewfinalizers()
+310,llex()
+311,setpath()
+312,l_strcmp()
+313,l_str2int()
+314,internshrstr()
+315,combine()
+316,lua_getallocf()
+317,realloc()
+318,luaS_init()
+319,luaD_hook()
+320,checkoption()
+321,lua_gethook()
+322,findloader()
+323,luaD_pcall()
+324,LoadInteger()
+325,checkmode()
+326,forbody()
+327,createargtable()
+328,strerror()
+329,luaL_traceback()
+330,log10f()
+331,lua_setfield()
+332,removeentry()
+333,resizebox()
+334,computesizes()
+335,statlist()
+336,luaL_loadfilex()
+337,lua_copy()
+338,lua_geti()
+339,luaK_code()
+340,new_localvar()
+341,getboolfield()
+342,index2addr()
+343,undefgoto()
+344,init_exp()
+345,luaD_growstack()
+346,newfile()
+347,unroll()
+348,incomplete()
+349,DumpFunction()
+350,primaryexp()
+351,luaO_str2num()
+352,luaL_getsubtable()
+353,lua_rawlen()
+354,lua_getlocal()
+355,initheader()
+356,loadfunc()
+357,code_loadbool()
+358,lua_pushnumber()
+359,luaO_pushvfstring()
+360,luaC_barrier_()
+361,lua_typename()
+362,strstr()
+363,lua_settop()
+364,luaK_ret()
+365,luaC_freeallobjects()
+366,match()
+367,ceilf()
+368,lua_rawequal()
+369,memcpy()
+370,luaD_callnoyield()
+371,luaV_finishset()
+372,lua_setglobal()
+373,strftime()
+374,luaK_patchclose()
+375,close_func()
+376,lua_checkstack()
+377,lua_error()
+378,LoadDebug()
+379,lua_status()
+380,sweeptolive()
+381,fieldsel()
+382,dolibrary()
+383,typeerror()
+384,luaK_goiffalse()
+385,propagatemark()
+386,DumpDebug()
+387,clearerr()
+388,block()
+389,enterlevel()
+390,luaL_optnumber()
+391,movegotosout()
+392,luaL_requiref()
+393,callallpendingfinalizers()
+394,fgets()
+395,luaK_setoneret()
+396,luaL_len()
+397,discharge2reg()
+398,pushargs()
+399,isxdigit()
+400,checktab()
+401,abs()
+402,stackerror()
+403,discharge2anyreg()
+404,lsys_unloadlib()
+405,lua_toboolean()
+406,luaZ_fill()
+407,DumpInteger()
+408,luaS_newudata()
+409,luaL_testudata()
+410,g_read()
+411,choosePivot()
+412,luaL_optlstring()
+413,luaS_createlngstrobj()
+414,patchlistaux()
+415,inclinenumber()
+416,statement()
+417,currentpc()
+418,lsys_sym()
+419,luaD_call()
+420,removevalues()
+421,exp1()
+422,luaK_exp2nextreg()
+423,searchupvalue()
+424,codeextraarg()
+425,strcmp()
+426,luaD_reallocstack()
+427,LoadProtos()
+428,luaH_set()
+429,lua_pushinteger()
+430,addprototype()
+431,luaE_setdebt()
+432,luaV_equalobj()
+433,free()
+434,isneg()
+435,luaL_pushresultsize()
+436,condjump()
+437,iscntrl()
+438,breaklabel()
+439,auxupvalue()
+440,luaT_init()
+441,lua_pushstring()
+442,str_checkname()
+443,pushnexttemplate()
+444,recover()
+445,lua_getstack()
+446,findfile()
+447,allocf()
+448,freeobj()
+449,handle_script()
+450,dostring()
+451,isalnum()
+452,finishpcall()
+453,numusehash()
+454,islower()
+455,gethexa()
+456,luaK_codeABx()
+457,checkstack()
+458,luaF_newLclosure()
+459,findlast()
+460,luaL_checkstack()
+461,luaL_getmetafield()
+462,auxsort()
+463,test2()
+464,getunopr()
+465,lua_seti()
+466,DumpCode()
+467,createmetatable()
+468,luaD_poscall()
+469,luaV_objlen()
+470,luaK_codeABC()
+471,lua_getglobal()
+472,read_chars()
+473,print_version()
+474,luaH_getint()
+475,read_line()
+476,luaK_fixline()
+477,handle_luainit()
+478,enterblock()
+479,luaV_finishget()
+480,luaL_pushresult()
+481,check()
+482,print_usage()
+483,freereg()
+484,copy2buff()
+485,adjust_assign()
+486,l_randomizePivot()
+487,setjmp()
+488,strcpy()
+489,LoadFunction()
+490,luaO_hexavalue()
+491,lua_tolstring()
+492,dofilecont()
+493,LoadConstants()
+494,luaO_pushfstring()
+495,validop()
+496,lua_pushlstring()
+497,strtof()
+498,lua_newthread()
+499,luaS_new()
+500,getbinopr()
+501,addfield()
+502,lua_absindex()
+503,match_class()
+504,tmpfile()
+505,codestring()
+506,lua_getmetatable()
+507,reader()
+508,lua_newuserdata()
+509,check_match()
+510,runargs()
+511,lua_sethook()
+512,correctstack()
+513,luaK_codek()
+514,loadline()
+515,createmeta()
+516,LTintfloat()
+517,luaX_newstring()
+518,luaX_next()
+519,getfreepos()
+520,luaL_checkinteger()
+521,closelistfield()
+522,LoadInt()
+523,g_write()
+524,lua_setlocal()
+525,lua_atpanic()
+526,luaL_setfuncs()
+527,lua_setuservalue()
+528,time()
+529,seterrorobj()
+530,LEnum()
+531,newbox()
+532,luaO_ceillog2()
+533,pushutfchar()
+534,luaM_realloc_()
+535,stack_init()
+536,getlocvar()
+537,explist()
+538,isinstack()
+539,luaK_goiftrue()
+540,nospecials()
+541,floorf()
+542,field()
+543,checkload()
+544,luaV_tointeger()
+545,lua_gettop()
+546,lua_next()
+547,singlematch()
+548,arrayindex()
+549,luaS_resize()
+550,luaL_checkversion_()
+551,reallymarkobject()
+552,luaB_cocreate()
+553,luaK_storevar()
+554,luaH_next()
+555,feof()
+556,strcoll()
+557,luaL_error()
+558,exit()
+559,luaF_getlocalname()
+560,traverseweakvalue()
+561,luaC_upvalbarrier_()
+562,test_eof()
+563,capture_to_close()
+564,getc()
+565,luaK_exp2RK()
+566,findlocal()
+567,strchr()
+568,settabsi()
+569,luaS_hash()
+570,tonumeral()
+571,aux_lines()
+572,luaL_newmetatable()
+573,partition()
+574,singlevar()
+575,createsearcherstable()
+576,reverse()
+577,pushnumint()
+578,luaK_checkstack()
+579,luaK_getlabel()
+580,gotostat()
+581,propagateall()
+582,checkupval()
+583,init_registry()
+584,luaH_get()
+585,singlevaraux()
+586,luaE_freeCI()
+587,lua_gethookmask()
+588,luaL_checknumber()
+589,findpcall()
+590,lua_concat()
+591,getco()
+592,lua_rawget()
+593,leaveblock()
+594,multiline()
+595,noenv()
+596,luaG_errormsg()
+597,doargs()
+598,checkname()
+599,luaL_newstate()
+600,luaD_throw()
+601,traverseephemeron()
+602,lua_compare()
+603,getfield()
+604,PrintCode()
+605,suffixedexp()
+606,fclose()
+607,skipBOM()
+608,lua_pcallk()
+609,collectargs()
+610,u_posrelat()
+611,set2()
+612,luaL_setmetatable()
+613,lua_xmove()
+614,luaL_checkany()
+615,freestack()
+616,lua_getuservalue()
+617,getgeneric()
+618,DumpByte()
+619,upvalname()
+620,unbound_search()
+621,tolower()
+622,luaL_tolstring()
+623,lua_callk()
+624,error_expected()
+625,pushglobalfuncname()
+626,check_next2()
+627,tag_error()
+628,moveresults()
+629,__builtin_va_start()
+630,body()
+631,lua_version()
+632,LoadByte()
+633,newupvalue()
+634,push_captures()
+635,finishCcall()
+636,remarkupvals()
+637,LTnum()
+638,makemask()
+639,setnodevector()
+640,luaL_addlstring()
+641,setpause()
+642,posrelat()
+643,setallfields()
+644,luaG_ordererror()
+645,LEintfloat()
+646,interror()
+647,luaU_dump()
+648,luaF_initupvals()
+649,auxgetinfo()
+650,luaX_syntaxerror()
+651,cond()
+652,tofile()
+653,markmt()
+654,dochunk()
+655,pushstr()
+656,getthread()
+657,getupvalname()
+658,searchpath()
+659,createstdfile()
+660,makeseed()
+661,frexpf()
+662,readable()
+--------------Analysis-str_len-@lstrlib.c@line: 54.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushinteger()']
+1Paths generated!
+--------------Analysis-posrelat-@lstrlib.c@line: 63.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-str_sub-@lstrlib.c@line: 70.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushstring()', 'posrelat()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushlstring()', 'posrelat()']
+2Paths generated!
+--------------Analysis-str_reverse-@lstrlib.c@line: 84.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinitsize()', 'luaL_checklstring()', 'luaL_pushresultsize()']
+1Paths generated!
+--------------Analysis-str_lower-@lstrlib.c@line: 96.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinitsize()', 'luaL_checklstring()', 'luaL_pushresultsize()']
+['f_entry()', 'f_exit()', 'luaL_buffinitsize()', 'luaL_checklstring()', 'luaL_pushresultsize()', 'tolower()']
+2Paths generated!
+--------------Analysis-str_upper-@lstrlib.c@line: 109.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinitsize()', 'luaL_checklstring()', 'luaL_pushresultsize()']
+['f_entry()', 'f_exit()', 'luaL_buffinitsize()', 'luaL_checklstring()', 'luaL_pushresultsize()', 'toupper()']
+2Paths generated!
+--------------Analysis-str_rep-@lstrlib.c@line: 122.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinitsize()', 'luaL_checkinteger()', 'luaL_checklstring()', 'luaL_optlstring()', 'luaL_pushresultsize()', 'memcpy()']
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'luaL_checklstring()', 'luaL_error()', 'luaL_optlstring()']
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'luaL_checklstring()', 'luaL_optlstring()', 'lua_pushstring()']
+3Paths generated!
+--------------Analysis-str_byte-@lstrlib.c@line: 148.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_checkstack()', 'posrelat()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_checkstack()', 'lua_pushinteger()', 'posrelat()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_checkstack()', 'luaL_error()', 'lua_pushinteger()', 'posrelat()']
+3Paths generated!
+--------------Analysis-str_char-@lstrlib.c@line: 167.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinitsize()', 'luaL_pushresultsize()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_buffinitsize()', 'luaL_checkinteger()', 'luaL_pushresultsize()', 'lua_gettop()']
+2Paths generated!
+--------------Analysis-writer-@lstrlib.c@line: 182.....
+
+['f_entry()', 'f_exit()', 'luaL_addlstring()']
+1Paths generated!
+--------------Analysis-str_dump-@lstrlib.c@line: 189.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_checktype()', 'luaL_pushresult()', 'lua_dump()', 'lua_settop()', 'lua_toboolean()']
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_checktype()', 'luaL_error()', 'luaL_pushresult()', 'lua_dump()', 'lua_settop()', 'lua_toboolean()']
+2Paths generated!
+--------------Analysis-check_capture-@lstrlib.c@line: 242.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaL_error()']
+2Paths generated!
+--------------Analysis-capture_to_close-@lstrlib.c@line: 250.....
+
+['f_entry()', 'f_exit()', 'luaL_error()']
+1Paths generated!
+--------------Analysis-classend-@lstrlib.c@line: 258.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-match_class-@lstrlib.c@line: 282.....
+
+['f_entry()', 'f_exit()', 'islower()', 'tolower()']
+1Paths generated!
+--------------Analysis-matchbracketclass-@lstrlib.c@line: 302.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'match_class()']
+2Paths generated!
+--------------Analysis-singlematch-@lstrlib.c@line: 325.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-matchbalance-@lstrlib.c@line: 341.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaL_error()']
+2Paths generated!
+--------------Analysis-max_expand-@lstrlib.c@line: 361.....
+
+['f_entry()', 'f_exit()', 'singlematch()']
+['f_entry()', 'f_exit()', 'match()', 'singlematch()']
+2Paths generated!
+--------------Analysis-min_expand-@lstrlib.c@line: 376.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'match()']
+['f_entry()', 'f_exit()', 'match()', 'singlematch()']
+3Paths generated!
+--------------Analysis-start_capture-@lstrlib.c@line: 389.....
+
+['f_entry()', 'f_exit()', 'match()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'match()']
+2Paths generated!
+--------------Analysis-end_capture-@lstrlib.c@line: 403.....
+
+['capture_to_close()', 'f_entry()', 'f_exit()', 'match()']
+1Paths generated!
+--------------Analysis-match_capture-@lstrlib.c@line: 414.....
+
+['check_capture()', 'f_entry()', 'f_exit()', 'memcmp()']
+1Paths generated!
+--------------Analysis-match-@lstrlib.c@line: 425.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaL_error()']
+2Paths generated!
+--------------Analysis-lmemfind-@lstrlib.c@line: 528.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'memchr()']
+['f_entry()', 'f_exit()', 'memchr()', 'memcmp()']
+3Paths generated!
+--------------Analysis-push_onecapture-@lstrlib.c@line: 550.....
+
+['f_entry()', 'f_exit()', 'lua_pushlstring()']
+['f_entry()', 'f_exit()', 'lua_pushinteger()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_pushlstring()']
+['f_entry()', 'f_exit()', 'luaL_error()']
+4Paths generated!
+--------------Analysis-push_captures-@lstrlib.c@line: 569.....
+
+['f_entry()', 'f_exit()', 'luaL_checkstack()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'push_onecapture()']
+2Paths generated!
+--------------Analysis-nospecials-@lstrlib.c@line: 580.....
+
+['f_entry()', 'f_exit()', 'strlen()', 'strpbrk()']
+1Paths generated!
+--------------Analysis-prepstate-@lstrlib.c@line: 591.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-reprepstate-@lstrlib.c@line: 601.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-str_find_aux-@lstrlib.c@line: 607.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushnil()', 'lua_toboolean()', 'match()', 'nospecials()', 'posrelat()', 'prepstate()', 'reprepstate()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushnil()', 'lua_toboolean()', 'match()', 'nospecials()', 'posrelat()', 'prepstate()', 'push_captures()', 'reprepstate()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushinteger()', 'lua_pushnil()', 'lua_toboolean()', 'match()', 'nospecials()', 'posrelat()', 'prepstate()', 'push_captures()', 'reprepstate()']
+['f_entry()', 'f_exit()', 'lmemfind()', 'luaL_checklstring()', 'lua_pushnil()', 'lua_toboolean()', 'nospecials()', 'posrelat()']
+['f_entry()', 'f_exit()', 'lmemfind()', 'luaL_checklstring()', 'lua_pushinteger()', 'lua_pushnil()', 'lua_toboolean()', 'nospecials()', 'posrelat()']
+5Paths generated!
+--------------Analysis-str_find-@lstrlib.c@line: 654.....
+
+['f_entry()', 'f_exit()', 'str_find_aux()']
+1Paths generated!
+--------------Analysis-str_match-@lstrlib.c@line: 659.....
+
+['f_entry()', 'f_exit()', 'str_find_aux()']
+1Paths generated!
+--------------Analysis-gmatch_aux-@lstrlib.c@line: 673.....
+
+['f_entry()', 'f_exit()', 'lua_touserdata()']
+['f_entry()', 'f_exit()', 'lua_touserdata()', 'match()', 'reprepstate()']
+['f_entry()', 'f_exit()', 'lua_touserdata()', 'match()', 'push_captures()', 'reprepstate()']
+3Paths generated!
+--------------Analysis-gmatch-@lstrlib.c@line: 689.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_newuserdata()', 'lua_pushcclosure()', 'lua_settop()', 'prepstate()']
+1Paths generated!
+--------------Analysis-add_s-@lstrlib.c@line: 703.....
+
+['f_entry()', 'f_exit()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'isdigit()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'isdigit()', 'luaL_addvalue()', 'luaL_tolstring()', 'lua_tolstring()', 'push_onecapture()']
+['f_entry()', 'f_exit()', 'isdigit()', 'luaL_addlstring()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'isdigit()', 'luaL_error()', 'lua_tolstring()']
+5Paths generated!
+--------------Analysis-add_value-@lstrlib.c@line: 731.....
+
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'lua_isstring()', 'lua_toboolean()']
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'luaL_error()', 'lua_isstring()', 'lua_toboolean()']
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'lua_pushlstring()', 'lua_settop()', 'lua_toboolean()']
+3Paths generated!
+--------------Analysis-str_gsub-@lstrlib.c@line: 762.....
+
+['f_entry()', 'f_exit()', 'luaL_addlstring()', 'luaL_argerror()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_optinteger()', 'luaL_pushresult()', 'lua_pushinteger()', 'lua_type()', 'prepstate()']
+['f_entry()', 'f_exit()', 'luaL_addlstring()', 'luaL_argerror()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_optinteger()', 'luaL_pushresult()', 'lua_pushinteger()', 'lua_type()', 'match()', 'prepstate()', 'reprepstate()']
+['add_value()', 'f_entry()', 'f_exit()', 'luaL_addlstring()', 'luaL_argerror()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_optinteger()', 'luaL_pushresult()', 'lua_pushinteger()', 'lua_type()', 'match()', 'prepstate()', 'reprepstate()']
+3Paths generated!
+--------------Analysis-addquoted-@lstrlib.c@line: 907.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'iscntrl()']
+['f_entry()', 'f_exit()', 'iscntrl()', 'isdigit()', 'luaL_addstring()', 'snprintf()']
+3Paths generated!
+--------------Analysis-checkdp-@lstrlib.c@line: 933.....
+
+['f_entry()', 'f_exit()', 'memchr()']
+1Paths generated!
+--------------Analysis-addliteral-@lstrlib.c@line: 942.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+1Paths generated!
+--------------Analysis-scanformat-@lstrlib.c@line: 980.....
+
+['f_entry()', 'f_exit()', 'isdigit()', 'memcpy()', 'strchr()']
+['f_entry()', 'f_exit()', 'isdigit()', 'luaL_error()', 'memcpy()', 'strchr()']
+2Paths generated!
+--------------Analysis-addlenmod-@lstrlib.c@line: 1005.....
+
+['f_entry()', 'f_exit()', 'strcpy()', 'strlen()']
+1Paths generated!
+--------------Analysis-str_format-@lstrlib.c@line: 1015.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_pushresult()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_prepbuffsize()', 'luaL_pushresult()', 'lua_gettop()', 'scanformat()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_prepbuffsize()', 'luaL_pushresult()', 'lua_gettop()', 'scanformat()']
+3Paths generated!
+--------------Analysis-digit-@lstrlib.c@line: 1178.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getnum-@lstrlib.c@line: 1180.....
+
+['digit()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getnumlimit-@lstrlib.c@line: 1197.....
+
+['f_entry()', 'f_exit()', 'getnum()']
+['f_entry()', 'f_exit()', 'getnum()', 'luaL_error()']
+2Paths generated!
+--------------Analysis-initheader-@lstrlib.c@line: 1209.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getoption-@lstrlib.c@line: 1219.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getdetails-@lstrlib.c@line: 1266.....
+
+['f_entry()', 'f_exit()', 'getoption()']
+['f_entry()', 'f_exit()', 'getoption()', 'luaL_argerror()']
+2Paths generated!
+--------------Analysis-packint-@lstrlib.c@line: 1293.....
+
+['f_entry()', 'f_exit()', 'luaL_prepbuffsize()']
+1Paths generated!
+--------------Analysis-copywithendian-@lstrlib.c@line: 1314.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-str_pack-@lstrlib.c@line: 1328.....
+
+['f_entry()', 'f_exit()', 'initheader()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_pushresult()', 'lua_pushnil()']
+['f_entry()', 'f_exit()', 'getdetails()', 'initheader()', 'luaL_buffinit()', 'luaL_checklstring()', 'luaL_pushresult()', 'lua_pushnil()']
+2Paths generated!
+--------------Analysis-str_packsize-@lstrlib.c@line: 1415.....
+
+['f_entry()', 'f_exit()', 'initheader()', 'luaL_checklstring()', 'lua_pushinteger()']
+['f_entry()', 'f_exit()', 'getdetails()', 'initheader()', 'luaL_argerror()', 'luaL_checklstring()', 'lua_pushinteger()']
+2Paths generated!
+--------------Analysis-unpackint-@lstrlib.c@line: 1448.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaL_error()']
+2Paths generated!
+--------------Analysis-str_unpack-@lstrlib.c@line: 1474.....
+
+['f_entry()', 'f_exit()', 'initheader()', 'luaL_argerror()', 'luaL_checklstring()', 'lua_pushinteger()', 'posrelat()']
+['f_entry()', 'f_exit()', 'getdetails()', 'initheader()', 'luaL_argerror()', 'luaL_checklstring()', 'luaL_checkstack()', 'lua_pushinteger()', 'posrelat()']
+2Paths generated!
+--------------Analysis-createmetatable-@lstrlib.c@line: 1562.....
+
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_pushstring()', 'lua_pushvalue()', 'lua_setfield()', 'lua_setmetatable()', 'lua_settop()']
+1Paths generated!
+--------------Analysis-luaopen_string-@lstrlib.c@line: 1577.....
+
+['createmetatable()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaL_openlibs-@linit.c@line: 60.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaL_requiref()', 'lua_settop()']
+2Paths generated!
+--------------Analysis-save-@llex.c@line: 57.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'lexerror()']
+2Paths generated!
+--------------Analysis-luaX_init-@llex.c@line: 70.....
+
+['f_entry()', 'f_exit()', 'luaC_fix()', 'luaS_newlstr()']
+['f_entry()', 'f_exit()', 'luaC_fix()', 'luaS_new()', 'luaS_newlstr()']
+2Paths generated!
+--------------Analysis-luaX_token2str-@llex.c@line: 82.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaO_pushfstring()']
+2Paths generated!
+--------------Analysis-txtToken-@llex.c@line: 97.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lexerror-@llex.c@line: 109.....
+
+['f_entry()', 'f_exit()', 'luaD_throw()', 'luaG_addinfo()']
+['f_entry()', 'f_exit()', 'luaD_throw()', 'luaG_addinfo()', 'luaO_pushfstring()']
+2Paths generated!
+--------------Analysis-luaX_syntaxerror-@llex.c@line: 117.....
+
+['f_entry()', 'f_exit()', 'lexerror()']
+1Paths generated!
+--------------Analysis-luaX_newstring-@llex.c@line: 127.....
+
+['f_entry()', 'f_exit()', 'luaH_set()', 'luaS_newlstr()']
+['f_entry()', 'f_exit()', 'luaH_set()', 'luaS_newlstr()', 'offsetof()']
+2Paths generated!
+--------------Analysis-inclinenumber-@llex.c@line: 151.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'lexerror()']
+['f_entry()', 'f_exit()', 'luaZ_fill()']
+3Paths generated!
+--------------Analysis-luaX_setinput-@llex.c@line: 162.....
+
+['f_entry()', 'f_exit()', 'luaS_newlstr()']
+1Paths generated!
+--------------Analysis-check_next1-@llex.c@line: 186.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaZ_fill()']
+2Paths generated!
+--------------Analysis-check_next2-@llex.c@line: 199.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-read_numeral-@llex.c@line: 214.....
+
+['check_next2()', 'f_entry()', 'f_exit()', 'luaO_str2num()', 'save()']
+['check_next2()', 'f_entry()', 'f_exit()', 'lexerror()', 'luaO_str2num()', 'save()']
+2Paths generated!
+--------------Analysis-skip_sep-@llex.c@line: 251.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-read_long_string-@llex.c@line: 264.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaX_newstring()']
+['f_entry()', 'f_exit()', 'inclinenumber()']
+3Paths generated!
+--------------Analysis-esccheck-@llex.c@line: 303.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'lexerror()']
+2Paths generated!
+--------------Analysis-gethexa-@llex.c@line: 312.....
+
+['esccheck()', 'f_entry()', 'f_exit()', 'luaO_hexavalue()']
+1Paths generated!
+--------------Analysis-readhexaesc-@llex.c@line: 319.....
+
+['f_entry()', 'f_exit()', 'gethexa()']
+1Paths generated!
+--------------Analysis-readutf8esc-@llex.c@line: 327.....
+
+['esccheck()', 'f_entry()', 'f_exit()', 'gethexa()']
+['esccheck()', 'f_entry()', 'f_exit()', 'gethexa()', 'luaZ_fill()']
+['esccheck()', 'f_entry()', 'f_exit()', 'gethexa()', 'luaO_hexavalue()', 'luaZ_fill()']
+3Paths generated!
+--------------Analysis-utf8esc-@llex.c@line: 345.....
+
+['f_entry()', 'f_exit()', 'luaO_utf8esc()']
+['f_entry()', 'f_exit()', 'luaO_utf8esc()', 'save()']
+2Paths generated!
+--------------Analysis-readdecesc-@llex.c@line: 353.....
+
+['esccheck()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-read_string-@llex.c@line: 366.....
+
+['f_entry()', 'f_exit()', 'luaX_newstring()']
+1Paths generated!
+--------------Analysis-llex-@llex.c@line: 429.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaX_next-@llex.c@line: 549.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'llex()']
+2Paths generated!
+--------------Analysis-luaX_lookahead-@llex.c@line: 560.....
+
+['f_entry()', 'f_exit()', 'llex()']
+1Paths generated!
+--------------Analysis-luaB_print-@lbaselib.c@line: 24.....
+
+['f_entry()', 'f_exit()', 'lua_getglobal()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'fwrite()', 'lua_callk()', 'lua_getglobal()', 'lua_gettop()', 'lua_pushvalue()', 'lua_settop()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'fwrite()', 'luaL_error()', 'lua_callk()', 'lua_getglobal()', 'lua_gettop()', 'lua_pushvalue()', 'lua_settop()', 'lua_tolstring()']
+3Paths generated!
+--------------Analysis-b_str2int-@lbaselib.c@line: 48.....
+
+['f_entry()', 'f_exit()', 'isalnum()', 'isdigit()', 'strspn()']
+['f_entry()', 'f_exit()', 'isalnum()', 'isdigit()', 'strspn()', 'toupper()']
+2Paths generated!
+--------------Analysis-luaB_tonumber-@lbaselib.c@line: 69.....
+
+['b_str2int()', 'f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'luaL_checktype()', 'lua_pushnil()', 'lua_tolstring()', 'lua_type()']
+['b_str2int()', 'f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'luaL_checktype()', 'lua_pushinteger()', 'lua_pushnil()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_pushnil()', 'lua_stringtonumber()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_pushnil()', 'lua_settop()', 'lua_type()']
+4Paths generated!
+--------------Analysis-luaB_error-@lbaselib.c@line: 102.....
+
+['f_entry()', 'f_exit()', 'luaL_optinteger()', 'lua_error()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_optinteger()', 'luaL_where()', 'lua_concat()', 'lua_error()', 'lua_pushvalue()', 'lua_settop()', 'lua_type()']
+2Paths generated!
+--------------Analysis-luaB_getmetatable-@lbaselib.c@line: 114.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_getmetafield()', 'lua_getmetatable()']
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_getmetafield()', 'lua_getmetatable()', 'lua_pushnil()']
+2Paths generated!
+--------------Analysis-luaB_setmetatable-@lbaselib.c@line: 125.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checktype()', 'luaL_getmetafield()', 'lua_setmetatable()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checktype()', 'luaL_error()', 'luaL_getmetafield()', 'lua_setmetatable()', 'lua_settop()', 'lua_type()']
+2Paths generated!
+--------------Analysis-luaB_rawequal-@lbaselib.c@line: 138.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_pushboolean()']
+1Paths generated!
+--------------Analysis-luaB_rawlen-@lbaselib.c@line: 146.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_pushinteger()', 'lua_type()']
+1Paths generated!
+--------------Analysis-luaB_rawget-@lbaselib.c@line: 155.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_checktype()', 'lua_rawget()', 'lua_settop()']
+1Paths generated!
+--------------Analysis-luaB_rawset-@lbaselib.c@line: 163.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_checktype()', 'lua_rawset()', 'lua_settop()']
+1Paths generated!
+--------------Analysis-luaB_collectgarbage-@lbaselib.c@line: 173.....
+
+['f_entry()', 'f_exit()', 'luaL_optinteger()', 'lua_gc()']
+1Paths generated!
+--------------Analysis-luaB_type-@lbaselib.c@line: 201.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_pushstring()', 'lua_type()']
+1Paths generated!
+--------------Analysis-pairsmeta-@lbaselib.c@line: 209.....
+
+['f_entry()', 'f_exit()', 'luaL_getmetafield()', 'lua_callk()', 'lua_pushvalue()']
+['f_entry()', 'f_exit()', 'luaL_checktype()', 'luaL_getmetafield()', 'lua_pushcclosure()', 'lua_pushnil()', 'lua_pushvalue()']
+['f_entry()', 'f_exit()', 'luaL_checktype()', 'luaL_getmetafield()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushvalue()']
+3Paths generated!
+--------------Analysis-luaB_next-@lbaselib.c@line: 226.....
+
+['f_entry()', 'f_exit()', 'luaL_checktype()', 'lua_next()', 'lua_settop()']
+['f_entry()', 'f_exit()', 'luaL_checktype()', 'lua_next()', 'lua_pushnil()', 'lua_settop()']
+2Paths generated!
+--------------Analysis-luaB_pairs-@lbaselib.c@line: 238.....
+
+['f_entry()', 'f_exit()', 'pairsmeta()']
+1Paths generated!
+--------------Analysis-ipairsaux-@lbaselib.c@line: 246.....
+
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'lua_geti()', 'lua_pushinteger()']
+1Paths generated!
+--------------Analysis-luaB_ipairs-@lbaselib.c@line: 257.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushvalue()']
+1Paths generated!
+--------------Analysis-load_aux-@lbaselib.c@line: 270.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'lua_pushnil()', 'lua_rotate()']
+['f_entry()', 'f_exit()', 'lua_pushvalue()', 'lua_setupvalue()']
+['f_entry()', 'f_exit()', 'lua_pushvalue()', 'lua_settop()', 'lua_setupvalue()']
+4Paths generated!
+--------------Analysis-luaB_loadfile-@lbaselib.c@line: 287.....
+
+['f_entry()', 'f_exit()', 'load_aux()', 'luaL_loadfilex()', 'luaL_optlstring()', 'lua_type()']
+1Paths generated!
+--------------Analysis-generic_reader-@lbaselib.c@line: 317.....
+
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'lua_callk()', 'lua_isstring()', 'lua_pushvalue()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'luaL_error()', 'lua_callk()', 'lua_isstring()', 'lua_pushvalue()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'lua_callk()', 'lua_pushvalue()', 'lua_settop()', 'lua_tolstring()', 'lua_type()']
+3Paths generated!
+--------------Analysis-luaB_load-@lbaselib.c@line: 334.....
+
+['f_entry()', 'f_exit()', 'load_aux()', 'luaL_checktype()', 'luaL_optlstring()', 'lua_load()', 'lua_settop()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'load_aux()', 'luaL_loadbufferx()', 'luaL_optlstring()', 'lua_tolstring()', 'lua_type()']
+2Paths generated!
+--------------Analysis-dofilecont-@lbaselib.c@line: 356.....
+
+['f_entry()', 'f_exit()', 'lua_gettop()']
+1Paths generated!
+--------------Analysis-luaB_dofile-@lbaselib.c@line: 362.....
+
+['dofilecont()', 'f_entry()', 'f_exit()', 'luaL_loadfilex()', 'luaL_optlstring()', 'lua_callk()', 'lua_settop()']
+['dofilecont()', 'f_entry()', 'f_exit()', 'luaL_loadfilex()', 'luaL_optlstring()', 'lua_callk()', 'lua_error()', 'lua_settop()']
+2Paths generated!
+--------------Analysis-luaB_assert-@lbaselib.c@line: 372.....
+
+['f_entry()', 'f_exit()', 'luaB_error()', 'luaL_checkany()', 'lua_pushstring()', 'lua_settop()', 'lua_toboolean()']
+['f_entry()', 'f_exit()', 'lua_gettop()', 'lua_toboolean()']
+2Paths generated!
+--------------Analysis-luaB_select-@lbaselib.c@line: 385.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'lua_gettop()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_gettop()', 'lua_pushinteger()', 'lua_tolstring()', 'lua_type()']
+2Paths generated!
+--------------Analysis-finishpcall-@lbaselib.c@line: 408.....
+
+['f_entry()', 'f_exit()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'lua_pushboolean()', 'lua_pushvalue()']
+2Paths generated!
+--------------Analysis-luaB_pcall-@lbaselib.c@line: 419.....
+
+['f_entry()', 'f_exit()', 'finishpcall()', 'luaL_checkany()', 'lua_pcallk()', 'lua_pushboolean()', 'lua_rotate()']
+1Paths generated!
+--------------Analysis-luaB_xpcall-@lbaselib.c@line: 434.....
+
+['f_entry()', 'f_exit()', 'finishpcall()', 'luaL_checktype()', 'lua_gettop()', 'lua_pcallk()', 'lua_pushboolean()', 'lua_pushvalue()', 'lua_rotate()']
+1Paths generated!
+--------------Analysis-luaB_tostring-@lbaselib.c@line: 446.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_tolstring()']
+1Paths generated!
+--------------Analysis-luaopen_base-@lbaselib.c@line: 486.....
+
+['f_entry()', 'f_exit()', 'luaL_setfuncs()', 'lua_pushstring()', 'lua_pushvalue()', 'lua_rawgeti()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-checkfield-@ltablib.c@line: 36.....
+
+['f_entry()', 'f_exit()', 'lua_pushstring()', 'lua_rawget()']
+1Paths generated!
+--------------Analysis-checktab-@ltablib.c@line: 46.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+['checkfield()', 'f_entry()', 'f_exit()', 'luaL_checktype()', 'lua_getmetatable()', 'lua_type()']
+['checkfield()', 'f_entry()', 'f_exit()', 'lua_getmetatable()', 'lua_settop()', 'lua_type()']
+3Paths generated!
+--------------Analysis-tinsert-@ltablib.c@line: 79.....
+
+['f_entry()', 'f_exit()', 'lua_gettop()', 'lua_seti()']
+1Paths generated!
+--------------Analysis-tremove-@ltablib.c@line: 106.....
+
+['f_entry()', 'f_exit()', 'luaL_optinteger()', 'lua_geti()', 'lua_pushnil()', 'lua_seti()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_optinteger()', 'lua_geti()', 'lua_pushnil()', 'lua_seti()']
+2Paths generated!
+--------------Analysis-tmove-@ltablib.c@line: 128.....
+
+['checktab()', 'f_entry()', 'f_exit()', 'luaL_checkinteger()', 'lua_pushvalue()', 'lua_type()']
+['checktab()', 'f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'lua_compare()', 'lua_pushvalue()', 'lua_type()']
+['checktab()', 'f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'lua_compare()', 'lua_geti()', 'lua_pushvalue()', 'lua_seti()', 'lua_type()']
+3Paths generated!
+--------------Analysis-addfield-@ltablib.c@line: 160.....
+
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'lua_geti()', 'lua_isstring()']
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'luaL_error()', 'lua_geti()', 'lua_isstring()']
+2Paths generated!
+--------------Analysis-tconcat-@ltablib.c@line: 169.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_optinteger()', 'luaL_optlstring()', 'luaL_pushresult()']
+['addfield()', 'f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_optinteger()', 'luaL_optlstring()', 'luaL_pushresult()']
+['addfield()', 'f_entry()', 'f_exit()', 'luaL_addlstring()', 'luaL_buffinit()', 'luaL_optinteger()', 'luaL_optlstring()', 'luaL_pushresult()']
+3Paths generated!
+--------------Analysis-pack-@ltablib.c@line: 194.....
+
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_gettop()', 'lua_pushinteger()', 'lua_rotate()', 'lua_setfield()']
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_gettop()', 'lua_pushinteger()', 'lua_rotate()', 'lua_setfield()', 'lua_seti()']
+2Paths generated!
+--------------Analysis-unpack-@ltablib.c@line: 207.....
+
+['f_entry()', 'f_exit()', 'luaL_optinteger()', 'lua_checkstack()', 'lua_geti()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'luaL_optinteger()', 'lua_checkstack()', 'lua_geti()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'luaL_error()', 'luaL_optinteger()', 'lua_checkstack()', 'lua_geti()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'luaL_len()', 'luaL_optinteger()', 'lua_checkstack()', 'lua_geti()', 'lua_type()']
+4Paths generated!
+--------------Analysis-l_randomizePivot-@ltablib.c@line: 258.....
+
+['clock()', 'f_entry()', 'f_exit()', 'memcpy()', 'time()']
+1Paths generated!
+--------------Analysis-set2-@ltablib.c@line: 277.....
+
+['f_entry()', 'f_exit()', 'lua_seti()']
+1Paths generated!
+--------------Analysis-sort_comp-@ltablib.c@line: 287.....
+
+['f_entry()', 'f_exit()', 'lua_callk()', 'lua_pushvalue()', 'lua_settop()', 'lua_toboolean()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_compare()', 'lua_type()']
+2Paths generated!
+--------------Analysis-partition-@ltablib.c@line: 310.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'set2()']
+['f_entry()', 'f_exit()', 'lua_settop()', 'set2()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_settop()', 'set2()']
+4Paths generated!
+--------------Analysis-choosePivot-@ltablib.c@line: 346.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-auxsort-@ltablib.c@line: 357.....
+
+['f_entry()', 'f_exit()']
+['auxsort()', 'f_entry()', 'f_exit()', 'lua_geti()', 'lua_pushvalue()', 'lua_settop()', 'partition()', 'set2()', 'sort_comp()']
+['auxsort()', 'f_entry()', 'f_exit()', 'l_randomizePivot()', 'lua_geti()', 'lua_pushvalue()', 'lua_settop()', 'partition()', 'set2()', 'sort_comp()']
+['auxsort()', 'choosePivot()', 'f_entry()', 'f_exit()', 'l_randomizePivot()', 'lua_geti()', 'lua_pushvalue()', 'lua_settop()', 'partition()', 'set2()', 'sort_comp()']
+['auxsort()', 'f_entry()', 'f_exit()', 'l_randomizePivot()', 'lua_geti()', 'lua_pushvalue()', 'partition()', 'set2()', 'sort_comp()']
+5Paths generated!
+--------------Analysis-sort-@ltablib.c@line: 411.....
+
+['f_entry()', 'f_exit()']
+['auxsort()', 'f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_settop()', 'lua_type()']
+['auxsort()', 'f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checktype()', 'lua_settop()', 'lua_type()']
+3Paths generated!
+--------------Analysis-luaopen_table-@ltablib.c@line: 441.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-removeentry-@lgc.c@line: 125.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-iscleared-@lgc.c@line: 139.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaC_barrier_-@lgc.c@line: 155.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+2Paths generated!
+--------------Analysis-luaC_barrierback_-@lgc.c@line: 171.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaC_upvalbarrier_-@lgc.c@line: 185.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+2Paths generated!
+--------------Analysis-luaC_fix-@lgc.c@line: 194.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaC_newobj-@lgc.c@line: 208.....
+
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-reallymarkobject-@lgc.c@line: 235.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-markmt-@lgc.c@line: 289.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+2Paths generated!
+--------------Analysis-markbeingfnz-@lgc.c@line: 299.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+2Paths generated!
+--------------Analysis-remarkupvals-@lgc.c@line: 312.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-restartcollection-@lgc.c@line: 337.....
+
+['f_entry()', 'f_exit()', 'markbeingfnz()', 'markmt()']
+1Paths generated!
+--------------Analysis-traverseweakvalue-@lgc.c@line: 361.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'iscleared()']
+['f_entry()', 'f_exit()', 'removeentry()']
+3Paths generated!
+--------------Analysis-traverseephemeron-@lgc.c@line: 394.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'iscleared()']
+['f_entry()', 'f_exit()', 'iscleared()', 'reallymarkobject()']
+['f_entry()', 'f_exit()', 'removeentry()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+5Paths generated!
+--------------Analysis-traversestrongtable-@lgc.c@line: 433.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'removeentry()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+3Paths generated!
+--------------Analysis-traversetable-@lgc.c@line: 451.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'traversestrongtable()']
+['f_entry()', 'f_exit()', 'traverseephemeron()']
+['f_entry()', 'f_exit()', 'traverseweakvalue()']
+['f_entry()', 'f_exit()', 'luaT_gettm()']
+5Paths generated!
+--------------Analysis-traverseproto-@lgc.c@line: 479.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+2Paths generated!
+--------------Analysis-traverseCclosure-@lgc.c@line: 501.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+2Paths generated!
+--------------Analysis-traverseLclosure-@lgc.c@line: 514.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+2Paths generated!
+--------------Analysis-traversethread-@lgc.c@line: 530.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_shrinkstack()']
+['f_entry()', 'f_exit()', 'reallymarkobject()']
+3Paths generated!
+--------------Analysis-propagatemark-@lgc.c@line: 559.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-propagateall-@lgc.c@line: 603.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'propagatemark()']
+2Paths generated!
+--------------Analysis-convergeephemerons-@lgc.c@line: 608.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'traverseephemeron()']
+['f_entry()', 'f_exit()', 'propagateall()', 'traverseephemeron()']
+3Paths generated!
+--------------Analysis-clearkeys-@lgc.c@line: 639.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'iscleared()']
+['f_entry()', 'f_exit()', 'iscleared()', 'removeentry()']
+3Paths generated!
+--------------Analysis-clearvalues-@lgc.c@line: 657.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'iscleared()']
+['f_entry()', 'f_exit()', 'iscleared()', 'removeentry()']
+3Paths generated!
+--------------Analysis-luaC_upvdeccount-@lgc.c@line: 677.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+2Paths generated!
+--------------Analysis-freeLclosure-@lgc.c@line: 685.....
+
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+['f_entry()', 'f_exit()', 'luaC_upvdeccount()', 'luaM_realloc_()']
+2Paths generated!
+--------------Analysis-freeobj-@lgc.c@line: 696.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-sweeplist-@lgc.c@line: 734.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'freeobj()']
+2Paths generated!
+--------------Analysis-sweeptolive-@lgc.c@line: 757.....
+
+['f_entry()', 'f_exit()', 'sweeplist()']
+1Paths generated!
+--------------Analysis-checkSizes-@lgc.c@line: 777.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaS_resize()']
+2Paths generated!
+--------------Analysis-udata2finalize-@lgc.c@line: 787.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-dothecall-@lgc.c@line: 800.....
+
+['f_entry()', 'f_exit()', 'luaD_callnoyield()']
+1Paths generated!
+--------------Analysis-GCTM-@lgc.c@line: 806.....
+
+['f_entry()', 'f_exit()', 'luaT_gettmbyobj()']
+['f_entry()', 'f_exit()', 'luaD_pcall()', 'luaT_gettmbyobj()']
+['f_entry()', 'f_exit()', 'luaD_pcall()', 'luaD_throw()', 'luaT_gettmbyobj()']
+['f_entry()', 'f_exit()', 'luaD_pcall()', 'luaD_throw()', 'luaO_pushfstring()', 'luaT_gettmbyobj()']
+4Paths generated!
+--------------Analysis-runafewfinalizers-@lgc.c@line: 841.....
+
+['f_entry()', 'f_exit()']
+['GCTM()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-callallpendingfinalizers-@lgc.c@line: 856.....
+
+['f_entry()', 'f_exit()']
+['GCTM()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-findlast-@lgc.c@line: 866.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-separatetobefnz-@lgc.c@line: 877.....
+
+['f_entry()', 'f_exit()', 'findlast()']
+1Paths generated!
+--------------Analysis-luaC_checkfinalizer-@lgc.c@line: 899.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'sweeptolive()']
+['f_entry()', 'f_exit()', 'luaT_gettm()']
+3Paths generated!
+--------------Analysis-setpause-@lgc.c@line: 937.....
+
+['f_entry()', 'f_exit()', 'luaE_setdebt()']
+1Paths generated!
+--------------Analysis-entersweep-@lgc.c@line: 956.....
+
+['f_entry()', 'f_exit()', 'sweeplist()']
+1Paths generated!
+--------------Analysis-luaC_freeallobjects-@lgc.c@line: 964.....
+
+['callallpendingfinalizers()', 'f_entry()', 'f_exit()', 'separatetobefnz()', 'sweeplist()']
+1Paths generated!
+--------------Analysis-atomic-@lgc.c@line: 979.....
+
+['clearkeys()', 'clearvalues()', 'convergeephemerons()', 'f_entry()', 'f_exit()', 'luaS_clearcache()', 'markbeingfnz()', 'markmt()', 'propagateall()', 'remarkupvals()', 'separatetobefnz()']
+1Paths generated!
+--------------Analysis-sweepstep-@lgc.c@line: 1026.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'sweeplist()']
+2Paths generated!
+--------------Analysis-singlestep-@lgc.c@line: 1042.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaC_runtilstate-@lgc.c@line: 1101.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'singlestep()']
+2Paths generated!
+--------------Analysis-getdebt-@lgc.c@line: 1112.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaC_step-@lgc.c@line: 1126.....
+
+['f_entry()', 'f_exit()', 'getdebt()', 'luaE_setdebt()', 'runafewfinalizers()', 'singlestep()']
+['f_entry()', 'f_exit()', 'getdebt()', 'setpause()', 'singlestep()']
+['f_entry()', 'f_exit()', 'getdebt()', 'luaE_setdebt()', 'setpause()', 'singlestep()']
+3Paths generated!
+--------------Analysis-luaC_fullgc-@lgc.c@line: 1156.....
+
+['f_entry()', 'f_exit()', 'luaC_runtilstate()', 'setpause()']
+['entersweep()', 'f_entry()', 'f_exit()', 'luaC_runtilstate()', 'setpause()']
+2Paths generated!
+--------------Analysis-lsys_unloadlib-@loadlib.c@line: 253.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lsys_load-@loadlib.c@line: 258.....
+
+['f_entry()', 'f_exit()', 'lua_pushstring()']
+1Paths generated!
+--------------Analysis-lsys_sym-@loadlib.c@line: 265.....
+
+['f_entry()', 'f_exit()', 'lua_pushstring()']
+1Paths generated!
+--------------Analysis-checkclib-@loadlib.c@line: 278.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_rawgetp()', 'lua_settop()', 'lua_touserdata()']
+1Paths generated!
+--------------Analysis-addtoclib-@loadlib.c@line: 292.....
+
+['f_entry()', 'f_exit()', 'lua_pushlightuserdata()', 'lua_pushvalue()', 'lua_rawgetp()', 'lua_rawseti()', 'lua_setfield()', 'lua_settop()']
+1Paths generated!
+--------------Analysis-gctm-@loadlib.c@line: 306.....
+
+['f_entry()', 'f_exit()', 'luaL_len()']
+['f_entry()', 'f_exit()', 'lsys_unloadlib()', 'luaL_len()', 'lua_rawgeti()', 'lua_settop()']
+2Paths generated!
+--------------Analysis-lookforfunc-@loadlib.c@line: 333.....
+
+['checkclib()', 'f_entry()', 'f_exit()', 'lsys_sym()', 'lua_pushcclosure()']
+['checkclib()', 'f_entry()', 'f_exit()', 'lua_pushboolean()']
+['addtoclib()', 'checkclib()', 'f_entry()', 'f_exit()', 'lsys_load()', 'lsys_sym()', 'lua_pushcclosure()']
+3Paths generated!
+--------------Analysis-ll_loadlib-@loadlib.c@line: 354.....
+
+['f_entry()', 'f_exit()', 'lookforfunc()', 'luaL_checklstring()']
+['f_entry()', 'f_exit()', 'lookforfunc()', 'luaL_checklstring()', 'lua_pushnil()', 'lua_pushstring()', 'lua_rotate()']
+2Paths generated!
+--------------Analysis-readable-@loadlib.c@line: 377.....
+
+['f_entry()', 'f_exit()', 'fclose()', 'fopen()']
+1Paths generated!
+--------------Analysis-pushnexttemplate-@loadlib.c@line: 385.....
+
+['f_entry()', 'f_exit()', 'lua_pushlstring()', 'strchr()']
+['f_entry()', 'f_exit()', 'lua_pushlstring()', 'strchr()', 'strlen()']
+2Paths generated!
+--------------Analysis-searchpath-@loadlib.c@line: 396.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_pushresult()', 'pushnexttemplate()']
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'luaL_buffinit()', 'luaL_gsub()', 'luaL_pushresult()', 'lua_pushfstring()', 'pushnexttemplate()', 'readable()']
+2Paths generated!
+--------------Analysis-ll_searchpath-@loadlib.c@line: 419.....
+
+['f_entry()', 'f_exit()', 'searchpath()']
+['f_entry()', 'f_exit()', 'lua_pushnil()', 'lua_rotate()', 'searchpath()']
+2Paths generated!
+--------------Analysis-findfile-@loadlib.c@line: 433.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_tolstring()', 'searchpath()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_getfield()', 'lua_tolstring()', 'searchpath()']
+2Paths generated!
+--------------Analysis-checkload-@loadlib.c@line: 445.....
+
+['f_entry()', 'f_exit()', 'luaL_error()']
+['f_entry()', 'f_exit()', 'lua_pushstring()']
+2Paths generated!
+--------------Analysis-searcher_Lua-@loadlib.c@line: 456.....
+
+['checkload()', 'f_entry()', 'f_exit()', 'findfile()', 'luaL_checklstring()']
+1Paths generated!
+--------------Analysis-loadfunc-@loadlib.c@line: 473.....
+
+['f_entry()', 'f_exit()', 'lookforfunc()', 'luaL_gsub()', 'lua_pushfstring()', 'strchr()']
+['f_entry()', 'f_exit()', 'lookforfunc()', 'luaL_gsub()', 'lua_pushfstring()', 'lua_pushlstring()', 'strchr()']
+2Paths generated!
+--------------Analysis-searcher_C-@loadlib.c@line: 491.....
+
+['checkload()', 'f_entry()', 'f_exit()', 'findfile()', 'luaL_checklstring()']
+1Paths generated!
+--------------Analysis-searcher_Croot-@loadlib.c@line: 499.....
+
+['f_entry()', 'f_exit()', 'findfile()', 'loadfunc()', 'luaL_checklstring()', 'lua_pushlstring()', 'lua_pushstring()', 'strchr()']
+['f_entry()', 'f_exit()', 'findfile()', 'loadfunc()', 'luaL_checklstring()', 'lua_pushfstring()', 'lua_pushlstring()', 'lua_pushstring()', 'strchr()']
+['checkload()', 'f_entry()', 'f_exit()', 'findfile()', 'loadfunc()', 'luaL_checklstring()', 'lua_pushlstring()', 'lua_pushstring()', 'strchr()']
+3Paths generated!
+--------------Analysis-searcher_preload-@loadlib.c@line: 521.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_getfield()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_getfield()', 'lua_pushfstring()']
+2Paths generated!
+--------------Analysis-findloader-@loadlib.c@line: 530.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'lua_getfield()']
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'lua_callk()', 'lua_getfield()', 'lua_pushstring()', 'lua_rawgeti()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'lua_callk()', 'lua_getfield()', 'lua_isstring()', 'lua_pushstring()', 'lua_rawgeti()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'luaL_buffinit()', 'lua_callk()', 'lua_getfield()', 'lua_isstring()', 'lua_pushstring()', 'lua_rawgeti()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'luaL_buffinit()', 'luaL_error()', 'luaL_pushresult()', 'lua_callk()', 'lua_getfield()', 'lua_isstring()', 'lua_pushstring()', 'lua_rawgeti()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_error()', 'lua_getfield()']
+6Paths generated!
+--------------Analysis-ll_require-@loadlib.c@line: 558.....
+
+['f_entry()', 'f_exit()', 'findloader()', 'luaL_checklstring()', 'lua_callk()', 'lua_getfield()', 'lua_pushstring()', 'lua_rotate()', 'lua_settop()', 'lua_toboolean()', 'lua_type()']
+['f_entry()', 'f_exit()', 'findloader()', 'luaL_checklstring()', 'lua_callk()', 'lua_getfield()', 'lua_pushboolean()', 'lua_pushstring()', 'lua_pushvalue()', 'lua_rotate()', 'lua_setfield()', 'lua_settop()', 'lua_toboolean()', 'lua_type()']
+2Paths generated!
+--------------Analysis-noenv-@loadlib.c@line: 676.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_settop()', 'lua_toboolean()']
+1Paths generated!
+--------------Analysis-setpath-@loadlib.c@line: 685.....
+
+['f_entry()', 'f_exit()', 'getenv()', 'luaL_gsub()', 'lua_setfield()', 'noenv()']
+['f_entry()', 'f_exit()', 'getenv()', 'lua_pushstring()', 'lua_setfield()', 'noenv()']
+2Paths generated!
+--------------Analysis-createsearcherstable-@loadlib.c@line: 729.....
+
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_setfield()']
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_pushcclosure()', 'lua_pushvalue()', 'lua_rawseti()', 'lua_setfield()']
+2Paths generated!
+--------------Analysis-createclibstable-@loadlib.c@line: 753.....
+
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_pushcclosure()', 'lua_rawsetp()', 'lua_setfield()', 'lua_setmetatable()']
+1Paths generated!
+--------------Analysis-luaopen_package-@loadlib.c@line: 763.....
+
+['createclibstable()', 'createsearcherstable()', 'f_entry()', 'f_exit()', 'luaL_getsubtable()', 'luaL_setfuncs()', 'lua_pushstring()', 'lua_pushvalue()', 'lua_rawgeti()', 'lua_setfield()', 'lua_settop()', 'setpath()']
+1Paths generated!
+--------------Analysis-checkstack-@ldblib.c@line: 35.....
+
+['f_entry()', 'f_exit()', 'lua_checkstack()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_checkstack()']
+2Paths generated!
+--------------Analysis-db_getregistry-@ldblib.c@line: 41.....
+
+['f_entry()', 'f_exit()', 'lua_pushvalue()']
+1Paths generated!
+--------------Analysis-db_getmetatable-@ldblib.c@line: 47.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_getmetatable()']
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_getmetatable()', 'lua_pushnil()']
+2Paths generated!
+--------------Analysis-db_setmetatable-@ldblib.c@line: 56.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_setmetatable()', 'lua_settop()', 'lua_type()']
+1Paths generated!
+--------------Analysis-db_getuservalue-@ldblib.c@line: 66.....
+
+['f_entry()', 'f_exit()', 'lua_getuservalue()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_pushnil()', 'lua_type()']
+2Paths generated!
+--------------Analysis-db_setuservalue-@ldblib.c@line: 75.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_checktype()', 'lua_settop()', 'lua_setuservalue()']
+1Paths generated!
+--------------Analysis-getthread-@ldblib.c@line: 90.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_tothread()', 'lua_type()']
+2Paths generated!
+--------------Analysis-settabss-@ldblib.c@line: 107.....
+
+['f_entry()', 'f_exit()', 'lua_pushstring()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-settabsi-@ldblib.c@line: 112.....
+
+['f_entry()', 'f_exit()', 'lua_pushinteger()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-settabsb-@ldblib.c@line: 117.....
+
+['f_entry()', 'f_exit()', 'lua_pushboolean()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-treatstackoption-@ldblib.c@line: 130.....
+
+['f_entry()', 'f_exit()', 'lua_setfield()', 'lua_xmove()']
+['f_entry()', 'f_exit()', 'lua_rotate()', 'lua_setfield()']
+2Paths generated!
+--------------Analysis-db_getinfo-@ldblib.c@line: 145.....
+
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_getstack()', 'lua_type()', 'strchr()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_getstack()', 'lua_type()', 'strchr()', 'treatstackoption()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_getstack()', 'lua_type()', 'settabsb()', 'strchr()', 'treatstackoption()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_getstack()', 'lua_type()', 'settabsb()', 'settabss()', 'strchr()', 'treatstackoption()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_getstack()', 'lua_type()', 'settabsb()', 'settabsi()', 'settabss()', 'strchr()', 'treatstackoption()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_argerror()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_getstack()', 'lua_type()', 'settabsb()', 'settabsi()', 'settabss()', 'strchr()', 'treatstackoption()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_argerror()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_getstack()', 'lua_pushnil()', 'lua_type()', 'settabsb()', 'settabsi()', 'settabss()', 'strchr()', 'treatstackoption()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_argerror()', 'luaL_optlstring()', 'lua_createtable()', 'lua_getinfo()', 'lua_pushfstring()', 'lua_pushvalue()', 'lua_type()', 'lua_xmove()', 'settabsb()', 'settabsi()', 'settabss()', 'strchr()', 'treatstackoption()']
+8Paths generated!
+--------------Analysis-db_getlocal-@ldblib.c@line: 193.....
+
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_checkinteger()', 'lua_getlocal()', 'lua_getstack()', 'lua_pushnil()', 'lua_type()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_checkinteger()', 'lua_getlocal()', 'lua_getstack()', 'lua_pushstring()', 'lua_rotate()', 'lua_type()', 'lua_xmove()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_argerror()', 'luaL_checkinteger()', 'lua_getlocal()', 'lua_getstack()', 'lua_pushstring()', 'lua_rotate()', 'lua_type()', 'lua_xmove()']
+['f_entry()', 'f_exit()', 'getthread()', 'luaL_checkinteger()', 'lua_pushstring()', 'lua_pushvalue()', 'lua_type()']
+4Paths generated!
+--------------Analysis-db_setlocal-@ldblib.c@line: 224.....
+
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_checkany()', 'luaL_checkinteger()', 'lua_getstack()', 'lua_pushstring()', 'lua_setlocal()', 'lua_settop()', 'lua_xmove()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_argerror()', 'luaL_checkany()', 'luaL_checkinteger()', 'lua_getstack()', 'lua_pushstring()', 'lua_setlocal()', 'lua_settop()', 'lua_xmove()']
+2Paths generated!
+--------------Analysis-auxupvalue-@ldblib.c@line: 248.....
+
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'luaL_checktype()', 'lua_pushstring()', 'lua_rotate()']
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'luaL_checktype()', 'lua_pushstring()', 'lua_rotate()', 'lua_setupvalue()']
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'luaL_checktype()', 'lua_getupvalue()', 'lua_pushstring()', 'lua_rotate()']
+3Paths generated!
+--------------Analysis-db_getupvalue-@ldblib.c@line: 260.....
+
+['auxupvalue()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-db_setupvalue-@ldblib.c@line: 265.....
+
+['auxupvalue()', 'f_entry()', 'f_exit()', 'luaL_checkany()']
+1Paths generated!
+--------------Analysis-checkupval-@ldblib.c@line: 275.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'luaL_checktype()', 'lua_getupvalue()']
+1Paths generated!
+--------------Analysis-db_upvalueid-@ldblib.c@line: 284.....
+
+['checkupval()', 'f_entry()', 'f_exit()', 'lua_pushlightuserdata()']
+1Paths generated!
+--------------Analysis-db_upvaluejoin-@ldblib.c@line: 291.....
+
+['checkupval()', 'f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_iscfunction()', 'lua_upvaluejoin()']
+1Paths generated!
+--------------Analysis-hookf-@ldblib.c@line: 305.....
+
+['f_entry()', 'f_exit()', 'lua_pushthread()', 'lua_rawget()', 'lua_rawgetp()']
+['f_entry()', 'f_exit()', 'lua_callk()', 'lua_pushnil()', 'lua_pushstring()', 'lua_pushthread()', 'lua_rawget()', 'lua_rawgetp()']
+['f_entry()', 'f_exit()', 'lua_callk()', 'lua_pushinteger()', 'lua_pushstring()', 'lua_pushthread()', 'lua_rawget()', 'lua_rawgetp()']
+3Paths generated!
+--------------Analysis-makemask-@ldblib.c@line: 324.....
+
+['f_entry()', 'f_exit()', 'strchr()']
+1Paths generated!
+--------------Analysis-unmakemask-@ldblib.c@line: 337.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-db_sethook-@ldblib.c@line: 347.....
+
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_checklstring()', 'luaL_checktype()', 'luaL_optinteger()', 'lua_pushthread()', 'lua_pushvalue()', 'lua_rawgetp()', 'lua_rawset()', 'lua_sethook()', 'lua_type()', 'lua_xmove()', 'makemask()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'luaL_checklstring()', 'luaL_checktype()', 'luaL_optinteger()', 'lua_createtable()', 'lua_pushstring()', 'lua_pushthread()', 'lua_pushvalue()', 'lua_rawgetp()', 'lua_rawset()', 'lua_rawsetp()', 'lua_setfield()', 'lua_sethook()', 'lua_setmetatable()', 'lua_type()', 'lua_xmove()', 'makemask()']
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'lua_createtable()', 'lua_pushstring()', 'lua_pushthread()', 'lua_pushvalue()', 'lua_rawgetp()', 'lua_rawset()', 'lua_rawsetp()', 'lua_setfield()', 'lua_sethook()', 'lua_setmetatable()', 'lua_settop()', 'lua_type()', 'lua_xmove()']
+3Paths generated!
+--------------Analysis-db_gethook-@ldblib.c@line: 379.....
+
+['checkstack()', 'f_entry()', 'f_exit()', 'getthread()', 'lua_gethook()', 'lua_gethookmask()', 'lua_pushinteger()', 'lua_pushstring()', 'lua_pushthread()', 'lua_rawget()', 'lua_rawgetp()', 'lua_xmove()']
+['f_entry()', 'f_exit()', 'getthread()', 'lua_gethook()', 'lua_gethookmask()', 'lua_pushinteger()', 'lua_pushstring()']
+['f_entry()', 'f_exit()', 'getthread()', 'lua_gethook()', 'lua_gethookmask()', 'lua_pushinteger()', 'lua_pushnil()', 'lua_pushstring()']
+3Paths generated!
+--------------Analysis-db_debug-@ldblib.c@line: 402.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'fgets()', 'luaL_loadbufferx()', 'lua_pcallk()', 'lua_settop()', 'strcmp()']
+2Paths generated!
+--------------Analysis-db_traceback-@ldblib.c@line: 417.....
+
+['f_entry()', 'f_exit()', 'getthread()', 'luaL_optinteger()', 'luaL_traceback()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'getthread()', 'lua_pushvalue()', 'lua_tolstring()', 'lua_type()']
+2Paths generated!
+--------------Analysis-luaopen_debug-@ldblib.c@line: 452.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-l_checktime-@loslib.c@line: 69.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()']
+1Paths generated!
+--------------Analysis-os_execute-@loslib.c@line: 141.....
+
+['f_entry()', 'f_exit()', 'luaL_optlstring()', 'lua_pushboolean()', 'system()']
+['f_entry()', 'f_exit()', 'luaL_execresult()', 'luaL_optlstring()', 'system()']
+2Paths generated!
+--------------Analysis-os_remove-@loslib.c@line: 153.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_fileresult()']
+1Paths generated!
+--------------Analysis-os_rename-@loslib.c@line: 159.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_fileresult()']
+1Paths generated!
+--------------Analysis-os_tmpname-@loslib.c@line: 166.....
+
+['f_entry()', 'f_exit()', 'lua_pushstring()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_pushstring()']
+2Paths generated!
+--------------Analysis-os_getenv-@loslib.c@line: 177.....
+
+['f_entry()', 'f_exit()', 'lua_pushstring()']
+1Paths generated!
+--------------Analysis-os_clock-@loslib.c@line: 183.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-setfield-@loslib.c@line: 197.....
+
+['f_entry()', 'f_exit()', 'lua_pushinteger()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-setboolfield-@loslib.c@line: 202.....
+
+['f_entry()', 'f_exit()', 'lua_pushboolean()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-setallfields-@loslib.c@line: 213.....
+
+['f_entry()', 'f_exit()', 'setboolfield()', 'setfield()']
+1Paths generated!
+--------------Analysis-getboolfield-@loslib.c@line: 226.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_settop()']
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_settop()', 'lua_toboolean()']
+2Paths generated!
+--------------Analysis-getfield-@loslib.c@line: 239.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_settop()', 'lua_tointegerx()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_getfield()', 'lua_settop()', 'lua_tointegerx()']
+2Paths generated!
+--------------Analysis-checkoption-@loslib.c@line: 260.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'memcmp()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'memcmp()', 'memcpy()']
+3Paths generated!
+--------------Analysis-os_date-@loslib.c@line: 282.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_optlstring()', 'luaL_pushresult()', 'lua_type()', 'strcmp()']
+['checkoption()', 'f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_optlstring()', 'luaL_prepbuffsize()', 'luaL_pushresult()', 'lua_type()', 'strcmp()', 'strftime()']
+['f_entry()', 'f_exit()', 'luaL_optlstring()', 'lua_createtable()', 'lua_type()', 'setallfields()', 'strcmp()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'luaL_optlstring()', 'lua_createtable()', 'lua_type()', 'setallfields()', 'strcmp()']
+['f_entry()', 'f_exit()', 'l_checktime()', 'luaL_optlstring()', 'lua_createtable()', 'lua_type()', 'setallfields()', 'strcmp()']
+['f_entry()', 'f_exit()', 'luaL_optlstring()', 'lua_createtable()', 'lua_type()', 'setallfields()', 'strcmp()', 'time()']
+6Paths generated!
+--------------Analysis-os_time-@loslib.c@line: 320.....
+
+['f_entry()', 'f_exit()', 'getboolfield()', 'getfield()', 'luaL_checktype()', 'lua_pushinteger()', 'lua_settop()', 'lua_type()', 'mktime()', 'setallfields()']
+['f_entry()', 'f_exit()', 'getboolfield()', 'getfield()', 'luaL_checktype()', 'luaL_error()', 'lua_pushinteger()', 'lua_settop()', 'lua_type()', 'mktime()', 'setallfields()']
+['f_entry()', 'f_exit()', 'lua_pushinteger()', 'lua_type()', 'time()']
+3Paths generated!
+--------------Analysis-os_difftime-@loslib.c@line: 345.....
+
+['f_entry()', 'f_exit()', 'l_checktime()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-os_setlocale-@loslib.c@line: 355.....
+
+['f_entry()', 'f_exit()', 'luaL_checkoption()', 'luaL_optlstring()', 'lua_pushstring()']
+1Paths generated!
+--------------Analysis-os_exit-@loslib.c@line: 367.....
+
+['f_entry()', 'f_exit()', 'luaL_optinteger()', 'lua_toboolean()', 'lua_type()']
+['exit()', 'f_entry()', 'f_exit()', 'luaL_optinteger()', 'lua_toboolean()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_optinteger()', 'lua_close()', 'lua_toboolean()', 'lua_type()']
+['exit()', 'f_entry()', 'f_exit()', 'lua_close()', 'lua_toboolean()', 'lua_type()']
+4Paths generated!
+--------------Analysis-luaopen_os-@loslib.c@line: 399.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaT_init-@ltm.c@line: 37.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaC_fix()', 'luaS_new()']
+2Paths generated!
+--------------Analysis-luaT_gettm-@ltm.c@line: 59.....
+
+['f_entry()', 'f_exit()', 'luaH_getshortstr()']
+1Paths generated!
+--------------Analysis-luaT_gettmbyobj-@ltm.c@line: 70.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaH_getshortstr()']
+2Paths generated!
+--------------Analysis-luaT_objtypename-@ltm.c@line: 90.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaH_getshortstr()']
+2Paths generated!
+--------------Analysis-luaT_callTM-@ltm.c@line: 102.....
+
+['f_entry()', 'f_exit()', 'luaD_callnoyield()']
+['f_entry()', 'f_exit()', 'luaD_call()']
+2Paths generated!
+--------------Analysis-luaT_callbinTM-@ltm.c@line: 124.....
+
+['f_entry()', 'f_exit()', 'luaT_callTM()', 'luaT_gettmbyobj()']
+1Paths generated!
+--------------Analysis-luaT_trybinTM-@ltm.c@line: 135.....
+
+['f_entry()', 'f_exit()', 'luaT_callbinTM()']
+1Paths generated!
+--------------Analysis-luaT_callorderTM-@ltm.c@line: 158.....
+
+['f_entry()', 'f_exit()', 'luaT_callbinTM()']
+1Paths generated!
+--------------Analysis-fatal-@luac.c@line: 38.....
+
+['exit()', 'f_entry()', 'f_exit()', 'fprintf()']
+1Paths generated!
+--------------Analysis-cannot-@luac.c@line: 44.....
+
+['exit()', 'f_entry()', 'f_exit()', 'fprintf()']
+1Paths generated!
+--------------Analysis-usage-@luac.c@line: 50.....
+
+['exit()', 'f_entry()', 'f_exit()', 'fprintf()']
+1Paths generated!
+--------------Analysis-doargs-@luac.c@line: 72.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'printf()']
+['exit()', 'f_entry()', 'f_exit()', 'printf()']
+['f_entry()', 'f_exit()', 'strcmp()']
+['f_entry()', 'f_exit()', 'strcmp()', 'usage()']
+['exit()', 'f_entry()', 'f_exit()', 'printf()', 'strcmp()', 'usage()']
+6Paths generated!
+--------------Analysis-reader-@luac.c@line: 122.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-combine-@luac.c@line: 139.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'lua_load()']
+['f_entry()', 'f_exit()', 'fatal()', 'lua_load()']
+3Paths generated!
+--------------Analysis-writer-@luac.c@line: 159.....
+
+['f_entry()', 'f_exit()', 'fwrite()']
+1Paths generated!
+--------------Analysis-pmain-@luac.c@line: 165.....
+
+['combine()', 'f_entry()', 'f_exit()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()']
+['combine()', 'f_entry()', 'f_exit()', 'fclose()', 'ferror()', 'luaU_dump()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()']
+['cannot()', 'combine()', 'f_entry()', 'f_exit()', 'fclose()', 'ferror()', 'luaU_dump()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()']
+['cannot()', 'combine()', 'f_entry()', 'f_exit()', 'fclose()', 'ferror()', 'fopen()', 'luaU_dump()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()']
+['PrintFunction()', 'combine()', 'f_entry()', 'f_exit()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()']
+['PrintFunction()', 'cannot()', 'combine()', 'f_entry()', 'f_exit()', 'fclose()', 'ferror()', 'fopen()', 'luaL_loadfilex()', 'luaU_dump()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()', 'strcmp()']
+['PrintFunction()', 'cannot()', 'combine()', 'f_entry()', 'f_exit()', 'fatal()', 'fclose()', 'ferror()', 'fopen()', 'luaL_loadfilex()', 'luaU_dump()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()', 'strcmp()']
+['PrintFunction()', 'cannot()', 'combine()', 'f_entry()', 'f_exit()', 'fatal()', 'fclose()', 'ferror()', 'fopen()', 'luaU_dump()', 'lua_checkstack()', 'lua_tointegerx()', 'lua_touserdata()']
+8Paths generated!
+--------------Analysis-main-@luac.c@line: 192.....
+
+['doargs()', 'f_entry()', 'f_exit()', 'luaL_newstate()', 'lua_close()', 'lua_pcallk()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushlightuserdata()']
+['doargs()', 'f_entry()', 'f_exit()', 'fatal()', 'luaL_newstate()', 'lua_close()', 'lua_pcallk()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushlightuserdata()']
+['doargs()', 'f_entry()', 'f_exit()', 'fatal()', 'luaL_newstate()', 'lua_close()', 'lua_pcallk()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushlightuserdata()', 'usage()']
+3Paths generated!
+--------------Analysis-PrintString-@luac.c@line: 226.....
+
+['f_entry()', 'f_exit()', 'printf()']
+1Paths generated!
+--------------Analysis-PrintConstant-@luac.c@line: 254.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-PrintCode-@luac.c@line: 288.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'printf()']
+2Paths generated!
+--------------Analysis-PrintHeader-@luac.c@line: 395.....
+
+['f_entry()', 'f_exit()', 'printf()']
+1Paths generated!
+--------------Analysis-PrintDebug-@luac.c@line: 415.....
+
+['f_entry()', 'f_exit()', 'printf()']
+['PrintConstant()', 'f_entry()', 'f_exit()', 'printf()']
+2Paths generated!
+--------------Analysis-PrintFunction-@luac.c@line: 442.....
+
+['PrintCode()', 'PrintHeader()', 'f_entry()', 'f_exit()']
+['PrintCode()', 'PrintFunction()', 'PrintHeader()', 'f_entry()', 'f_exit()']
+['PrintCode()', 'PrintDebug()', 'PrintHeader()', 'f_entry()', 'f_exit()']
+3Paths generated!
+--------------Analysis-lstop-@lua.c@line: 109.....
+
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_sethook()']
+1Paths generated!
+--------------Analysis-laction-@lua.c@line: 122.....
+
+['f_entry()', 'f_exit()', 'lua_sethook()', 'signal()']
+1Paths generated!
+--------------Analysis-print_usage-@lua.c@line: 128.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-l_message-@lua.c@line: 153.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-report-@lua.c@line: 164.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'l_message()', 'lua_settop()', 'lua_tolstring()']
+2Paths generated!
+--------------Analysis-msghandler-@lua.c@line: 177.....
+
+['f_entry()', 'f_exit()', 'luaL_traceback()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'luaL_callmeta()', 'luaL_traceback()', 'lua_tolstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_callmeta()', 'luaL_traceback()', 'lua_pushfstring()', 'lua_tolstring()', 'lua_type()']
+3Paths generated!
+--------------Analysis-docall-@lua.c@line: 196.....
+
+['f_entry()', 'f_exit()', 'lua_gettop()', 'lua_pcallk()', 'lua_pushcclosure()', 'lua_rotate()', 'signal()']
+1Paths generated!
+--------------Analysis-print_version-@lua.c@line: 210.....
+
+['f_entry()', 'f_exit()', 'fwrite()']
+1Paths generated!
+--------------Analysis-createargtable-@lua.c@line: 224.....
+
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_setglobal()']
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_pushstring()', 'lua_rawseti()', 'lua_setglobal()']
+2Paths generated!
+--------------Analysis-dochunk-@lua.c@line: 237.....
+
+['f_entry()', 'f_exit()', 'report()']
+['docall()', 'f_entry()', 'f_exit()', 'report()']
+2Paths generated!
+--------------Analysis-dofile-@lua.c@line: 243.....
+
+['dochunk()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-dostring-@lua.c@line: 248.....
+
+['dochunk()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-dolibrary-@lua.c@line: 257.....
+
+['docall()', 'f_entry()', 'f_exit()', 'lua_getglobal()', 'lua_pushstring()', 'report()']
+['docall()', 'f_entry()', 'f_exit()', 'lua_getglobal()', 'lua_pushstring()', 'lua_setglobal()', 'report()']
+2Paths generated!
+--------------Analysis-get_prompt-@lua.c@line: 271.....
+
+['f_entry()', 'f_exit()', 'lua_getglobal()', 'lua_tolstring()']
+1Paths generated!
+--------------Analysis-incomplete-@lua.c@line: 289.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'lua_tolstring()', 'strcmp()']
+['f_entry()', 'f_exit()', 'lua_settop()', 'lua_tolstring()', 'strcmp()']
+3Paths generated!
+--------------Analysis-pushline-@lua.c@line: 305.....
+
+['f_entry()', 'f_exit()', 'get_prompt()', 'lua_pushlstring()', 'lua_settop()', 'strlen()']
+['f_entry()', 'f_exit()', 'get_prompt()', 'lua_pushfstring()', 'lua_settop()', 'strlen()']
+2Paths generated!
+--------------Analysis-addreturn-@lua.c@line: 330.....
+
+['f_entry()', 'f_exit()', 'luaL_loadbufferx()', 'lua_pushfstring()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'luaL_loadbufferx()', 'lua_pushfstring()', 'lua_settop()', 'lua_tolstring()']
+2Paths generated!
+--------------Analysis-multiline-@lua.c@line: 348.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'incomplete()', 'luaL_loadbufferx()', 'lua_concat()', 'lua_pushstring()', 'lua_rotate()', 'lua_tolstring()', 'pushline()']
+2Paths generated!
+--------------Analysis-loadline-@lua.c@line: 370.....
+
+['addreturn()', 'f_entry()', 'f_exit()', 'lua_settop()', 'pushline()']
+['addreturn()', 'f_entry()', 'f_exit()', 'lua_settop()', 'multiline()', 'pushline()']
+2Paths generated!
+--------------Analysis-l_print-@lua.c@line: 386.....
+
+['f_entry()', 'f_exit()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'lua_getglobal()', 'lua_gettop()', 'lua_pcallk()', 'lua_rotate()']
+['f_entry()', 'f_exit()', 'l_message()', 'luaL_checkstack()', 'lua_getglobal()', 'lua_gettop()', 'lua_pcallk()', 'lua_rotate()']
+3Paths generated!
+--------------Analysis-doREPL-@lua.c@line: 403.....
+
+['f_entry()', 'f_exit()', 'loadline()', 'lua_settop()']
+['f_entry()', 'f_exit()', 'loadline()', 'lua_settop()', 'report()']
+['f_entry()', 'f_exit()', 'l_print()', 'loadline()', 'lua_settop()']
+['docall()', 'f_entry()', 'f_exit()', 'loadline()', 'lua_settop()', 'report()']
+4Paths generated!
+--------------Analysis-pushargs-@lua.c@line: 422.....
+
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'luaL_len()', 'lua_getglobal()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'luaL_len()', 'lua_getglobal()', 'lua_rawgeti()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'luaL_error()', 'luaL_len()', 'lua_getglobal()', 'lua_rawgeti()']
+3Paths generated!
+--------------Analysis-handle_script-@lua.c@line: 435.....
+
+['f_entry()', 'f_exit()', 'luaL_loadfilex()', 'report()', 'strcmp()']
+['docall()', 'f_entry()', 'f_exit()', 'luaL_loadfilex()', 'pushargs()', 'report()', 'strcmp()']
+2Paths generated!
+--------------Analysis-collectargs-@lua.c@line: 463.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-runargs-@lua.c@line: 512.....
+
+['f_entry()', 'f_exit()']
+['dolibrary()', 'f_entry()', 'f_exit()']
+['dostring()', 'f_entry()', 'f_exit()']
+3Paths generated!
+--------------Analysis-handle_luainit-@lua.c@line: 532.....
+
+['f_entry()', 'f_exit()', 'getenv()']
+['dostring()', 'f_entry()', 'f_exit()', 'getenv()']
+['dofile()', 'f_entry()', 'f_exit()', 'getenv()']
+3Paths generated!
+--------------Analysis-pmain-@lua.c@line: 551.....
+
+['collectargs()', 'createargtable()', 'f_entry()', 'f_exit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_tointegerx()', 'lua_touserdata()', 'runargs()']
+['collectargs()', 'createargtable()', 'dofile()', 'f_entry()', 'f_exit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_tointegerx()', 'lua_touserdata()', 'runargs()']
+['collectargs()', 'createargtable()', 'doREPL()', 'f_entry()', 'f_exit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_tointegerx()', 'lua_touserdata()', 'print_version()', 'runargs()']
+['collectargs()', 'createargtable()', 'doREPL()', 'f_entry()', 'f_exit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_tointegerx()', 'lua_touserdata()', 'runargs()']
+['collectargs()', 'createargtable()', 'doREPL()', 'f_entry()', 'f_exit()', 'handle_luainit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_tointegerx()', 'lua_touserdata()', 'runargs()']
+['collectargs()', 'createargtable()', 'doREPL()', 'f_entry()', 'f_exit()', 'handle_luainit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_setfield()', 'lua_tointegerx()', 'lua_touserdata()', 'runargs()']
+['collectargs()', 'createargtable()', 'doREPL()', 'f_entry()', 'f_exit()', 'handle_luainit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_tointegerx()', 'lua_touserdata()', 'print_version()', 'runargs()']
+['collectargs()', 'createargtable()', 'doREPL()', 'f_entry()', 'f_exit()', 'handle_luainit()', 'handle_script()', 'luaL_checkversion_()', 'luaL_openlibs()', 'lua_pushboolean()', 'lua_tointegerx()', 'lua_touserdata()', 'print_usage()', 'runargs()']
+8Paths generated!
+--------------Analysis-main-@lua.c@line: 593.....
+
+['f_entry()', 'f_exit()', 'luaL_newstate()', 'lua_close()', 'lua_pcallk()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushlightuserdata()', 'lua_toboolean()', 'report()']
+['f_entry()', 'f_exit()', 'l_message()', 'luaL_newstate()', 'lua_close()', 'lua_pcallk()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushlightuserdata()', 'lua_toboolean()', 'report()']
+2Paths generated!
+--------------Analysis-makeseed-@lstate.c@line: 81.....
+
+['f_entry()', 'f_exit()', 'luaS_hash()', 'time()']
+1Paths generated!
+--------------Analysis-luaE_setdebt-@lstate.c@line: 98.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaE_extendCI-@lstate.c@line: 108.....
+
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-luaE_freeCI-@lstate.c@line: 122.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+2Paths generated!
+--------------Analysis-luaE_shrinkCI-@lstate.c@line: 137.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+2Paths generated!
+--------------Analysis-stack_init-@lstate.c@line: 151.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-freestack-@lstate.c@line: 171.....
+
+['f_entry()', 'f_exit()', 'luaE_freeCI()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-init_registry-@lstate.c@line: 184.....
+
+['f_entry()', 'f_exit()', 'luaH_new()', 'luaH_resize()', 'luaH_setint()']
+1Paths generated!
+--------------Analysis-f_luaopen-@lstate.c@line: 203.....
+
+['f_entry()', 'f_exit()', 'init_registry()', 'luaS_init()', 'luaT_init()', 'luaX_init()', 'lua_version()', 'stack_init()']
+1Paths generated!
+--------------Analysis-preinit_thread-@lstate.c@line: 221.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-close_state-@lstate.c@line: 242.....
+
+['f_entry()', 'f_exit()', 'freestack()', 'luaC_freeallobjects()', 'luaF_close()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-lua_newthread-@lstate.c@line: 255.....
+
+['f_entry()', 'f_exit()', 'luaM_realloc_()', 'memcpy()', 'preinit_thread()', 'stack_init()']
+1Paths generated!
+--------------Analysis-luaE_freethread-@lstate.c@line: 285.....
+
+['f_entry()', 'f_exit()', 'freestack()', 'luaF_close()', 'luaM_realloc_()', 'offsetof()']
+1Paths generated!
+--------------Analysis-lua_newstate-@lstate.c@line: 295.....
+
+['f_entry()', 'f_exit()', 'luaD_rawrunprotected()', 'makeseed()', 'preinit_thread()']
+['close_state()', 'f_entry()', 'f_exit()', 'luaD_rawrunprotected()', 'makeseed()', 'preinit_thread()']
+2Paths generated!
+--------------Analysis-lua_close-@lstate.c@line: 341.....
+
+['close_state()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getco-@lcorolib.c@line: 21.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_tothread()']
+1Paths generated!
+--------------Analysis-auxresume-@lcorolib.c@line: 28.....
+
+['f_entry()', 'f_exit()', 'lua_checkstack()', 'lua_gettop()', 'lua_resume()', 'lua_status()', 'lua_xmove()']
+['f_entry()', 'f_exit()', 'lua_checkstack()', 'lua_gettop()', 'lua_pushstring()', 'lua_resume()', 'lua_settop()', 'lua_status()', 'lua_xmove()']
+2Paths generated!
+--------------Analysis-luaB_coresume-@lcorolib.c@line: 57.....
+
+['auxresume()', 'f_entry()', 'f_exit()', 'getco()', 'lua_pushboolean()', 'lua_rotate()']
+1Paths generated!
+--------------Analysis-luaB_auxwrap-@lcorolib.c@line: 74.....
+
+['auxresume()', 'f_entry()', 'f_exit()', 'lua_tothread()']
+['auxresume()', 'f_entry()', 'f_exit()', 'lua_error()', 'lua_tothread()', 'lua_type()']
+['auxresume()', 'f_entry()', 'f_exit()', 'luaL_where()', 'lua_concat()', 'lua_error()', 'lua_rotate()', 'lua_tothread()', 'lua_type()']
+3Paths generated!
+--------------Analysis-luaB_cocreate-@lcorolib.c@line: 89.....
+
+['f_entry()', 'f_exit()', 'luaL_checktype()', 'lua_newthread()', 'lua_pushvalue()', 'lua_xmove()']
+1Paths generated!
+--------------Analysis-luaB_cowrap-@lcorolib.c@line: 99.....
+
+['f_entry()', 'f_exit()', 'luaB_cocreate()', 'lua_pushcclosure()']
+1Paths generated!
+--------------Analysis-luaB_yield-@lcorolib.c@line: 106.....
+
+['f_entry()', 'f_exit()', 'lua_yieldk()']
+1Paths generated!
+--------------Analysis-luaB_costatus-@lcorolib.c@line: 111.....
+
+['f_entry()', 'f_exit()', 'getco()', 'lua_status()']
+['f_entry()', 'f_exit()', 'getco()', 'lua_pushstring()']
+2Paths generated!
+--------------Analysis-luaB_yieldable-@lcorolib.c@line: 138.....
+
+['f_entry()', 'f_exit()', 'lua_pushboolean()']
+1Paths generated!
+--------------Analysis-luaB_corunning-@lcorolib.c@line: 144.....
+
+['f_entry()', 'f_exit()', 'lua_pushboolean()', 'lua_pushthread()']
+1Paths generated!
+--------------Analysis-luaopen_coroutine-@lcorolib.c@line: 164.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaV_tonumber_-@lvm.c@line: 72.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaO_str2num()']
+2Paths generated!
+--------------Analysis-luaV_tointeger-@lvm.c@line: 94.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaO_str2num()']
+['f_entry()', 'f_exit()', 'floorf()']
+3Paths generated!
+--------------Analysis-forlimit-@lvm.c@line: 135.....
+
+['f_entry()', 'f_exit()', 'luaV_tointeger()']
+['f_entry()', 'f_exit()', 'luaV_tointeger()', 'luaV_tonumber_()']
+2Paths generated!
+--------------Analysis-luaV_finishget-@lvm.c@line: 160.....
+
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_callTM()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_gettm()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_gettmbyobj()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaG_typeerror()', 'luaT_gettmbyobj()']
+5Paths generated!
+--------------Analysis-luaV_finishset-@lvm.c@line: 203.....
+
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_callTM()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_gettmbyobj()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaG_typeerror()', 'luaT_gettmbyobj()']
+['f_entry()', 'f_exit()', 'luaC_barrierback_()', 'luaG_runerror()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaH_newkey()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_gettm()']
+7Paths generated!
+--------------Analysis-l_strcmp-@lvm.c@line: 248.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'strcoll()']
+['f_entry()', 'f_exit()', 'strcoll()', 'strlen()']
+3Paths generated!
+--------------Analysis-LTintfloat-@lvm.c@line: 281.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-LEintfloat-@lvm.c@line: 300.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-LTnum-@lvm.c@line: 318.....
+
+['f_entry()', 'f_exit()']
+['LEintfloat()', 'f_entry()', 'f_exit()']
+['LTintfloat()', 'f_entry()', 'f_exit()']
+3Paths generated!
+--------------Analysis-LEnum-@lvm.c@line: 341.....
+
+['f_entry()', 'f_exit()']
+['LTintfloat()', 'f_entry()', 'f_exit()']
+['LEintfloat()', 'f_entry()', 'f_exit()']
+3Paths generated!
+--------------Analysis-luaV_lessthan-@lvm.c@line: 364.....
+
+['f_entry()', 'f_exit()', 'luaT_callorderTM()']
+['f_entry()', 'f_exit()', 'luaG_ordererror()', 'luaT_callorderTM()']
+['f_entry()', 'f_exit()', 'l_strcmp()']
+['LTnum()', 'f_entry()', 'f_exit()']
+4Paths generated!
+--------------Analysis-luaV_lessequal-@lvm.c@line: 384.....
+
+['f_entry()', 'f_exit()', 'luaT_callorderTM()']
+['f_entry()', 'f_exit()', 'luaG_ordererror()', 'luaT_callorderTM()']
+['f_entry()', 'f_exit()', 'l_strcmp()']
+['LEnum()', 'f_entry()', 'f_exit()']
+4Paths generated!
+--------------Analysis-luaV_equalobj-@lvm.c@line: 407.....
+
+['f_entry()', 'f_exit()', 'luaT_callTM()']
+['f_entry()', 'f_exit()', 'luaT_callTM()', 'luaV_tointeger()']
+2Paths generated!
+--------------Analysis-copy2buff-@lvm.c@line: 460.....
+
+['f_entry()', 'f_exit()', 'memcpy()']
+1Paths generated!
+--------------Analysis-luaV_concat-@lvm.c@line: 474.....
+
+['f_entry()', 'f_exit()']
+['copy2buff()', 'f_entry()', 'f_exit()', 'luaS_createlngstrobj()']
+['copy2buff()', 'f_entry()', 'f_exit()', 'luaS_newlstr()']
+['copy2buff()', 'f_entry()', 'f_exit()', 'luaG_runerror()', 'luaS_createlngstrobj()']
+['f_entry()', 'f_exit()', 'luaT_trybinTM()']
+5Paths generated!
+--------------Analysis-luaV_objlen-@lvm.c@line: 517.....
+
+['f_entry()', 'f_exit()', 'luaT_callTM()']
+1Paths generated!
+--------------Analysis-luaV_div-@lvm.c@line: 552.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+2Paths generated!
+--------------Analysis-luaV_mod-@lvm.c@line: 572.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+2Paths generated!
+--------------Analysis-luaV_shiftl-@lvm.c@line: 593.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getcached-@lvm.c@line: 610.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-pushclosure-@lvm.c@line: 632.....
+
+['f_entry()', 'f_exit()', 'luaF_newLclosure()']
+['f_entry()', 'f_exit()', 'luaF_findupval()', 'luaF_newLclosure()']
+2Paths generated!
+--------------Analysis-luaV_finishOp-@lvm.c@line: 656.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaV_execute-@lvm.c@line: 786.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-u_posrelat-@lutf8lib.c@line: 30.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-utf8_decode-@lutf8lib.c@line: 40.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-utflen-@lutf8lib.c@line: 71.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checklstring()', 'lua_pushinteger()', 'u_posrelat()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checklstring()', 'lua_pushinteger()', 'u_posrelat()', 'utf8_decode()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checklstring()', 'lua_pushinteger()', 'lua_pushnil()', 'u_posrelat()', 'utf8_decode()']
+3Paths generated!
+--------------Analysis-codepoint-@lutf8lib.c@line: 100.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checklstring()', 'luaL_checkstack()', 'u_posrelat()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checklstring()', 'luaL_checkstack()', 'lua_pushinteger()', 'u_posrelat()', 'utf8_decode()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checklstring()', 'luaL_checkstack()', 'luaL_error()', 'lua_pushinteger()', 'u_posrelat()', 'utf8_decode()']
+3Paths generated!
+--------------Analysis-pushutfchar-@lutf8lib.c@line: 128.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'lua_pushfstring()']
+1Paths generated!
+--------------Analysis-utfchar-@lutf8lib.c@line: 138.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_pushresult()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'luaL_addvalue()', 'luaL_buffinit()', 'luaL_pushresult()', 'lua_gettop()', 'pushutfchar()']
+['f_entry()', 'f_exit()', 'lua_gettop()', 'pushutfchar()']
+3Paths generated!
+--------------Analysis-byteoffset-@lutf8lib.c@line: 160.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'luaL_checklstring()', 'lua_pushnil()', 'u_posrelat()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'luaL_checklstring()', 'lua_pushinteger()', 'u_posrelat()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checkinteger()', 'luaL_checklstring()', 'luaL_error()', 'lua_pushnil()', 'u_posrelat()']
+3Paths generated!
+--------------Analysis-iter_aux-@lutf8lib.c@line: 201.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_tointegerx()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushinteger()', 'lua_tointegerx()', 'utf8_decode()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_error()', 'lua_pushinteger()', 'lua_tointegerx()', 'utf8_decode()']
+3Paths generated!
+--------------Analysis-iter_codes-@lutf8lib.c@line: 225.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_pushvalue()']
+1Paths generated!
+--------------Analysis-luaopen_utf8-@lutf8lib.c@line: 250.....
+
+['f_entry()', 'f_exit()', 'lua_pushlstring()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-io_type-@liolib.c@line: 149.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_testudata()', 'lua_pushstring()']
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'luaL_testudata()', 'lua_pushnil()']
+2Paths generated!
+--------------Analysis-f_tostring-@liolib.c@line: 163.....
+
+['f_entry()', 'f_exit()', 'luaL_checkudata()', 'lua_pushfstring()']
+['f_entry()', 'f_exit()', 'luaL_checkudata()', 'lua_pushstring()']
+2Paths generated!
+--------------Analysis-tofile-@liolib.c@line: 173.....
+
+['f_entry()', 'f_exit()', 'luaL_checkudata()']
+['f_entry()', 'f_exit()', 'luaL_checkudata()', 'luaL_error()']
+2Paths generated!
+--------------Analysis-newprefile-@liolib.c@line: 187.....
+
+['f_entry()', 'f_exit()', 'luaL_setmetatable()', 'lua_newuserdata()']
+1Paths generated!
+--------------Analysis-aux_close-@liolib.c@line: 200.....
+
+['f_entry()', 'f_exit()', 'luaL_checkudata()']
+1Paths generated!
+--------------Analysis-io_close-@liolib.c@line: 208.....
+
+['aux_close()', 'f_entry()', 'f_exit()', 'lua_type()', 'tofile()']
+['aux_close()', 'f_entry()', 'f_exit()', 'lua_getfield()', 'lua_type()', 'tofile()']
+2Paths generated!
+--------------Analysis-f_gc-@liolib.c@line: 216.....
+
+['f_entry()', 'f_exit()', 'luaL_checkudata()']
+['aux_close()', 'f_entry()', 'f_exit()', 'luaL_checkudata()']
+2Paths generated!
+--------------Analysis-io_fclose-@liolib.c@line: 227.....
+
+['f_entry()', 'f_exit()', 'fclose()', 'luaL_checkudata()', 'luaL_fileresult()']
+1Paths generated!
+--------------Analysis-newfile-@liolib.c@line: 234.....
+
+['f_entry()', 'f_exit()', 'newprefile()']
+1Paths generated!
+--------------Analysis-opencheck-@liolib.c@line: 242.....
+
+['f_entry()', 'f_exit()', 'fopen()', 'newfile()']
+['f_entry()', 'f_exit()', 'fopen()', 'luaL_error()', 'newfile()']
+2Paths generated!
+--------------Analysis-io_open-@liolib.c@line: 250.....
+
+['f_entry()', 'f_exit()', 'fopen()', 'luaL_argerror()', 'luaL_checklstring()', 'luaL_optlstring()', 'newfile()', 'strchr()', 'strlen()', 'strspn()']
+['f_entry()', 'f_exit()', 'fopen()', 'luaL_argerror()', 'luaL_checklstring()', 'luaL_fileresult()', 'luaL_optlstring()', 'newfile()', 'strchr()', 'strlen()', 'strspn()']
+2Paths generated!
+--------------Analysis-io_pclose-@liolib.c@line: 264.....
+
+['f_entry()', 'f_exit()', 'luaL_checkudata()', 'luaL_execresult()']
+1Paths generated!
+--------------Analysis-io_popen-@liolib.c@line: 270.....
+
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_optlstring()', 'newprefile()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'luaL_fileresult()', 'luaL_optlstring()', 'newprefile()']
+2Paths generated!
+--------------Analysis-io_tmpfile-@liolib.c@line: 280.....
+
+['f_entry()', 'f_exit()', 'newfile()', 'tmpfile()']
+['f_entry()', 'f_exit()', 'luaL_fileresult()', 'newfile()', 'tmpfile()']
+2Paths generated!
+--------------Analysis-getiofile-@liolib.c@line: 287.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_touserdata()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_getfield()', 'lua_touserdata()']
+2Paths generated!
+--------------Analysis-g_iofile-@liolib.c@line: 297.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_pushvalue()', 'lua_setfield()', 'lua_tolstring()', 'lua_type()', 'tofile()']
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_setfield()', 'lua_tolstring()', 'lua_type()', 'opencheck()']
+3Paths generated!
+--------------Analysis-io_input-@liolib.c@line: 314.....
+
+['f_entry()', 'f_exit()', 'g_iofile()']
+1Paths generated!
+--------------Analysis-io_output-@liolib.c@line: 319.....
+
+['f_entry()', 'f_exit()', 'g_iofile()']
+1Paths generated!
+--------------Analysis-aux_lines-@liolib.c@line: 333.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_gettop()', 'lua_pushboolean()', 'lua_pushcclosure()', 'lua_pushinteger()', 'lua_rotate()']
+1Paths generated!
+--------------Analysis-f_lines-@liolib.c@line: 343.....
+
+['aux_lines()', 'f_entry()', 'f_exit()', 'tofile()']
+1Paths generated!
+--------------Analysis-io_lines-@liolib.c@line: 350.....
+
+['aux_lines()', 'f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_type()', 'opencheck()']
+['aux_lines()', 'f_entry()', 'f_exit()', 'lua_getfield()', 'lua_type()', 'tofile()']
+['aux_lines()', 'f_entry()', 'f_exit()', 'lua_getfield()', 'lua_pushnil()', 'lua_type()', 'tofile()']
+3Paths generated!
+--------------Analysis-nextc-@liolib.c@line: 395.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'getc()']
+2Paths generated!
+--------------Analysis-test2-@liolib.c@line: 411.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'nextc()']
+2Paths generated!
+--------------Analysis-readdigits-@liolib.c@line: 421.....
+
+['f_entry()', 'f_exit()', 'nextc()']
+['f_entry()', 'f_exit()', 'isdigit()', 'nextc()']
+['f_entry()', 'f_exit()', 'isxdigit()', 'nextc()']
+3Paths generated!
+--------------Analysis-read_number-@liolib.c@line: 434.....
+
+['f_entry()', 'f_exit()', 'getc()', 'isspace()', 'lua_stringtonumber()', 'readdigits()', 'test2()', 'ungetc()']
+['f_entry()', 'f_exit()', 'getc()', 'isspace()', 'lua_pushnil()', 'lua_stringtonumber()', 'readdigits()', 'test2()', 'ungetc()']
+2Paths generated!
+--------------Analysis-test_eof-@liolib.c@line: 468.....
+
+['f_entry()', 'f_exit()', 'getc()', 'lua_pushstring()', 'ungetc()']
+1Paths generated!
+--------------Analysis-read_line-@liolib.c@line: 476.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_pushresult()', 'lua_rawlen()']
+['f_entry()', 'f_exit()', 'getc()', 'luaL_buffinit()', 'luaL_prepbuffsize()', 'luaL_pushresult()', 'lua_rawlen()']
+2Paths generated!
+--------------Analysis-read_all-@liolib.c@line: 497.....
+
+['f_entry()', 'f_exit()', 'fread()', 'luaL_buffinit()', 'luaL_prepbuffsize()', 'luaL_pushresult()']
+1Paths generated!
+--------------Analysis-read_chars-@liolib.c@line: 510.....
+
+['f_entry()', 'f_exit()', 'fread()', 'luaL_buffinit()', 'luaL_prepbuffsize()', 'luaL_pushresult()']
+1Paths generated!
+--------------Analysis-g_read-@liolib.c@line: 523.....
+
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_checkstack()', 'lua_gettop()']
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_checkstack()', 'lua_gettop()', 'lua_pushnil()', 'lua_settop()']
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_checkstack()', 'luaL_fileresult()', 'lua_gettop()']
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_checklstring()', 'luaL_checkstack()', 'luaL_fileresult()', 'lua_gettop()', 'lua_pushnil()', 'lua_settop()', 'lua_type()']
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_checkinteger()', 'luaL_checkstack()', 'luaL_fileresult()', 'lua_gettop()', 'lua_pushnil()', 'lua_settop()', 'lua_type()']
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_checkinteger()', 'luaL_checkstack()', 'luaL_fileresult()', 'lua_gettop()', 'lua_pushnil()', 'lua_settop()', 'lua_type()', 'read_chars()']
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_checkinteger()', 'luaL_checkstack()', 'luaL_fileresult()', 'lua_gettop()', 'lua_pushnil()', 'lua_settop()', 'lua_type()', 'test_eof()']
+['clearerr()', 'f_entry()', 'f_exit()', 'ferror()', 'luaL_fileresult()', 'lua_gettop()', 'lua_pushnil()', 'lua_settop()', 'read_line()']
+8Paths generated!
+--------------Analysis-io_read-@liolib.c@line: 573.....
+
+['f_entry()', 'f_exit()', 'g_read()']
+1Paths generated!
+--------------Analysis-f_read-@liolib.c@line: 578.....
+
+['f_entry()', 'f_exit()', 'g_read()']
+1Paths generated!
+--------------Analysis-io_readline-@liolib.c@line: 583.....
+
+['f_entry()', 'f_exit()', 'g_read()', 'luaL_checkstack()', 'lua_settop()', 'lua_toboolean()', 'lua_tointegerx()', 'lua_touserdata()']
+['aux_close()', 'f_entry()', 'f_exit()', 'g_read()', 'luaL_checkstack()', 'lua_pushvalue()', 'lua_settop()', 'lua_toboolean()', 'lua_tointegerx()', 'lua_touserdata()']
+['aux_close()', 'f_entry()', 'f_exit()', 'g_read()', 'luaL_checkstack()', 'luaL_error()', 'lua_pushvalue()', 'lua_settop()', 'lua_toboolean()', 'lua_tointegerx()', 'lua_touserdata()']
+3Paths generated!
+--------------Analysis-g_write-@liolib.c@line: 614.....
+
+['f_entry()', 'f_exit()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'luaL_fileresult()', 'lua_gettop()']
+['f_entry()', 'f_exit()', 'fwrite()', 'luaL_checklstring()', 'lua_gettop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_gettop()', 'lua_isinteger()', 'lua_type()']
+['f_entry()', 'f_exit()', 'fprintf()', 'lua_gettop()', 'lua_isinteger()', 'lua_type()']
+5Paths generated!
+--------------Analysis-io_write-@liolib.c@line: 636.....
+
+['f_entry()', 'f_exit()', 'g_write()']
+1Paths generated!
+--------------Analysis-f_write-@liolib.c@line: 641.....
+
+['f_entry()', 'f_exit()', 'g_write()', 'lua_pushvalue()', 'tofile()']
+1Paths generated!
+--------------Analysis-f_seek-@liolib.c@line: 648.....
+
+['f_entry()', 'f_exit()', 'fseek()', 'luaL_argerror()', 'luaL_checkoption()', 'luaL_optinteger()', 'lua_pushinteger()', 'tofile()']
+['f_entry()', 'f_exit()', 'fseek()', 'luaL_argerror()', 'luaL_checkoption()', 'luaL_fileresult()', 'luaL_optinteger()', 'tofile()']
+2Paths generated!
+--------------Analysis-f_setvbuf-@liolib.c@line: 667.....
+
+['f_entry()', 'f_exit()', 'luaL_checkoption()', 'luaL_fileresult()', 'luaL_optinteger()', 'setvbuf()', 'tofile()']
+1Paths generated!
+--------------Analysis-io_flush-@liolib.c@line: 679.....
+
+['f_entry()', 'f_exit()', 'luaL_fileresult()']
+1Paths generated!
+--------------Analysis-f_flush-@liolib.c@line: 684.....
+
+['f_entry()', 'f_exit()', 'luaL_fileresult()']
+1Paths generated!
+--------------Analysis-createmeta-@liolib.c@line: 725.....
+
+['f_entry()', 'f_exit()', 'luaL_newmetatable()', 'luaL_setfuncs()', 'lua_pushvalue()', 'lua_setfield()', 'lua_settop()']
+1Paths generated!
+--------------Analysis-io_noclose-@liolib.c@line: 737.....
+
+['f_entry()', 'f_exit()', 'luaL_checkudata()', 'lua_pushnil()', 'lua_pushstring()']
+1Paths generated!
+--------------Analysis-createstdfile-@liolib.c@line: 746.....
+
+['f_entry()', 'f_exit()', 'lua_setfield()', 'newprefile()']
+['f_entry()', 'f_exit()', 'lua_pushvalue()', 'lua_setfield()', 'newprefile()']
+2Paths generated!
+--------------Analysis-luaopen_io-@liolib.c@line: 759.....
+
+['createmeta()', 'createstdfile()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaopen_bit32-@lbitlib.c@line: 229.....
+
+['f_entry()', 'f_exit()', 'luaL_error()']
+1Paths generated!
+--------------Analysis-l_hashfloat-@ltable.c@line: 99.....
+
+['f_entry()', 'f_exit()', 'frexpf()']
+1Paths generated!
+--------------Analysis-mainposition-@ltable.c@line: 119.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-arrayindex-@ltable.c@line: 146.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-findindex-@ltable.c@line: 161.....
+
+['arrayindex()', 'f_entry()', 'f_exit()']
+['arrayindex()', 'f_entry()', 'f_exit()', 'mainposition()']
+['arrayindex()', 'f_entry()', 'f_exit()', 'luaV_equalobj()', 'mainposition()']
+['arrayindex()', 'f_entry()', 'f_exit()', 'luaG_runerror()', 'luaV_equalobj()', 'mainposition()']
+4Paths generated!
+--------------Analysis-luaH_next-@ltable.c@line: 188.....
+
+['f_entry()', 'f_exit()', 'findindex()']
+1Paths generated!
+--------------Analysis-computesizes-@ltable.c@line: 221.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-countint-@ltable.c@line: 243.....
+
+['arrayindex()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-numusearray-@ltable.c@line: 259.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-numusehash-@ltable.c@line: 285.....
+
+['f_entry()', 'f_exit()']
+['countint()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-setarrayvector-@ltable.c@line: 301.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-setnodevector-@ltable.c@line: 310.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaO_ceillog2()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaO_ceillog2()']
+3Paths generated!
+--------------Analysis-luaH_resize-@ltable.c@line: 335.....
+
+['f_entry()', 'f_exit()', 'setnodevector()']
+['f_entry()', 'f_exit()', 'luaM_realloc_()', 'setnodevector()']
+['f_entry()', 'f_exit()', 'luaH_setint()', 'setnodevector()']
+['f_entry()', 'f_exit()', 'luaH_setint()', 'luaM_realloc_()', 'setarrayvector()', 'setnodevector()']
+4Paths generated!
+--------------Analysis-luaH_resizearray-@ltable.c@line: 370.....
+
+['f_entry()', 'f_exit()', 'luaH_resize()']
+1Paths generated!
+--------------Analysis-rehash-@ltable.c@line: 378.....
+
+['computesizes()', 'countint()', 'f_entry()', 'f_exit()', 'luaH_resize()', 'numusearray()', 'numusehash()']
+1Paths generated!
+--------------Analysis-luaH_new-@ltable.c@line: 404.....
+
+['f_entry()', 'f_exit()', 'luaC_newobj()', 'setnodevector()']
+1Paths generated!
+--------------Analysis-luaH_free-@ltable.c@line: 416.....
+
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-getfreepos-@ltable.c@line: 424.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaH_newkey-@ltable.c@line: 442.....
+
+['f_entry()', 'f_exit()', 'mainposition()']
+['f_entry()', 'f_exit()', 'luaC_barrierback_()', 'mainposition()']
+['f_entry()', 'f_exit()', 'getfreepos()', 'mainposition()']
+['f_entry()', 'f_exit()', 'getfreepos()', 'luaC_barrierback_()', 'luaH_set()', 'mainposition()', 'rehash()']
+['f_entry()', 'f_exit()', 'getfreepos()', 'luaC_barrierback_()', 'luaH_set()', 'luaV_tointeger()', 'mainposition()', 'rehash()']
+['f_entry()', 'f_exit()', 'getfreepos()', 'luaC_barrierback_()', 'luaG_runerror()', 'luaH_set()', 'luaV_tointeger()', 'mainposition()', 'rehash()']
+['f_entry()', 'f_exit()', 'getfreepos()', 'luaC_barrierback_()', 'luaG_runerror()', 'luaH_set()', 'mainposition()', 'rehash()']
+7Paths generated!
+--------------Analysis-luaH_getint-@ltable.c@line: 497.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaH_getshortstr-@ltable.c@line: 520.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getgeneric-@ltable.c@line: 541.....
+
+['f_entry()', 'f_exit()', 'mainposition()']
+['f_entry()', 'f_exit()', 'luaV_equalobj()', 'mainposition()']
+2Paths generated!
+--------------Analysis-luaH_getstr-@ltable.c@line: 556.....
+
+['f_entry()', 'f_exit()', 'getgeneric()']
+['f_entry()', 'f_exit()', 'luaH_getshortstr()']
+2Paths generated!
+--------------Analysis-luaH_get-@ltable.c@line: 570.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaH_set-@ltable.c@line: 591.....
+
+['f_entry()', 'f_exit()', 'luaH_get()']
+['f_entry()', 'f_exit()', 'luaH_get()', 'luaH_newkey()']
+2Paths generated!
+--------------Analysis-luaH_setint-@ltable.c@line: 599.....
+
+['f_entry()', 'f_exit()', 'luaH_getint()']
+['f_entry()', 'f_exit()', 'luaH_getint()', 'luaH_newkey()']
+2Paths generated!
+--------------Analysis-unbound_search-@ltable.c@line: 613.....
+
+['f_entry()', 'f_exit()', 'luaH_getint()']
+1Paths generated!
+--------------Analysis-luaH_getn-@ltable.c@line: 641.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'unbound_search()']
+2Paths generated!
+--------------Analysis-luaO_int2fb-@lobject.c@line: 41.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaO_fb2int-@lobject.c@line: 57.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaO_ceillog2-@lobject.c@line: 65.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-intarith-@lobject.c@line: 83.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-numarith-@lobject.c@line: 103.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaO_arith-@lobject.c@line: 123.....
+
+['f_entry()', 'f_exit()', 'luaT_trybinTM()']
+1Paths generated!
+--------------Analysis-luaO_hexavalue-@lobject.c@line: 163.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-isneg-@lobject.c@line: 169.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-l_str2dloc-@lobject.c@line: 251.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'strtof()']
+2Paths generated!
+--------------Analysis-l_str2d-@lobject.c@line: 274.....
+
+['f_entry()', 'f_exit()', 'l_str2dloc()', 'strpbrk()']
+['f_entry()', 'f_exit()', 'l_str2dloc()', 'strchr()', 'strcpy()', 'strlen()', 'strpbrk()']
+2Paths generated!
+--------------Analysis-l_str2int-@lobject.c@line: 299.....
+
+['f_entry()', 'f_exit()', 'isneg()']
+['f_entry()', 'f_exit()', 'isneg()', 'luaO_hexavalue()']
+2Paths generated!
+--------------Analysis-luaO_str2num-@lobject.c@line: 331.....
+
+['f_entry()', 'f_exit()', 'l_str2int()']
+['f_entry()', 'f_exit()', 'l_str2d()', 'l_str2int()']
+2Paths generated!
+--------------Analysis-luaO_utf8esc-@lobject.c@line: 346.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaO_tostring-@lobject.c@line: 371.....
+
+['f_entry()', 'f_exit()', 'snprintf()']
+1Paths generated!
+--------------Analysis-pushstr-@lobject.c@line: 390.....
+
+['f_entry()', 'f_exit()', 'luaD_inctop()']
+1Paths generated!
+--------------Analysis-luaO_pushvfstring-@lobject.c@line: 400.....
+
+['f_entry()', 'f_exit()', 'pushstr()']
+['f_entry()', 'f_exit()', 'luaV_concat()', 'pushstr()']
+['f_entry()', 'f_exit()', 'luaD_growstack()', 'luaV_concat()', 'pushstr()']
+['f_entry()', 'f_exit()', 'luaV_concat()', 'pushstr()', 'strchr()']
+4Paths generated!
+--------------Analysis-luaO_pushfstring-@lobject.c@line: 467.....
+
+['__builtin_va_start()', 'f_entry()', 'f_exit()', 'luaO_pushvfstring()']
+1Paths generated!
+--------------Analysis-luaO_chunkid-@lobject.c@line: 486.....
+
+['f_entry()', 'f_exit()', 'strlen()']
+['f_entry()', 'f_exit()', 'memcpy()', 'strchr()', 'strlen()']
+['f_entry()', 'f_exit()', 'memcpy()', 'strlen()']
+3Paths generated!
+--------------Analysis-luaS_eqlngstr-@lstring.c@line: 40.....
+
+['f_entry()', 'f_exit()', 'memcmp()']
+1Paths generated!
+--------------Analysis-luaS_hash-@lstring.c@line: 49.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaS_hashlongstr-@lstring.c@line: 58.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaS_hash()']
+2Paths generated!
+--------------Analysis-luaS_resize-@lstring.c@line: 71.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaS_clearcache-@lstring.c@line: 103.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaS_init-@lstring.c@line: 116.....
+
+['f_entry()', 'f_exit()', 'luaC_fix()', 'luaS_newlstr()', 'luaS_resize()']
+1Paths generated!
+--------------Analysis-createstrobj-@lstring.c@line: 133.....
+
+['f_entry()', 'f_exit()', 'luaC_newobj()']
+1Paths generated!
+--------------Analysis-luaS_createlngstrobj-@lstring.c@line: 147.....
+
+['createstrobj()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaS_remove-@lstring.c@line: 154.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-internshrstr-@lstring.c@line: 167.....
+
+['createstrobj()', 'f_entry()', 'f_exit()', 'luaS_hash()', 'memcpy()']
+['createstrobj()', 'f_entry()', 'f_exit()', 'luaS_hash()', 'luaS_resize()', 'memcpy()']
+['createstrobj()', 'f_entry()', 'f_exit()', 'luaS_hash()', 'memcmp()', 'memcpy()']
+3Paths generated!
+--------------Analysis-luaS_newlstr-@lstring.c@line: 199.....
+
+['f_entry()', 'f_exit()', 'luaS_createlngstrobj()', 'memcpy()']
+['f_entry()', 'f_exit()', 'luaM_toobig()', 'luaS_createlngstrobj()', 'memcpy()']
+['f_entry()', 'f_exit()', 'internshrstr()']
+3Paths generated!
+--------------Analysis-luaS_new-@lstring.c@line: 219.....
+
+['f_entry()', 'f_exit()', 'luaS_newlstr()']
+['f_entry()', 'f_exit()', 'luaS_newlstr()', 'strcmp()']
+2Paths generated!
+--------------Analysis-luaS_newudata-@lstring.c@line: 236.....
+
+['f_entry()', 'f_exit()', 'luaC_newobj()']
+['f_entry()', 'f_exit()', 'luaC_newobj()', 'luaM_toobig()']
+2Paths generated!
+--------------Analysis-luaF_newCclosure-@lfunc.c@line: 25.....
+
+['f_entry()', 'f_exit()', 'luaC_newobj()']
+1Paths generated!
+--------------Analysis-luaF_newLclosure-@lfunc.c@line: 33.....
+
+['f_entry()', 'f_exit()', 'luaC_newobj()']
+1Paths generated!
+--------------Analysis-luaF_initupvals-@lfunc.c@line: 45.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+2Paths generated!
+--------------Analysis-luaF_findupval-@lfunc.c@line: 57.....
+
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-luaF_close-@lfunc.c@line: 83.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaC_upvalbarrier_()']
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+3Paths generated!
+--------------Analysis-luaF_newproto-@lfunc.c@line: 99.....
+
+['f_entry()', 'f_exit()', 'luaC_newobj()']
+1Paths generated!
+--------------Analysis-luaF_freeproto-@lfunc.c@line: 125.....
+
+['f_entry()', 'f_exit()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-luaF_getlocalname-@lfunc.c@line: 140.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-math_abs-@lmathlib.c@line: 39.....
+
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_pushnumber()']
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_pushinteger()', 'lua_tointegerx()']
+2Paths generated!
+--------------Analysis-math_sin-@lmathlib.c@line: 50.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_cos-@lmathlib.c@line: 55.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_tan-@lmathlib.c@line: 60.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_asin-@lmathlib.c@line: 65.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_acos-@lmathlib.c@line: 70.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_atan-@lmathlib.c@line: 75.....
+
+['f_entry()', 'f_exit()', 'luaL_checknumber()', 'luaL_optnumber()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_toint-@lmathlib.c@line: 83.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_pushnil()', 'lua_tointegerx()']
+['f_entry()', 'f_exit()', 'lua_pushinteger()', 'lua_tointegerx()']
+2Paths generated!
+--------------Analysis-pushnumint-@lmathlib.c@line: 96.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+['f_entry()', 'f_exit()', 'lua_pushinteger()']
+2Paths generated!
+--------------Analysis-math_floor-@lmathlib.c@line: 105.....
+
+['f_entry()', 'f_exit()', 'floorf()', 'lua_isinteger()', 'pushnumint()']
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_settop()']
+2Paths generated!
+--------------Analysis-math_ceil-@lmathlib.c@line: 116.....
+
+['ceilf()', 'f_entry()', 'f_exit()', 'lua_isinteger()', 'pushnumint()']
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_settop()']
+2Paths generated!
+--------------Analysis-math_fmod-@lmathlib.c@line: 127.....
+
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_pushnumber()']
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_pushinteger()', 'lua_tointegerx()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_isinteger()', 'lua_pushinteger()', 'lua_tointegerx()']
+3Paths generated!
+--------------Analysis-math_modf-@lmathlib.c@line: 149.....
+
+['f_entry()', 'f_exit()', 'luaL_checknumber()', 'lua_isinteger()', 'lua_pushnumber()', 'pushnumint()']
+['f_entry()', 'f_exit()', 'floorf()', 'luaL_checknumber()', 'lua_isinteger()', 'lua_pushnumber()', 'pushnumint()']
+['ceilf()', 'f_entry()', 'f_exit()', 'luaL_checknumber()', 'lua_isinteger()', 'lua_pushnumber()', 'pushnumint()']
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_pushnumber()', 'lua_settop()']
+4Paths generated!
+--------------Analysis-math_sqrt-@lmathlib.c@line: 166.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_ult-@lmathlib.c@line: 172.....
+
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'lua_pushboolean()']
+1Paths generated!
+--------------Analysis-math_log-@lmathlib.c@line: 179.....
+
+['f_entry()', 'f_exit()', 'logf()', 'luaL_checknumber()', 'lua_pushnumber()', 'lua_type()']
+['f_entry()', 'f_exit()', 'log10f()', 'luaL_checknumber()', 'lua_pushnumber()', 'lua_type()']
+['f_entry()', 'f_exit()', 'log2f()', 'luaL_checknumber()', 'lua_pushnumber()', 'lua_type()']
+3Paths generated!
+--------------Analysis-math_exp-@lmathlib.c@line: 196.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_deg-@lmathlib.c@line: 201.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_rad-@lmathlib.c@line: 206.....
+
+['f_entry()', 'f_exit()', 'lua_pushnumber()']
+1Paths generated!
+--------------Analysis-math_min-@lmathlib.c@line: 212.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_gettop()', 'lua_pushvalue()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_compare()', 'lua_gettop()', 'lua_pushvalue()']
+2Paths generated!
+--------------Analysis-math_max-@lmathlib.c@line: 226.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_gettop()', 'lua_pushvalue()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_compare()', 'lua_gettop()', 'lua_pushvalue()']
+2Paths generated!
+--------------Analysis-math_random-@lmathlib.c@line: 244.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_gettop()', 'lua_pushinteger()', 'rand()']
+1Paths generated!
+--------------Analysis-math_randomseed-@lmathlib.c@line: 274.....
+
+['f_entry()', 'f_exit()', 'rand()', 'srand()']
+1Paths generated!
+--------------Analysis-math_type-@lmathlib.c@line: 281.....
+
+['f_entry()', 'f_exit()', 'luaL_checkany()', 'lua_pushnil()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_isinteger()', 'lua_pushstring()', 'lua_type()']
+2Paths generated!
+--------------Analysis-luaopen_math-@lmathlib.c@line: 395.....
+
+['f_entry()', 'f_exit()', 'lua_pushinteger()', 'lua_pushnumber()', 'lua_setfield()']
+1Paths generated!
+--------------Analysis-error-@lundump.c@line: 39.....
+
+['f_entry()', 'f_exit()', 'luaD_throw()', 'luaO_pushfstring()']
+1Paths generated!
+--------------Analysis-LoadBlock-@lundump.c@line: 51.....
+
+['f_entry()', 'f_exit()', 'luaZ_read()']
+['error()', 'f_entry()', 'f_exit()', 'luaZ_read()']
+2Paths generated!
+--------------Analysis-LoadByte-@lundump.c@line: 60.....
+
+['LoadBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-LoadInt-@lundump.c@line: 67.....
+
+['LoadBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-LoadNumber-@lundump.c@line: 74.....
+
+['LoadBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-LoadInteger-@lundump.c@line: 81.....
+
+['LoadBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-LoadString-@lundump.c@line: 88.....
+
+['LoadByte()', 'f_entry()', 'f_exit()']
+['LoadBlock()', 'LoadByte()', 'f_entry()', 'f_exit()', 'luaS_createlngstrobj()']
+['LoadBlock()', 'LoadByte()', 'f_entry()', 'f_exit()', 'luaS_newlstr()']
+['LoadBlock()', 'LoadByte()', 'f_entry()', 'f_exit()']
+4Paths generated!
+--------------Analysis-LoadCode-@lundump.c@line: 107.....
+
+['LoadBlock()', 'LoadInt()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-LoadConstants-@lundump.c@line: 118.....
+
+['LoadInt()', 'f_entry()', 'f_exit()']
+['LoadByte()', 'LoadInt()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-LoadProtos-@lundump.c@line: 152.....
+
+['LoadInt()', 'f_entry()', 'f_exit()']
+['LoadFunction()', 'LoadInt()', 'f_entry()', 'f_exit()', 'luaF_newproto()']
+2Paths generated!
+--------------Analysis-LoadUpvalues-@lundump.c@line: 166.....
+
+['LoadInt()', 'f_entry()', 'f_exit()']
+['LoadByte()', 'LoadInt()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-LoadDebug-@lundump.c@line: 180.....
+
+['LoadBlock()', 'LoadInt()', 'f_entry()', 'f_exit()']
+['LoadBlock()', 'LoadInt()', 'LoadString()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-LoadFunction-@lundump.c@line: 202.....
+
+['LoadByte()', 'LoadCode()', 'LoadConstants()', 'LoadDebug()', 'LoadInt()', 'LoadProtos()', 'LoadString()', 'LoadUpvalues()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-checkliteral-@lundump.c@line: 219.....
+
+['LoadBlock()', 'f_entry()', 'f_exit()', 'memcmp()', 'strlen()']
+['LoadBlock()', 'error()', 'f_entry()', 'f_exit()', 'memcmp()', 'strlen()']
+2Paths generated!
+--------------Analysis-fchecksize-@lundump.c@line: 228.....
+
+['LoadByte()', 'f_entry()', 'f_exit()']
+['LoadByte()', 'error()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-checkHeader-@lundump.c@line: 236.....
+
+['LoadByte()', 'LoadInteger()', 'LoadNumber()', 'checkliteral()', 'f_entry()', 'f_exit()', 'fchecksize()']
+['LoadByte()', 'LoadInteger()', 'LoadNumber()', 'checkliteral()', 'error()', 'f_entry()', 'f_exit()', 'fchecksize()']
+2Paths generated!
+--------------Analysis-luaU_undump-@lundump.c@line: 258.....
+
+['LoadFunction()', 'checkHeader()', 'f_entry()', 'f_exit()', 'luaD_inctop()', 'luaF_newLclosure()', 'luaF_newproto()']
+1Paths generated!
+--------------Analysis-luaM_growaux_-@lmem.c@line: 48.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+2Paths generated!
+--------------Analysis-luaM_toobig-@lmem.c@line: 68.....
+
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+1Paths generated!
+--------------Analysis-luaM_realloc_-@lmem.c@line: 77.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_throw()']
+['f_entry()', 'f_exit()', 'luaC_fullgc()']
+3Paths generated!
+--------------Analysis-DumpBlock-@ldump.c@line: 40.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-DumpByte-@ldump.c@line: 52.....
+
+['DumpBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-DumpInt-@ldump.c@line: 58.....
+
+['DumpBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-DumpNumber-@ldump.c@line: 63.....
+
+['DumpBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-DumpInteger-@ldump.c@line: 68.....
+
+['DumpBlock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-DumpString-@ldump.c@line: 73.....
+
+['DumpBlock()', 'DumpByte()', 'f_entry()', 'f_exit()']
+['DumpByte()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-DumpCode-@ldump.c@line: 90.....
+
+['DumpBlock()', 'DumpInt()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-DumpConstants-@ldump.c@line: 98.....
+
+['DumpInt()', 'f_entry()', 'f_exit()']
+['DumpByte()', 'DumpInt()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-DumpProtos-@ldump.c@line: 128.....
+
+['DumpInt()', 'f_entry()', 'f_exit()']
+['DumpFunction()', 'DumpInt()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-DumpUpvalues-@ldump.c@line: 137.....
+
+['DumpInt()', 'f_entry()', 'f_exit()']
+['DumpByte()', 'DumpInt()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-DumpDebug-@ldump.c@line: 147.....
+
+['DumpBlock()', 'DumpInt()', 'f_entry()', 'f_exit()']
+['DumpBlock()', 'DumpInt()', 'DumpString()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-DumpFunction-@ldump.c@line: 166.....
+
+['DumpByte()', 'DumpCode()', 'DumpConstants()', 'DumpDebug()', 'DumpInt()', 'DumpProtos()', 'DumpString()', 'DumpUpvalues()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-DumpHeader-@ldump.c@line: 184.....
+
+['DumpBlock()', 'DumpByte()', 'DumpInteger()', 'DumpNumber()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaU_dump-@ldump.c@line: 202.....
+
+['DumpByte()', 'DumpFunction()', 'DumpHeader()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-index2addr-@lapi.c@line: 60.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-growstack-@lapi.c@line: 91.....
+
+['f_entry()', 'f_exit()', 'luaD_growstack()']
+1Paths generated!
+--------------Analysis-lua_checkstack-@lapi.c@line: 97.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_rawrunprotected()']
+2Paths generated!
+--------------Analysis-lua_xmove-@lapi.c@line: 118.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_atpanic-@lapi.c@line: 134.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_version-@lapi.c@line: 144.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_absindex-@lapi.c@line: 160.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_gettop-@lapi.c@line: 167.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_settop-@lapi.c@line: 172.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-reverse-@lapi.c@line: 193.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_rotate-@lapi.c@line: 207.....
+
+['f_entry()', 'f_exit()', 'index2addr()', 'reverse()']
+1Paths generated!
+--------------Analysis-lua_copy-@lapi.c@line: 222.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaC_barrier_()']
+2Paths generated!
+--------------Analysis-lua_pushvalue-@lapi.c@line: 237.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_type-@lapi.c@line: 251.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_typename-@lapi.c@line: 257.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_iscfunction-@lapi.c@line: 264.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_isinteger-@lapi.c@line: 270.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_isnumber-@lapi.c@line: 276.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaV_tonumber_()']
+2Paths generated!
+--------------Analysis-lua_isstring-@lapi.c@line: 283.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_isuserdata-@lapi.c@line: 289.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_rawequal-@lapi.c@line: 295.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaV_equalobj()']
+2Paths generated!
+--------------Analysis-lua_arith-@lapi.c@line: 302.....
+
+['f_entry()', 'f_exit()', 'luaO_arith()']
+1Paths generated!
+--------------Analysis-lua_compare-@lapi.c@line: 318.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_stringtonumber-@lapi.c@line: 337.....
+
+['f_entry()', 'f_exit()', 'luaO_str2num()']
+1Paths generated!
+--------------Analysis-lua_tonumberx-@lapi.c@line: 345.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaV_tonumber_()']
+2Paths generated!
+--------------Analysis-lua_tointegerx-@lapi.c@line: 356.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaV_tointeger()']
+2Paths generated!
+--------------Analysis-lua_toboolean-@lapi.c@line: 367.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_tolstring-@lapi.c@line: 373.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaO_tostring()']
+2Paths generated!
+--------------Analysis-lua_rawlen-@lapi.c@line: 392.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_tocfunction-@lapi.c@line: 404.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_touserdata-@lapi.c@line: 413.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_tothread-@lapi.c@line: 423.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_topointer-@lapi.c@line: 429.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_pushnil-@lapi.c@line: 450.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_pushnumber-@lapi.c@line: 458.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_pushinteger-@lapi.c@line: 466.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_pushlstring-@lapi.c@line: 479.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaS_newlstr()']
+['f_entry()', 'f_exit()', 'luaS_new()']
+3Paths generated!
+--------------Analysis-lua_pushstring-@lapi.c@line: 491.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaS_new()']
+2Paths generated!
+--------------Analysis-lua_pushvfstring-@lapi.c@line: 508.....
+
+['f_entry()', 'f_exit()', 'luaO_pushvfstring()']
+1Paths generated!
+--------------Analysis-lua_pushfstring-@lapi.c@line: 519.....
+
+['__builtin_va_start()', 'f_entry()', 'f_exit()', 'luaO_pushvfstring()']
+1Paths generated!
+--------------Analysis-lua_pushcclosure-@lapi.c@line: 532.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaF_newCclosure()']
+2Paths generated!
+--------------Analysis-lua_pushboolean-@lapi.c@line: 556.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_pushlightuserdata-@lapi.c@line: 564.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_pushthread-@lapi.c@line: 572.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-auxgetstr-@lapi.c@line: 587.....
+
+['f_entry()', 'f_exit()', 'luaS_new()']
+['f_entry()', 'f_exit()', 'luaS_new()', 'luaV_finishget()']
+2Paths generated!
+--------------Analysis-lua_getglobal-@lapi.c@line: 604.....
+
+['auxgetstr()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_gettable-@lapi.c@line: 611.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_getfield-@lapi.c@line: 621.....
+
+['auxgetstr()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_geti-@lapi.c@line: 627.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaV_finishget()']
+2Paths generated!
+--------------Analysis-lua_rawget-@lapi.c@line: 646.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_rawgeti-@lapi.c@line: 657.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_rawgetp-@lapi.c@line: 669.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_createtable-@lapi.c@line: 683.....
+
+['f_entry()', 'f_exit()', 'luaH_new()']
+['f_entry()', 'f_exit()', 'luaH_new()', 'luaH_resize()']
+2Paths generated!
+--------------Analysis-lua_getmetatable-@lapi.c@line: 696.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_getuservalue-@lapi.c@line: 723.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-auxsetstr-@lapi.c@line: 742.....
+
+['f_entry()', 'f_exit()', 'luaS_new()']
+['f_entry()', 'f_exit()', 'luaS_new()', 'luaV_finishset()']
+2Paths generated!
+--------------Analysis-lua_setglobal-@lapi.c@line: 758.....
+
+['auxsetstr()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_settable-@lapi.c@line: 765.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_setfield-@lapi.c@line: 776.....
+
+['auxsetstr()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_seti-@lapi.c@line: 782.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaV_finishset()']
+2Paths generated!
+--------------Analysis-lua_rawset-@lapi.c@line: 800.....
+
+['f_entry()', 'f_exit()', 'index2addr()', 'luaH_set()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaC_barrierback_()', 'luaH_set()']
+2Paths generated!
+--------------Analysis-lua_rawseti-@lapi.c@line: 816.....
+
+['f_entry()', 'f_exit()', 'index2addr()', 'luaH_setint()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaC_barrierback_()', 'luaH_setint()']
+2Paths generated!
+--------------Analysis-lua_rawsetp-@lapi.c@line: 829.....
+
+['f_entry()', 'f_exit()', 'index2addr()', 'luaH_set()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaC_barrierback_()', 'luaH_set()']
+2Paths generated!
+--------------Analysis-lua_setmetatable-@lapi.c@line: 845.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_setuservalue-@lapi.c@line: 885.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaC_barrier_()']
+2Paths generated!
+--------------Analysis-lua_callk-@lapi.c@line: 908.....
+
+['f_entry()', 'f_exit()', 'luaD_callnoyield()']
+['f_entry()', 'f_exit()', 'luaD_call()']
+2Paths generated!
+--------------Analysis-f_call-@lapi.c@line: 940.....
+
+['f_entry()', 'f_exit()', 'luaD_callnoyield()']
+1Paths generated!
+--------------Analysis-lua_pcallk-@lapi.c@line: 947.....
+
+['f_entry()', 'f_exit()', 'luaD_call()']
+['f_entry()', 'f_exit()', 'luaD_pcall()']
+['f_entry()', 'f_exit()', 'index2addr()', 'luaD_call()']
+3Paths generated!
+--------------Analysis-lua_load-@lapi.c@line: 991.....
+
+['f_entry()', 'f_exit()', 'luaD_protectedparser()', 'luaZ_init()']
+['f_entry()', 'f_exit()', 'luaD_protectedparser()', 'luaH_getint()', 'luaZ_init()']
+['f_entry()', 'f_exit()', 'luaC_upvalbarrier_()', 'luaD_protectedparser()', 'luaH_getint()', 'luaZ_init()']
+3Paths generated!
+--------------Analysis-lua_dump-@lapi.c@line: 1015.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaU_dump()']
+2Paths generated!
+--------------Analysis-lua_status-@lapi.c@line: 1030.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_gc-@lapi.c@line: 1039.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_error-@lapi.c@line: 1113.....
+
+['f_entry()', 'f_exit()', 'luaG_errormsg()']
+1Paths generated!
+--------------Analysis-lua_next-@lapi.c@line: 1122.....
+
+['f_entry()', 'f_exit()', 'index2addr()', 'luaH_next()']
+1Paths generated!
+--------------Analysis-lua_concat-@lapi.c@line: 1139.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaV_concat()']
+2Paths generated!
+--------------Analysis-lua_len-@lapi.c@line: 1155.....
+
+['f_entry()', 'f_exit()', 'index2addr()', 'luaV_objlen()']
+1Paths generated!
+--------------Analysis-lua_getallocf-@lapi.c@line: 1165.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_setallocf-@lapi.c@line: 1175.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_newuserdata-@lapi.c@line: 1183.....
+
+['f_entry()', 'f_exit()', 'luaS_newudata()']
+1Paths generated!
+--------------Analysis-aux_upvalue-@lapi.c@line: 1196.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_getupvalue-@lapi.c@line: 1221.....
+
+['aux_upvalue()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_setupvalue-@lapi.c@line: 1235.....
+
+['aux_upvalue()', 'f_entry()', 'f_exit()', 'index2addr()']
+['aux_upvalue()', 'f_entry()', 'f_exit()', 'index2addr()', 'luaC_upvalbarrier_()']
+['aux_upvalue()', 'f_entry()', 'f_exit()', 'index2addr()', 'luaC_barrier_()']
+3Paths generated!
+--------------Analysis-getupvalref-@lapi.c@line: 1256.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_upvalueid-@lapi.c@line: 1267.....
+
+['f_entry()', 'f_exit()', 'index2addr()']
+1Paths generated!
+--------------Analysis-lua_upvaluejoin-@lapi.c@line: 1286.....
+
+['f_entry()', 'f_exit()', 'getupvalref()', 'luaC_upvdeccount()']
+['f_entry()', 'f_exit()', 'getupvalref()', 'luaC_upvalbarrier_()', 'luaC_upvdeccount()']
+2Paths generated!
+--------------Analysis-tonumeral-@lcode.c@line: 43.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_nil-@lcode.c@line: 64.....
+
+['f_entry()', 'f_exit()', 'luaK_codeABC()']
+1Paths generated!
+--------------Analysis-getjump-@lcode.c@line: 90.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-fixjump-@lcode.c@line: 103.....
+
+['abs()', 'f_entry()', 'f_exit()']
+['abs()', 'f_entry()', 'f_exit()', 'luaX_syntaxerror()']
+2Paths generated!
+--------------Analysis-luaK_concat-@lcode.c@line: 116.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'fixjump()', 'getjump()']
+2Paths generated!
+--------------Analysis-luaK_jump-@lcode.c@line: 136.....
+
+['f_entry()', 'f_exit()', 'luaK_codeABx()', 'luaK_concat()']
+1Paths generated!
+--------------Analysis-luaK_ret-@lcode.c@line: 149.....
+
+['f_entry()', 'f_exit()', 'luaK_codeABC()']
+1Paths generated!
+--------------Analysis-condjump-@lcode.c@line: 158.....
+
+['f_entry()', 'f_exit()', 'luaK_codeABC()', 'luaK_jump()']
+1Paths generated!
+--------------Analysis-luaK_getlabel-@lcode.c@line: 168.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getjumpcontrol-@lcode.c@line: 179.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-patchtestreg-@lcode.c@line: 195.....
+
+['f_entry()', 'f_exit()', 'getjumpcontrol()']
+1Paths generated!
+--------------Analysis-removevalues-@lcode.c@line: 213.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'patchtestreg()']
+['f_entry()', 'f_exit()', 'getjump()']
+3Paths generated!
+--------------Analysis-patchlistaux-@lcode.c@line: 224.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'fixjump()', 'getjump()', 'patchtestreg()']
+2Paths generated!
+--------------Analysis-dischargejpc-@lcode.c@line: 242.....
+
+['f_entry()', 'f_exit()', 'patchlistaux()']
+1Paths generated!
+--------------Analysis-luaK_patchtohere-@lcode.c@line: 252.....
+
+['f_entry()', 'f_exit()', 'luaK_concat()', 'luaK_getlabel()']
+1Paths generated!
+--------------Analysis-luaK_patchlist-@lcode.c@line: 263.....
+
+['f_entry()', 'f_exit()', 'patchlistaux()']
+['f_entry()', 'f_exit()', 'luaK_patchtohere()']
+2Paths generated!
+--------------Analysis-luaK_patchclose-@lcode.c@line: 278.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'getjump()']
+2Paths generated!
+--------------Analysis-luaK_code-@lcode.c@line: 293.....
+
+['dischargejpc()', 'f_entry()', 'f_exit()']
+['dischargejpc()', 'f_entry()', 'f_exit()', 'luaM_growaux_()']
+2Paths generated!
+--------------Analysis-luaK_codeABC-@lcode.c@line: 312.....
+
+['f_entry()', 'f_exit()', 'luaK_code()']
+1Paths generated!
+--------------Analysis-luaK_codeABx-@lcode.c@line: 324.....
+
+['f_entry()', 'f_exit()', 'luaK_code()']
+1Paths generated!
+--------------Analysis-codeextraarg-@lcode.c@line: 335.....
+
+['f_entry()', 'f_exit()', 'luaK_code()']
+1Paths generated!
+--------------Analysis-luaK_codek-@lcode.c@line: 346.....
+
+['codeextraarg()', 'f_entry()', 'f_exit()', 'luaK_codeABx()']
+['f_entry()', 'f_exit()', 'luaK_codeABx()']
+2Paths generated!
+--------------Analysis-luaK_checkstack-@lcode.c@line: 361.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaX_syntaxerror()']
+2Paths generated!
+--------------Analysis-luaK_reserveregs-@lcode.c@line: 375.....
+
+['f_entry()', 'f_exit()', 'luaK_checkstack()']
+1Paths generated!
+--------------Analysis-freereg-@lcode.c@line: 386.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-freeexp-@lcode.c@line: 397.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'freereg()']
+2Paths generated!
+--------------Analysis-freeexps-@lcode.c@line: 407.....
+
+['f_entry()', 'f_exit()', 'freereg()']
+1Paths generated!
+--------------Analysis-addk-@lcode.c@line: 428.....
+
+['f_entry()', 'f_exit()', 'luaH_set()']
+['f_entry()', 'f_exit()', 'luaC_barrier_()', 'luaH_set()']
+['f_entry()', 'f_exit()', 'luaH_set()', 'luaM_growaux_()']
+['f_entry()', 'f_exit()', 'luaH_set()', 'luaV_equalobj()']
+4Paths generated!
+--------------Analysis-luaK_stringK-@lcode.c@line: 458.....
+
+['addk()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_intK-@lcode.c@line: 471.....
+
+['addk()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_numberK-@lcode.c@line: 481.....
+
+['addk()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-boolK-@lcode.c@line: 491.....
+
+['addk()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-nilK-@lcode.c@line: 501.....
+
+['addk()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_setreturns-@lcode.c@line: 515.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaK_reserveregs()']
+2Paths generated!
+--------------Analysis-luaK_setoneret-@lcode.c@line: 539.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_dischargevars-@lcode.c@line: 556.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-discharge2reg-@lcode.c@line: 595.....
+
+['f_entry()', 'f_exit()', 'luaK_dischargevars()']
+1Paths generated!
+--------------Analysis-discharge2anyreg-@lcode.c@line: 641.....
+
+['f_entry()', 'f_exit()']
+['discharge2reg()', 'f_entry()', 'f_exit()', 'luaK_reserveregs()']
+2Paths generated!
+--------------Analysis-code_loadbool-@lcode.c@line: 649.....
+
+['f_entry()', 'f_exit()', 'luaK_codeABC()', 'luaK_getlabel()']
+1Paths generated!
+--------------Analysis-need_value-@lcode.c@line: 659.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'getjumpcontrol()']
+['f_entry()', 'f_exit()', 'getjump()']
+3Paths generated!
+--------------Analysis-exp2reg-@lcode.c@line: 675.....
+
+['discharge2reg()', 'f_entry()', 'f_exit()']
+['discharge2reg()', 'f_entry()', 'f_exit()', 'luaK_getlabel()', 'need_value()', 'patchlistaux()']
+['code_loadbool()', 'discharge2reg()', 'f_entry()', 'f_exit()', 'luaK_getlabel()', 'luaK_patchtohere()', 'need_value()', 'patchlistaux()']
+['code_loadbool()', 'discharge2reg()', 'f_entry()', 'f_exit()', 'luaK_getlabel()', 'luaK_jump()', 'luaK_patchtohere()', 'need_value()', 'patchlistaux()']
+['discharge2reg()', 'f_entry()', 'f_exit()', 'luaK_concat()']
+5Paths generated!
+--------------Analysis-luaK_exp2nextreg-@lcode.c@line: 703.....
+
+['exp2reg()', 'f_entry()', 'f_exit()', 'freeexp()', 'luaK_dischargevars()', 'luaK_reserveregs()']
+1Paths generated!
+--------------Analysis-luaK_exp2anyreg-@lcode.c@line: 715.....
+
+['f_entry()', 'f_exit()', 'luaK_dischargevars()', 'luaK_exp2nextreg()']
+['exp2reg()', 'f_entry()', 'f_exit()', 'luaK_dischargevars()', 'luaK_exp2nextreg()']
+2Paths generated!
+--------------Analysis-luaK_exp2anyregup-@lcode.c@line: 734.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaK_exp2anyreg()']
+2Paths generated!
+--------------Analysis-luaK_exp2val-@lcode.c@line: 744.....
+
+['f_entry()', 'f_exit()', 'luaK_dischargevars()']
+['f_entry()', 'f_exit()', 'luaK_exp2anyreg()']
+2Paths generated!
+--------------Analysis-luaK_exp2RK-@lcode.c@line: 758.....
+
+['f_entry()', 'f_exit()', 'luaK_exp2anyreg()', 'luaK_exp2val()']
+1Paths generated!
+--------------Analysis-luaK_storevar-@lcode.c@line: 782.....
+
+['f_entry()', 'f_exit()', 'freeexp()']
+1Paths generated!
+--------------Analysis-luaK_self-@lcode.c@line: 809.....
+
+['f_entry()', 'f_exit()', 'freeexp()', 'luaK_codeABC()', 'luaK_exp2anyreg()', 'luaK_reserveregs()']
+1Paths generated!
+--------------Analysis-negatecondition-@lcode.c@line: 825.....
+
+['f_entry()', 'f_exit()', 'getjumpcontrol()']
+1Paths generated!
+--------------Analysis-jumponcond-@lcode.c@line: 839.....
+
+['condjump()', 'discharge2anyreg()', 'f_entry()', 'f_exit()', 'freeexp()']
+1Paths generated!
+--------------Analysis-luaK_goiftrue-@lcode.c@line: 857.....
+
+['f_entry()', 'f_exit()', 'luaK_concat()', 'luaK_dischargevars()', 'luaK_patchtohere()']
+1Paths generated!
+--------------Analysis-luaK_goiffalse-@lcode.c@line: 884.....
+
+['f_entry()', 'f_exit()', 'luaK_concat()', 'luaK_dischargevars()', 'luaK_patchtohere()']
+1Paths generated!
+--------------Analysis-codenot-@lcode.c@line: 910.....
+
+['f_entry()', 'f_exit()', 'luaK_dischargevars()', 'removevalues()']
+1Paths generated!
+--------------Analysis-luaK_indexed-@lcode.c@line: 946.....
+
+['f_entry()', 'f_exit()', 'luaK_exp2RK()']
+1Paths generated!
+--------------Analysis-validop-@lcode.c@line: 960.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-constfolding-@lcode.c@line: 978.....
+
+['f_entry()', 'f_exit()', 'luaO_arith()', 'tonumeral()', 'validop()']
+1Paths generated!
+--------------Analysis-codeunexpval-@lcode.c@line: 1003.....
+
+['f_entry()', 'f_exit()', 'freeexp()', 'luaK_codeABC()', 'luaK_exp2anyreg()', 'luaK_fixline()']
+1Paths generated!
+--------------Analysis-codebinexpval-@lcode.c@line: 1018.....
+
+['f_entry()', 'f_exit()', 'freeexps()', 'luaK_codeABC()', 'luaK_exp2RK()', 'luaK_fixline()']
+1Paths generated!
+--------------Analysis-codecomp-@lcode.c@line: 1033.....
+
+['f_entry()', 'f_exit()', 'freeexps()', 'luaK_exp2RK()']
+1Paths generated!
+--------------Analysis-luaK_prefix-@lcode.c@line: 1062.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_infix-@lcode.c@line: 1082.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_posfix-@lcode.c@line: 1120.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_fixline-@lcode.c@line: 1173.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaK_setlist-@lcode.c@line: 1185.....
+
+['f_entry()', 'f_exit()', 'luaX_syntaxerror()']
+['codeextraarg()', 'f_entry()', 'f_exit()', 'luaK_codeABC()']
+['f_entry()', 'f_exit()', 'luaK_codeABC()']
+3Paths generated!
+--------------Analysis-findfield-@lauxlib.c@line: 46.....
+
+['f_entry()', 'f_exit()', 'lua_next()', 'lua_pushnil()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_next()', 'lua_pushnil()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'findfield()', 'lua_next()', 'lua_pushnil()', 'lua_rawequal()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'findfield()', 'lua_concat()', 'lua_next()', 'lua_pushnil()', 'lua_pushstring()', 'lua_rawequal()', 'lua_rotate()', 'lua_settop()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_next()', 'lua_pushnil()', 'lua_rawequal()', 'lua_settop()', 'lua_type()']
+5Paths generated!
+--------------Analysis-pushglobalfuncname-@lauxlib.c@line: 74.....
+
+['f_entry()', 'f_exit()', 'findfield()', 'lua_getfield()', 'lua_getinfo()', 'lua_gettop()', 'lua_settop()']
+['f_entry()', 'f_exit()', 'findfield()', 'lua_copy()', 'lua_getfield()', 'lua_getinfo()', 'lua_gettop()', 'lua_settop()', 'lua_tolstring()', 'strncmp()']
+['f_entry()', 'f_exit()', 'findfield()', 'lua_copy()', 'lua_getfield()', 'lua_getinfo()', 'lua_gettop()', 'lua_pushstring()', 'lua_settop()', 'lua_tolstring()', 'strncmp()']
+3Paths generated!
+--------------Analysis-pushfuncname-@lauxlib.c@line: 95.....
+
+['f_entry()', 'f_exit()', 'lua_pushstring()', 'pushglobalfuncname()']
+['f_entry()', 'f_exit()', 'lua_pushfstring()', 'pushglobalfuncname()']
+2Paths generated!
+--------------Analysis-lastlevel-@lauxlib.c@line: 111.....
+
+['f_entry()', 'f_exit()', 'lua_getstack()']
+1Paths generated!
+--------------Analysis-luaL_traceback-@lauxlib.c@line: 126.....
+
+['f_entry()', 'f_exit()', 'lastlevel()', 'luaL_checkstack()', 'lua_concat()', 'lua_getstack()', 'lua_gettop()', 'lua_pushstring()']
+['f_entry()', 'f_exit()', 'lastlevel()', 'luaL_checkstack()', 'lua_concat()', 'lua_getinfo()', 'lua_getstack()', 'lua_gettop()', 'lua_pushfstring()', 'lua_pushstring()', 'pushfuncname()']
+['f_entry()', 'f_exit()', 'lastlevel()', 'luaL_checkstack()', 'lua_concat()', 'lua_getstack()', 'lua_gettop()', 'lua_pushfstring()', 'lua_pushstring()']
+3Paths generated!
+--------------Analysis-luaL_argerror-@lauxlib.c@line: 165.....
+
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_getinfo()', 'lua_getstack()', 'strcmp()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_getinfo()', 'lua_getstack()', 'pushglobalfuncname()', 'strcmp()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_getinfo()', 'lua_getstack()', 'lua_tolstring()', 'pushglobalfuncname()', 'strcmp()']
+3Paths generated!
+--------------Analysis-typeerror-@lauxlib.c@line: 183.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_getmetafield()', 'lua_pushfstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_getmetafield()', 'lua_pushfstring()', 'lua_type()', 'lua_typename()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_getmetafield()', 'lua_pushfstring()', 'lua_tolstring()']
+3Paths generated!
+--------------Analysis-tag_error-@lauxlib.c@line: 197.....
+
+['f_entry()', 'f_exit()', 'typeerror()']
+1Paths generated!
+--------------Analysis-luaL_where-@lauxlib.c@line: 206.....
+
+['f_entry()', 'f_exit()', 'lua_getstack()', 'lua_pushfstring()']
+['f_entry()', 'f_exit()', 'lua_getinfo()', 'lua_getstack()', 'lua_pushfstring()']
+2Paths generated!
+--------------Analysis-luaL_error-@lauxlib.c@line: 224.....
+
+['__builtin_va_start()', 'f_entry()', 'f_exit()', 'luaL_where()', 'lua_concat()', 'lua_error()', 'lua_pushvfstring()']
+1Paths generated!
+--------------Analysis-luaL_fileresult-@lauxlib.c@line: 235.....
+
+['f_entry()', 'f_exit()', 'lua_pushinteger()', 'lua_pushnil()', 'lua_pushstring()']
+['f_entry()', 'f_exit()', 'lua_pushfstring()', 'lua_pushinteger()', 'lua_pushnil()']
+['f_entry()', 'f_exit()', 'lua_pushboolean()']
+3Paths generated!
+--------------Analysis-luaL_execresult-@lauxlib.c@line: 275.....
+
+['f_entry()', 'f_exit()', 'lua_pushinteger()', 'lua_pushnil()', 'lua_pushstring()']
+['f_entry()', 'f_exit()', 'lua_pushboolean()', 'lua_pushinteger()', 'lua_pushstring()']
+['f_entry()', 'f_exit()', 'luaL_fileresult()']
+3Paths generated!
+--------------Analysis-luaL_newmetatable-@lauxlib.c@line: 300.....
+
+['f_entry()', 'f_exit()', 'lua_createtable()', 'lua_getfield()', 'lua_pushstring()', 'lua_pushvalue()', 'lua_setfield()', 'lua_settop()']
+1Paths generated!
+--------------Analysis-luaL_setmetatable-@lauxlib.c@line: 313.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_setmetatable()']
+1Paths generated!
+--------------Analysis-luaL_testudata-@lauxlib.c@line: 319.....
+
+['f_entry()', 'f_exit()', 'lua_touserdata()']
+['f_entry()', 'f_exit()', 'lua_getmetatable()', 'lua_touserdata()']
+['f_entry()', 'f_exit()', 'lua_getfield()', 'lua_getmetatable()', 'lua_rawequal()', 'lua_settop()', 'lua_touserdata()']
+3Paths generated!
+--------------Analysis-luaL_checkudata-@lauxlib.c@line: 334.....
+
+['f_entry()', 'f_exit()', 'luaL_testudata()']
+['f_entry()', 'f_exit()', 'luaL_testudata()', 'typeerror()']
+2Paths generated!
+--------------Analysis-luaL_checkoption-@lauxlib.c@line: 349.....
+
+['f_entry()', 'f_exit()', 'luaL_argerror()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'strcmp()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_checklstring()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'luaL_optlstring()']
+4Paths generated!
+--------------Analysis-luaL_checkstack-@lauxlib.c@line: 369.....
+
+['f_entry()', 'f_exit()', 'lua_checkstack()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_checkstack()']
+2Paths generated!
+--------------Analysis-luaL_checktype-@lauxlib.c@line: 379.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_type()', 'tag_error()']
+2Paths generated!
+--------------Analysis-luaL_checkany-@lauxlib.c@line: 385.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_type()']
+2Paths generated!
+--------------Analysis-luaL_checklstring-@lauxlib.c@line: 391.....
+
+['f_entry()', 'f_exit()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'lua_tolstring()', 'tag_error()']
+2Paths generated!
+--------------Analysis-luaL_optlstring-@lauxlib.c@line: 398.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checklstring()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_type()', 'strlen()']
+3Paths generated!
+--------------Analysis-luaL_checknumber-@lauxlib.c@line: 409.....
+
+['f_entry()', 'f_exit()', 'lua_tonumberx()']
+['f_entry()', 'f_exit()', 'lua_tonumberx()', 'tag_error()']
+2Paths generated!
+--------------Analysis-luaL_optnumber-@lauxlib.c@line: 418.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checknumber()', 'lua_type()']
+2Paths generated!
+--------------Analysis-interror-@lauxlib.c@line: 423.....
+
+['f_entry()', 'f_exit()', 'lua_isnumber()', 'tag_error()']
+['f_entry()', 'f_exit()', 'luaL_argerror()', 'lua_isnumber()']
+2Paths generated!
+--------------Analysis-luaL_checkinteger-@lauxlib.c@line: 431.....
+
+['f_entry()', 'f_exit()', 'lua_tointegerx()']
+['f_entry()', 'f_exit()', 'interror()', 'lua_tointegerx()']
+2Paths generated!
+--------------Analysis-luaL_optinteger-@lauxlib.c@line: 441.....
+
+['f_entry()', 'f_exit()', 'lua_type()']
+['f_entry()', 'f_exit()', 'luaL_checkinteger()', 'lua_type()']
+2Paths generated!
+--------------Analysis-resizebox-@lauxlib.c@line: 462.....
+
+['allocf()', 'f_entry()', 'f_exit()', 'lua_getallocf()', 'lua_touserdata()']
+['allocf()', 'f_entry()', 'f_exit()', 'luaL_error()', 'lua_getallocf()', 'lua_touserdata()', 'resizebox()']
+2Paths generated!
+--------------Analysis-boxgc-@lauxlib.c@line: 477.....
+
+['f_entry()', 'f_exit()', 'resizebox()']
+1Paths generated!
+--------------Analysis-newbox-@lauxlib.c@line: 483.....
+
+['f_entry()', 'f_exit()', 'luaL_newmetatable()', 'lua_newuserdata()', 'lua_setmetatable()', 'resizebox()']
+['f_entry()', 'f_exit()', 'luaL_newmetatable()', 'lua_newuserdata()', 'lua_pushcclosure()', 'lua_setfield()', 'lua_setmetatable()', 'resizebox()']
+2Paths generated!
+--------------Analysis-luaL_prepbuffsize-@lauxlib.c@line: 506.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'memcpy()', 'newbox()']
+['f_entry()', 'f_exit()', 'resizebox()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'memcpy()', 'newbox()']
+4Paths generated!
+--------------Analysis-luaL_addlstring-@lauxlib.c@line: 529.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaL_prepbuffsize()', 'memcpy()']
+2Paths generated!
+--------------Analysis-luaL_addstring-@lauxlib.c@line: 538.....
+
+['f_entry()', 'f_exit()', 'luaL_addlstring()']
+1Paths generated!
+--------------Analysis-luaL_pushresult-@lauxlib.c@line: 543.....
+
+['f_entry()', 'f_exit()', 'lua_pushlstring()']
+['f_entry()', 'f_exit()', 'lua_pushlstring()', 'resizebox()']
+2Paths generated!
+--------------Analysis-luaL_pushresultsize-@lauxlib.c@line: 553.....
+
+['f_entry()', 'f_exit()', 'luaL_pushresult()']
+1Paths generated!
+--------------Analysis-luaL_addvalue-@lauxlib.c@line: 559.....
+
+['f_entry()', 'f_exit()', 'luaL_addlstring()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'luaL_addlstring()', 'lua_rotate()', 'lua_tolstring()']
+2Paths generated!
+--------------Analysis-luaL_buffinit-@lauxlib.c@line: 570.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaL_buffinitsize-@lauxlib.c@line: 578.....
+
+['f_entry()', 'f_exit()', 'luaL_buffinit()', 'luaL_prepbuffsize()']
+1Paths generated!
+--------------Analysis-luaL_ref-@lauxlib.c@line: 596.....
+
+['f_entry()', 'f_exit()', 'lua_absindex()', 'lua_rawgeti()', 'lua_rawlen()', 'lua_rawseti()', 'lua_settop()', 'lua_tointegerx()', 'lua_type()']
+['f_entry()', 'f_exit()', 'lua_absindex()', 'lua_rawgeti()', 'lua_rawseti()', 'lua_settop()', 'lua_tointegerx()', 'lua_type()']
+2Paths generated!
+--------------Analysis-luaL_unref-@lauxlib.c@line: 617.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'lua_absindex()', 'lua_pushinteger()', 'lua_rawgeti()', 'lua_rawseti()']
+2Paths generated!
+--------------Analysis-getF-@lauxlib.c@line: 643.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'feof()', 'fread()']
+2Paths generated!
+--------------Analysis-errfile-@lauxlib.c@line: 661.....
+
+['f_entry()', 'f_exit()', 'lua_pushfstring()', 'lua_tolstring()', 'strerror()']
+1Paths generated!
+--------------Analysis-skipBOM-@lauxlib.c@line: 670.....
+
+['f_entry()', 'f_exit()', 'getc()']
+1Paths generated!
+--------------Analysis-skipcomment-@lauxlib.c@line: 691.....
+
+['f_entry()', 'f_exit()', 'skipBOM()']
+['f_entry()', 'f_exit()', 'getc()', 'skipBOM()']
+2Paths generated!
+--------------Analysis-luaL_loadfilex-@lauxlib.c@line: 704.....
+
+['f_entry()', 'f_exit()', 'ferror()', 'fopen()', 'lua_gettop()', 'lua_load()', 'lua_pushfstring()', 'skipcomment()']
+['errfile()', 'f_entry()', 'f_exit()', 'ferror()', 'fopen()', 'lua_gettop()', 'lua_load()', 'lua_pushfstring()', 'lua_settop()', 'skipcomment()']
+['f_entry()', 'f_exit()', 'fclose()', 'ferror()', 'fopen()', 'lua_gettop()', 'lua_load()', 'lua_pushfstring()', 'skipcomment()']
+['errfile()', 'f_entry()', 'f_exit()', 'fclose()', 'ferror()', 'fopen()', 'freopen()', 'lua_gettop()', 'lua_load()', 'lua_pushfstring()', 'lua_settop()', 'skipcomment()']
+['errfile()', 'f_entry()', 'f_exit()', 'fclose()', 'ferror()', 'freopen()', 'lua_gettop()', 'lua_load()', 'lua_pushstring()', 'lua_settop()', 'skipcomment()']
+5Paths generated!
+--------------Analysis-getS-@lauxlib.c@line: 746.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaL_loadbufferx-@lauxlib.c@line: 756.....
+
+['f_entry()', 'f_exit()', 'lua_load()']
+1Paths generated!
+--------------Analysis-luaL_loadstring-@lauxlib.c@line: 765.....
+
+['f_entry()', 'f_exit()', 'luaL_loadbufferx()']
+1Paths generated!
+--------------Analysis-luaL_getmetafield-@lauxlib.c@line: 773.....
+
+['f_entry()', 'f_exit()', 'lua_getmetatable()']
+['f_entry()', 'f_exit()', 'lua_getmetatable()', 'lua_pushstring()', 'lua_rawget()']
+['f_entry()', 'f_exit()', 'lua_getmetatable()', 'lua_pushstring()', 'lua_rawget()', 'lua_settop()']
+3Paths generated!
+--------------Analysis-luaL_callmeta-@lauxlib.c@line: 789.....
+
+['f_entry()', 'f_exit()', 'luaL_getmetafield()', 'lua_absindex()', 'lua_callk()', 'lua_pushvalue()']
+1Paths generated!
+--------------Analysis-luaL_len-@lauxlib.c@line: 799.....
+
+['f_entry()', 'f_exit()', 'lua_len()', 'lua_settop()', 'lua_tointegerx()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_len()', 'lua_settop()', 'lua_tointegerx()']
+2Paths generated!
+--------------Analysis-luaL_tolstring-@lauxlib.c@line: 811.....
+
+['f_entry()', 'f_exit()', 'luaL_callmeta()', 'lua_tolstring()']
+['f_entry()', 'f_exit()', 'luaL_callmeta()', 'lua_tolstring()', 'lua_type()']
+2Paths generated!
+--------------Analysis-luaL_setfuncs-@lauxlib.c@line: 926.....
+
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'lua_settop()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'lua_pushcclosure()', 'lua_setfield()', 'lua_settop()']
+['f_entry()', 'f_exit()', 'luaL_checkstack()', 'lua_pushcclosure()', 'lua_pushvalue()', 'lua_setfield()', 'lua_settop()']
+3Paths generated!
+--------------Analysis-luaL_getsubtable-@lauxlib.c@line: 943.....
+
+['f_entry()', 'f_exit()', 'lua_getfield()']
+['f_entry()', 'f_exit()', 'lua_absindex()', 'lua_createtable()', 'lua_getfield()', 'lua_pushvalue()', 'lua_setfield()', 'lua_settop()']
+2Paths generated!
+--------------Analysis-luaL_requiref-@lauxlib.c@line: 963.....
+
+['f_entry()', 'f_exit()', 'luaL_getsubtable()', 'lua_getfield()', 'lua_toboolean()']
+['f_entry()', 'f_exit()', 'luaL_getsubtable()', 'lua_getfield()', 'lua_pushvalue()', 'lua_setglobal()', 'lua_toboolean()']
+['f_entry()', 'f_exit()', 'luaL_getsubtable()', 'lua_callk()', 'lua_getfield()', 'lua_pushcclosure()', 'lua_pushstring()', 'lua_pushvalue()', 'lua_setfield()', 'lua_settop()', 'lua_toboolean()']
+3Paths generated!
+--------------Analysis-luaL_gsub-@lauxlib.c@line: 983.....
+
+['f_entry()', 'f_exit()', 'luaL_addstring()', 'luaL_buffinit()', 'luaL_pushresult()', 'lua_tolstring()', 'strlen()', 'strstr()']
+['f_entry()', 'f_exit()', 'luaL_addlstring()', 'luaL_addstring()', 'luaL_buffinit()', 'luaL_pushresult()', 'lua_tolstring()', 'strlen()', 'strstr()']
+2Paths generated!
+--------------Analysis-l_alloc-@lauxlib.c@line: 1000.....
+
+['f_entry()', 'f_exit()', 'realloc()']
+['f_entry()', 'f_exit()', 'free()']
+2Paths generated!
+--------------Analysis-panic-@lauxlib.c@line: 1011.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaL_newstate-@lauxlib.c@line: 1018.....
+
+['f_entry()', 'f_exit()', 'lua_newstate()']
+['f_entry()', 'f_exit()', 'lua_atpanic()', 'lua_newstate()']
+2Paths generated!
+--------------Analysis-luaL_checkversion_-@lauxlib.c@line: 1025.....
+
+['f_entry()', 'f_exit()', 'lua_version()']
+['f_entry()', 'f_exit()', 'luaL_error()', 'lua_version()']
+2Paths generated!
+--------------Analysis-seterrorobj-@ldo.c@line: 91.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaD_throw-@ldo.c@line: 110.....
+
+['abort()', 'f_entry()', 'f_exit()']
+['abort()', 'f_entry()', 'f_exit()', 'panic()', 'seterrorobj()']
+['f_entry()', 'f_exit()', 'luaD_throw()']
+['f_entry()', 'f_exit()', 'longjmp()']
+4Paths generated!
+--------------Analysis-luaD_rawrunprotected-@ldo.c@line: 136.....
+
+['f_entry()', 'f_exit()', 'setjmp()']
+1Paths generated!
+--------------Analysis-correctstack-@ldo.c@line: 158.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaD_reallocstack-@ldo.c@line: 177.....
+
+['correctstack()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaD_growstack-@ldo.c@line: 191.....
+
+['f_entry()', 'f_exit()', 'luaD_reallocstack()']
+['f_entry()', 'f_exit()', 'luaD_reallocstack()', 'luaG_runerror()']
+['f_entry()', 'f_exit()', 'luaD_throw()']
+3Paths generated!
+--------------Analysis-stackinuse-@ldo.c@line: 210.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaD_shrinkstack-@ldo.c@line: 221.....
+
+['f_entry()', 'f_exit()', 'luaE_shrinkCI()', 'stackinuse()']
+['f_entry()', 'f_exit()', 'luaD_reallocstack()', 'luaE_shrinkCI()', 'stackinuse()']
+['f_entry()', 'f_exit()', 'luaE_freeCI()', 'stackinuse()']
+3Paths generated!
+--------------Analysis-luaD_inctop-@ldo.c@line: 237.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_growstack()']
+2Paths generated!
+--------------Analysis-luaD_hook-@ldo.c@line: 250.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_growstack()']
+2Paths generated!
+--------------Analysis-callhook-@ldo.c@line: 277.....
+
+['f_entry()', 'f_exit()', 'luaD_hook()']
+1Paths generated!
+--------------Analysis-adjust_varargs-@ldo.c@line: 290.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-tryfuncTM-@ldo.c@line: 312.....
+
+['f_entry()', 'f_exit()', 'luaT_gettmbyobj()']
+['f_entry()', 'f_exit()', 'luaG_typeerror()', 'luaT_gettmbyobj()']
+2Paths generated!
+--------------Analysis-luaD_precall-@ldo.c@line: 344.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-moveresults-@ldo.c@line: 411.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaD_poscall-@ldo.c@line: 453.....
+
+['f_entry()', 'f_exit()', 'moveresults()']
+['f_entry()', 'f_exit()', 'luaD_hook()', 'moveresults()']
+2Paths generated!
+--------------Analysis-stackerror-@ldo.c@line: 478.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_throw()']
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+3Paths generated!
+--------------Analysis-luaD_call-@ldo.c@line: 492.....
+
+['f_entry()', 'f_exit()', 'luaD_precall()']
+['f_entry()', 'f_exit()', 'luaD_precall()', 'luaV_execute()']
+['f_entry()', 'f_exit()', 'luaD_precall()', 'luaV_execute()', 'stackerror()']
+3Paths generated!
+--------------Analysis-luaD_callnoyield-@ldo.c@line: 504.....
+
+['f_entry()', 'f_exit()', 'luaD_call()']
+1Paths generated!
+--------------Analysis-finishCcall-@ldo.c@line: 515.....
+
+['f_entry()', 'f_exit()', 'luaD_poscall()']
+1Paths generated!
+--------------Analysis-unroll-@ldo.c@line: 547.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaV_execute()', 'luaV_finishOp()']
+['f_entry()', 'f_exit()', 'finishCcall()']
+3Paths generated!
+--------------Analysis-findpcall-@ldo.c@line: 565.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-recover-@ldo.c@line: 580.....
+
+['f_entry()', 'f_exit()', 'findpcall()', 'luaD_shrinkstack()', 'luaF_close()', 'seterrorobj()']
+1Paths generated!
+--------------Analysis-resume_error-@ldo.c@line: 602.....
+
+['f_entry()', 'f_exit()', 'luaD_throw()']
+1Paths generated!
+--------------Analysis-resume-@ldo.c@line: 617.....
+
+['f_entry()', 'f_exit()', 'luaD_poscall()', 'unroll()']
+['f_entry()', 'f_exit()', 'luaV_execute()', 'unroll()']
+['f_entry()', 'f_exit()', 'resume_error()']
+['f_entry()', 'f_exit()', 'luaD_precall()']
+['f_entry()', 'f_exit()', 'luaD_precall()', 'luaV_execute()']
+['f_entry()', 'f_exit()', 'luaD_precall()', 'luaV_execute()', 'resume_error()']
+['f_entry()', 'f_exit()', 'luaD_poscall()', 'resume_error()', 'unroll()']
+7Paths generated!
+--------------Analysis-lua_resume-@ldo.c@line: 654.....
+
+['f_entry()', 'f_exit()', 'luaD_rawrunprotected()']
+['f_entry()', 'f_exit()', 'luaD_rawrunprotected()', 'recover()']
+['f_entry()', 'f_exit()', 'luaD_rawrunprotected()', 'recover()', 'seterrorobj()']
+3Paths generated!
+--------------Analysis-lua_isyieldable-@ldo.c@line: 685.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_yieldk-@ldo.c@line: 690.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_throw()']
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+3Paths generated!
+--------------Analysis-luaD_pcall-@ldo.c@line: 719.....
+
+['f_entry()', 'f_exit()', 'luaD_rawrunprotected()']
+['f_entry()', 'f_exit()', 'luaD_rawrunprotected()', 'luaD_shrinkstack()', 'luaF_close()', 'seterrorobj()']
+2Paths generated!
+--------------Analysis-checkmode-@ldo.c@line: 755.....
+
+['f_entry()', 'f_exit()', 'strchr()']
+['f_entry()', 'f_exit()', 'luaD_throw()', 'luaO_pushfstring()', 'strchr()']
+2Paths generated!
+--------------Analysis-f_parser-@ldo.c@line: 764.....
+
+['checkmode()', 'f_entry()', 'f_exit()', 'luaF_initupvals()', 'luaY_parser()']
+['checkmode()', 'f_entry()', 'f_exit()', 'luaF_initupvals()', 'luaU_undump()']
+['checkmode()', 'f_entry()', 'f_exit()', 'luaF_initupvals()', 'luaY_parser()', 'luaZ_fill()']
+3Paths generated!
+--------------Analysis-luaD_protectedparser-@ldo.c@line: 781.....
+
+['f_entry()', 'f_exit()', 'luaD_pcall()', 'luaM_realloc_()']
+1Paths generated!
+--------------Analysis-semerror-@lparser.c@line: 67.....
+
+['f_entry()', 'f_exit()', 'luaX_syntaxerror()']
+1Paths generated!
+--------------Analysis-error_expected-@lparser.c@line: 73.....
+
+['f_entry()', 'f_exit()', 'luaX_syntaxerror()']
+1Paths generated!
+--------------Analysis-errorlimit-@lparser.c@line: 79.....
+
+['f_entry()', 'f_exit()', 'luaO_pushfstring()', 'luaX_syntaxerror()']
+1Paths generated!
+--------------Analysis-checklimit-@lparser.c@line: 92.....
+
+['f_entry()', 'f_exit()']
+['errorlimit()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-testnext-@lparser.c@line: 97.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaX_next()']
+2Paths generated!
+--------------Analysis-check-@lparser.c@line: 106.....
+
+['f_entry()', 'f_exit()']
+['error_expected()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-checknext-@lparser.c@line: 112.....
+
+['check()', 'f_entry()', 'f_exit()', 'luaX_next()']
+1Paths generated!
+--------------Analysis-check_match-@lparser.c@line: 122.....
+
+['f_entry()', 'f_exit()', 'testnext()']
+['f_entry()', 'f_exit()', 'luaX_syntaxerror()', 'testnext()']
+['error_expected()', 'f_entry()', 'f_exit()', 'testnext()']
+3Paths generated!
+--------------Analysis-str_checkname-@lparser.c@line: 135.....
+
+['check()', 'f_entry()', 'f_exit()', 'luaX_next()']
+1Paths generated!
+--------------Analysis-init_exp-@lparser.c@line: 144.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-codestring-@lparser.c@line: 151.....
+
+['f_entry()', 'f_exit()', 'init_exp()']
+1Paths generated!
+--------------Analysis-checkname-@lparser.c@line: 156.....
+
+['codestring()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-registerlocalvar-@lparser.c@line: 161.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaC_barrier_()']
+['f_entry()', 'f_exit()', 'luaM_growaux_()']
+3Paths generated!
+--------------Analysis-new_localvar-@lparser.c@line: 175.....
+
+['checklimit()', 'f_entry()', 'f_exit()', 'registerlocalvar()']
+['checklimit()', 'f_entry()', 'f_exit()', 'luaM_growaux_()', 'registerlocalvar()']
+2Paths generated!
+--------------Analysis-new_localvarliteral_-@lparser.c@line: 187.....
+
+['f_entry()', 'f_exit()', 'new_localvar()']
+1Paths generated!
+--------------Analysis-getlocvar-@lparser.c@line: 195.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-adjustlocalvars-@lparser.c@line: 202.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'getlocvar()']
+2Paths generated!
+--------------Analysis-removevars-@lparser.c@line: 211.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'getlocvar()']
+2Paths generated!
+--------------Analysis-searchupvalue-@lparser.c@line: 218.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-newupvalue-@lparser.c@line: 228.....
+
+['checklimit()', 'f_entry()', 'f_exit()']
+['checklimit()', 'f_entry()', 'f_exit()', 'luaC_barrier_()']
+['checklimit()', 'f_entry()', 'f_exit()', 'luaM_growaux_()']
+3Paths generated!
+--------------Analysis-searchvar-@lparser.c@line: 244.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'getlocvar()']
+2Paths generated!
+--------------Analysis-markupval-@lparser.c@line: 258.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-singlevaraux-@lparser.c@line: 270.....
+
+['f_entry()', 'f_exit()', 'init_exp()', 'searchupvalue()', 'searchvar()']
+['f_entry()', 'f_exit()', 'init_exp()', 'newupvalue()', 'searchupvalue()', 'searchvar()', 'singlevaraux()']
+['f_entry()', 'f_exit()', 'init_exp()', 'searchvar()']
+['f_entry()', 'f_exit()', 'init_exp()', 'markupval()', 'searchvar()']
+['f_entry()', 'f_exit()', 'init_exp()']
+5Paths generated!
+--------------Analysis-singlevar-@lparser.c@line: 295.....
+
+['f_entry()', 'f_exit()', 'singlevaraux()', 'str_checkname()']
+['codestring()', 'f_entry()', 'f_exit()', 'luaK_indexed()', 'singlevaraux()', 'str_checkname()']
+2Paths generated!
+--------------Analysis-adjust_assign-@lparser.c@line: 309.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaK_nil()', 'luaK_reserveregs()']
+['f_entry()', 'f_exit()', 'luaK_exp2nextreg()']
+['f_entry()', 'f_exit()', 'luaK_setreturns()']
+['f_entry()', 'f_exit()', 'luaK_reserveregs()', 'luaK_setreturns()']
+5Paths generated!
+--------------Analysis-enterlevel-@lparser.c@line: 329.....
+
+['checklimit()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-closegoto-@lparser.c@line: 339.....
+
+['f_entry()', 'f_exit()', 'luaK_patchlist()']
+['f_entry()', 'f_exit()', 'getlocvar()', 'luaK_patchlist()', 'luaO_pushfstring()', 'semerror()']
+2Paths generated!
+--------------Analysis-findlabel-@lparser.c@line: 363.....
+
+['f_entry()', 'f_exit()']
+['closegoto()', 'f_entry()', 'f_exit()']
+['closegoto()', 'f_entry()', 'f_exit()', 'luaK_patchclose()']
+3Paths generated!
+--------------Analysis-newlabelentry-@lparser.c@line: 383.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaM_growaux_()']
+2Paths generated!
+--------------Analysis-findgotos-@lparser.c@line: 401.....
+
+['f_entry()', 'f_exit()']
+['closegoto()', 'f_entry()', 'f_exit()']
+2Paths generated!
+--------------Analysis-movegotosout-@lparser.c@line: 419.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'findlabel()']
+['f_entry()', 'f_exit()', 'findlabel()', 'luaK_patchclose()']
+3Paths generated!
+--------------Analysis-enterblock-@lparser.c@line: 437.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-breaklabel-@lparser.c@line: 452.....
+
+['f_entry()', 'f_exit()', 'findgotos()', 'luaS_new()', 'newlabelentry()']
+1Paths generated!
+--------------Analysis-undefgoto-@lparser.c@line: 462.....
+
+['f_entry()', 'f_exit()', 'luaO_pushfstring()', 'semerror()']
+1Paths generated!
+--------------Analysis-leaveblock-@lparser.c@line: 471.....
+
+['f_entry()', 'f_exit()', 'removevars()']
+['f_entry()', 'f_exit()', 'removevars()', 'undefgoto()']
+['f_entry()', 'f_exit()', 'movegotosout()', 'removevars()']
+['breaklabel()', 'f_entry()', 'f_exit()', 'movegotosout()', 'removevars()']
+['f_entry()', 'f_exit()', 'luaK_jump()', 'luaK_patchclose()', 'luaK_patchtohere()', 'movegotosout()', 'removevars()']
+5Paths generated!
+--------------Analysis-addprototype-@lparser.c@line: 497.....
+
+['f_entry()', 'f_exit()', 'luaF_newproto()']
+['f_entry()', 'f_exit()', 'luaC_barrier_()', 'luaF_newproto()']
+['f_entry()', 'f_exit()', 'luaC_barrier_()', 'luaF_newproto()', 'luaM_growaux_()']
+3Paths generated!
+--------------Analysis-codeclosure-@lparser.c@line: 520.....
+
+['f_entry()', 'f_exit()', 'init_exp()', 'luaK_exp2nextreg()']
+1Paths generated!
+--------------Analysis-open_func-@lparser.c@line: 527.....
+
+['enterblock()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-close_func-@lparser.c@line: 550.....
+
+['f_entry()', 'f_exit()', 'leaveblock()', 'luaK_ret()']
+1Paths generated!
+--------------Analysis-block_follow-@lparser.c@line: 585.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-statlist-@lparser.c@line: 596.....
+
+['block_follow()', 'f_entry()', 'f_exit()']
+['block_follow()', 'f_entry()', 'f_exit()', 'statement()']
+2Paths generated!
+--------------Analysis-fieldsel-@lparser.c@line: 608.....
+
+['checkname()', 'f_entry()', 'f_exit()', 'luaK_exp2anyregup()', 'luaK_indexed()', 'luaX_next()']
+1Paths generated!
+--------------Analysis-yindex-@lparser.c@line: 619.....
+
+['checknext()', 'expr()', 'f_entry()', 'f_exit()', 'luaK_exp2val()', 'luaX_next()']
+1Paths generated!
+--------------Analysis-recfield-@lparser.c@line: 644.....
+
+['checknext()', 'expr()', 'f_entry()', 'f_exit()', 'luaK_codeABC()', 'luaK_exp2RK()', 'yindex()']
+['checklimit()', 'checkname()', 'checknext()', 'expr()', 'f_entry()', 'f_exit()', 'luaK_codeABC()', 'luaK_exp2RK()']
+2Paths generated!
+--------------Analysis-closelistfield-@lparser.c@line: 665.....
+
+['f_entry()', 'f_exit()', 'luaK_exp2nextreg()']
+['f_entry()', 'f_exit()', 'luaK_exp2nextreg()', 'luaK_setlist()']
+2Paths generated!
+--------------Analysis-lastlistfield-@lparser.c@line: 676.....
+
+['f_entry()', 'f_exit()', 'luaK_setlist()']
+['f_entry()', 'f_exit()', 'luaK_exp2nextreg()', 'luaK_setlist()']
+['f_entry()', 'f_exit()', 'luaK_setlist()', 'luaK_setreturns()']
+3Paths generated!
+--------------Analysis-listfield-@lparser.c@line: 691.....
+
+['checklimit()', 'expr()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-field-@lparser.c@line: 700.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-constructor-@lparser.c@line: 722.....
+
+['check_match()', 'checknext()', 'closelistfield()', 'f_entry()', 'f_exit()', 'field()', 'init_exp()', 'lastlistfield()', 'luaK_codeABC()', 'luaK_exp2nextreg()', 'luaO_int2fb()', 'testnext()']
+1Paths generated!
+--------------Analysis-parlist-@lparser.c@line: 751.....
+
+['adjustlocalvars()', 'f_entry()', 'f_exit()', 'luaK_reserveregs()']
+['adjustlocalvars()', 'f_entry()', 'f_exit()', 'luaK_reserveregs()', 'testnext()']
+2Paths generated!
+--------------Analysis-body-@lparser.c@line: 780.....
+
+['addprototype()', 'check_match()', 'checknext()', 'close_func()', 'codeclosure()', 'f_entry()', 'f_exit()', 'open_func()', 'parlist()', 'statlist()']
+['addprototype()', 'adjustlocalvars()', 'check_match()', 'checknext()', 'close_func()', 'codeclosure()', 'f_entry()', 'f_exit()', 'new_localvarliteral_()', 'open_func()', 'parlist()', 'statlist()']
+2Paths generated!
+--------------Analysis-explist-@lparser.c@line: 802.....
+
+['expr()', 'f_entry()', 'f_exit()', 'testnext()']
+['expr()', 'f_entry()', 'f_exit()', 'luaK_exp2nextreg()', 'testnext()']
+2Paths generated!
+--------------Analysis-funcargs-@lparser.c@line: 815.....
+
+['f_entry()', 'f_exit()', 'init_exp()', 'luaK_fixline()']
+['f_entry()', 'f_exit()', 'init_exp()', 'luaK_exp2nextreg()', 'luaK_fixline()']
+2Paths generated!
+--------------Analysis-primaryexp-@lparser.c@line: 869.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-suffixedexp-@lparser.c@line: 891.....
+
+['f_entry()', 'f_exit()', 'primaryexp()']
+1Paths generated!
+--------------Analysis-simpleexp-@lparser.c@line: 929.....
+
+['f_entry()', 'f_exit()', 'luaX_next()']
+1Paths generated!
+--------------Analysis-getunopr-@lparser.c@line: 985.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getbinopr-@lparser.c@line: 996.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-subexpr-@lparser.c@line: 1047.....
+
+['enterlevel()', 'f_entry()', 'f_exit()', 'getbinopr()', 'getunopr()', 'simpleexp()']
+['enterlevel()', 'f_entry()', 'f_exit()', 'getbinopr()', 'getunopr()', 'luaK_infix()', 'luaK_posfix()', 'luaX_next()', 'simpleexp()', 'subexpr()']
+['enterlevel()', 'f_entry()', 'f_exit()', 'getbinopr()', 'getunopr()', 'luaK_infix()', 'luaK_posfix()', 'luaK_prefix()', 'luaX_next()', 'subexpr()']
+3Paths generated!
+--------------Analysis-expr-@lparser.c@line: 1077.....
+
+['f_entry()', 'f_exit()', 'subexpr()']
+1Paths generated!
+--------------Analysis-block-@lparser.c@line: 1092.....
+
+['enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'statlist()']
+1Paths generated!
+--------------Analysis-check_conflict-@lparser.c@line: 1118.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaK_codeABC()', 'luaK_reserveregs()']
+2Paths generated!
+--------------Analysis-assignment-@lparser.c@line: 1146.....
+
+['checknext()', 'explist()', 'f_entry()', 'f_exit()', 'init_exp()', 'luaK_setoneret()', 'luaK_storevar()', 'testnext()']
+['adjust_assign()', 'checknext()', 'explist()', 'f_entry()', 'f_exit()', 'init_exp()', 'luaK_storevar()', 'testnext()']
+['assignment()', 'checklimit()', 'f_entry()', 'f_exit()', 'init_exp()', 'luaK_storevar()', 'suffixedexp()', 'testnext()']
+['assignment()', 'check_conflict()', 'checklimit()', 'f_entry()', 'f_exit()', 'init_exp()', 'luaK_storevar()', 'suffixedexp()', 'testnext()']
+4Paths generated!
+--------------Analysis-cond-@lparser.c@line: 1179.....
+
+['expr()', 'f_entry()', 'f_exit()', 'luaK_goiftrue()']
+1Paths generated!
+--------------Analysis-gotostat-@lparser.c@line: 1189.....
+
+['f_entry()', 'f_exit()', 'findlabel()', 'luaS_new()', 'luaX_next()', 'newlabelentry()', 'testnext()']
+['f_entry()', 'f_exit()', 'findlabel()', 'newlabelentry()', 'str_checkname()', 'testnext()']
+2Paths generated!
+--------------Analysis-checkrepeated-@lparser.c@line: 1205.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaO_pushfstring()', 'semerror()']
+2Paths generated!
+--------------Analysis-skipnoopstat-@lparser.c@line: 1219.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'statement()']
+2Paths generated!
+--------------Analysis-labelstat-@lparser.c@line: 1225.....
+
+['block_follow()', 'checknext()', 'checkrepeated()', 'f_entry()', 'f_exit()', 'findgotos()', 'newlabelentry()', 'skipnoopstat()']
+1Paths generated!
+--------------Analysis-whilestat-@lparser.c@line: 1243.....
+
+['block()', 'check_match()', 'checknext()', 'cond()', 'enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_getlabel()', 'luaK_patchlist()', 'luaK_patchtohere()', 'luaX_next()']
+1Paths generated!
+--------------Analysis-repeatstat-@lparser.c@line: 1262.....
+
+['check_match()', 'cond()', 'enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_getlabel()', 'luaK_patchlist()', 'luaX_next()', 'statlist()']
+['check_match()', 'cond()', 'enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_getlabel()', 'luaK_patchclose()', 'luaK_patchlist()', 'luaX_next()', 'statlist()']
+2Paths generated!
+--------------Analysis-exp1-@lparser.c@line: 1282.....
+
+['expr()', 'f_entry()', 'f_exit()', 'luaK_exp2nextreg()']
+1Paths generated!
+--------------Analysis-forbody-@lparser.c@line: 1293.....
+
+['adjustlocalvars()', 'block()', 'checknext()', 'enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_codeABC()', 'luaK_codeABx()', 'luaK_fixline()', 'luaK_patchlist()', 'luaK_patchtohere()', 'luaK_reserveregs()']
+['adjustlocalvars()', 'block()', 'checknext()', 'enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_codeABx()', 'luaK_fixline()', 'luaK_patchlist()', 'luaK_patchtohere()', 'luaK_reserveregs()']
+['adjustlocalvars()', 'block()', 'checknext()', 'enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_codeABx()', 'luaK_fixline()', 'luaK_jump()', 'luaK_patchlist()', 'luaK_patchtohere()', 'luaK_reserveregs()']
+3Paths generated!
+--------------Analysis-fornum-@lparser.c@line: 1319.....
+
+['checknext()', 'exp1()', 'f_entry()', 'f_exit()', 'forbody()', 'luaK_codek()', 'luaK_reserveregs()', 'new_localvar()', 'new_localvarliteral_()', 'testnext()']
+['checknext()', 'exp1()', 'f_entry()', 'f_exit()', 'forbody()', 'new_localvar()', 'new_localvarliteral_()', 'testnext()']
+2Paths generated!
+--------------Analysis-forlist-@lparser.c@line: 1341.....
+
+['adjust_assign()', 'checknext()', 'f_entry()', 'f_exit()', 'forbody()', 'luaK_checkstack()', 'new_localvar()', 'new_localvarliteral_()', 'testnext()']
+1Paths generated!
+--------------Analysis-forstat-@lparser.c@line: 1366.....
+
+['check_match()', 'enterblock()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaX_next()', 'str_checkname()']
+1Paths generated!
+--------------Analysis-test_then_block-@lparser.c@line: 1384.....
+
+['checknext()', 'enterblock()', 'expr()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_goiftrue()', 'luaK_patchtohere()', 'luaX_next()', 'statlist()']
+['checknext()', 'enterblock()', 'expr()', 'f_entry()', 'f_exit()', 'leaveblock()', 'luaK_concat()', 'luaK_goiftrue()', 'luaK_patchtohere()', 'luaX_next()', 'statlist()']
+['block_follow()', 'checknext()', 'enterblock()', 'expr()', 'f_entry()', 'f_exit()', 'gotostat()', 'leaveblock()', 'luaK_concat()', 'luaK_goiffalse()', 'luaK_jump()', 'luaK_patchtohere()', 'luaX_next()', 'skipnoopstat()', 'statlist()']
+['block_follow()', 'checknext()', 'enterblock()', 'expr()', 'f_entry()', 'f_exit()', 'gotostat()', 'leaveblock()', 'luaK_concat()', 'luaK_goiffalse()', 'luaK_patchtohere()', 'luaX_next()', 'skipnoopstat()', 'statlist()']
+4Paths generated!
+--------------Analysis-ifstat-@lparser.c@line: 1419.....
+
+['check_match()', 'f_entry()', 'f_exit()', 'luaK_patchtohere()', 'test_then_block()', 'testnext()']
+['block()', 'check_match()', 'f_entry()', 'f_exit()', 'luaK_patchtohere()', 'test_then_block()', 'testnext()']
+2Paths generated!
+--------------Analysis-localfunc-@lparser.c@line: 1433.....
+
+['adjustlocalvars()', 'body()', 'f_entry()', 'f_exit()', 'getlocvar()', 'new_localvar()']
+1Paths generated!
+--------------Analysis-localstat-@lparser.c@line: 1444.....
+
+['adjust_assign()', 'adjustlocalvars()', 'f_entry()', 'f_exit()', 'new_localvar()', 'testnext()']
+['adjust_assign()', 'adjustlocalvars()', 'explist()', 'f_entry()', 'f_exit()', 'new_localvar()', 'testnext()']
+2Paths generated!
+--------------Analysis-funcname-@lparser.c@line: 1464.....
+
+['f_entry()', 'f_exit()', 'singlevar()']
+['f_entry()', 'f_exit()', 'fieldsel()', 'singlevar()']
+2Paths generated!
+--------------Analysis-funcstat-@lparser.c@line: 1478.....
+
+['body()', 'f_entry()', 'f_exit()', 'funcname()', 'luaK_fixline()', 'luaK_storevar()', 'luaX_next()']
+1Paths generated!
+--------------Analysis-exprstat-@lparser.c@line: 1490.....
+
+['f_entry()', 'f_exit()', 'suffixedexp()']
+['assignment()', 'f_entry()', 'f_exit()', 'suffixedexp()']
+2Paths generated!
+--------------Analysis-retstat-@lparser.c@line: 1506.....
+
+['block_follow()', 'f_entry()', 'f_exit()', 'luaK_ret()', 'testnext()']
+['block_follow()', 'explist()', 'f_entry()', 'f_exit()', 'luaK_exp2nextreg()', 'luaK_ret()', 'testnext()']
+['block_follow()', 'explist()', 'f_entry()', 'f_exit()', 'luaK_exp2anyreg()', 'luaK_ret()', 'testnext()']
+['block_follow()', 'explist()', 'f_entry()', 'f_exit()', 'luaK_ret()', 'luaK_setreturns()', 'testnext()']
+4Paths generated!
+--------------Analysis-statement-@lparser.c@line: 1539.....
+
+['enterlevel()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-mainfunc-@lparser.c@line: 1614.....
+
+['check()', 'close_func()', 'f_entry()', 'f_exit()', 'init_exp()', 'luaX_next()', 'newupvalue()', 'open_func()', 'statlist()']
+1Paths generated!
+--------------Analysis-luaY_parser-@lparser.c@line: 1628.....
+
+['f_entry()', 'f_exit()', 'luaD_inctop()', 'luaF_newLclosure()', 'luaF_newproto()', 'luaH_new()', 'luaS_new()', 'luaX_setinput()', 'mainfunc()']
+1Paths generated!
+--------------Analysis-luaZ_fill-@lzio.c@line: 23.....
+
+['f_entry()', 'f_exit()', 'reader()']
+1Paths generated!
+--------------Analysis-luaZ_init-@lzio.c@line: 38.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-luaZ_read-@lzio.c@line: 48.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'memcpy()']
+['f_entry()', 'f_exit()', 'luaZ_fill()', 'memcpy()']
+3Paths generated!
+--------------Analysis-currentpc-@ldebug.c@line: 44.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-currentline-@ldebug.c@line: 50.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-swapextra-@ldebug.c@line: 61.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_sethook-@ldebug.c@line: 80.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_gethook-@ldebug.c@line: 94.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_gethookmask-@ldebug.c@line: 99.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_gethookcount-@ldebug.c@line: 104.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_getstack-@ldebug.c@line: 109.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-upvalname-@ldebug.c@line: 126.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-findvararg-@ldebug.c@line: 133.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-findlocal-@ldebug.c@line: 144.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaF_getlocalname()']
+['f_entry()', 'f_exit()', 'findvararg()']
+3Paths generated!
+--------------Analysis-lua_getlocal-@ldebug.c@line: 170.....
+
+['f_entry()', 'f_exit()', 'swapextra()']
+['f_entry()', 'f_exit()', 'findlocal()', 'swapextra()']
+['f_entry()', 'f_exit()', 'luaF_getlocalname()', 'swapextra()']
+3Paths generated!
+--------------Analysis-lua_setlocal-@ldebug.c@line: 194.....
+
+['f_entry()', 'f_exit()', 'findlocal()', 'swapextra()']
+1Paths generated!
+--------------Analysis-funcinfo-@ldebug.c@line: 210.....
+
+['f_entry()', 'f_exit()', 'luaO_chunkid()']
+1Paths generated!
+--------------Analysis-collectvalidlines-@ldebug.c@line: 228.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaH_new()']
+['f_entry()', 'f_exit()', 'luaH_new()', 'luaH_setint()']
+3Paths generated!
+--------------Analysis-auxgetinfo-@ldebug.c@line: 247.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-lua_getinfo-@ldebug.c@line: 298.....
+
+['auxgetinfo()', 'f_entry()', 'f_exit()', 'strchr()', 'swapextra()']
+['auxgetinfo()', 'collectvalidlines()', 'f_entry()', 'f_exit()', 'strchr()', 'swapextra()']
+2Paths generated!
+--------------Analysis-kname-@ldebug.c@line: 344.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'getobjname()']
+2Paths generated!
+--------------Analysis-filterpc-@ldebug.c@line: 364.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-findsetreg-@ldebug.c@line: 374.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getobjname-@ldebug.c@line: 420.....
+
+['f_entry()', 'f_exit()', 'findsetreg()', 'luaF_getlocalname()']
+1Paths generated!
+--------------Analysis-getfuncname-@ldebug.c@line: 474.....
+
+['currentpc()', 'f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-isinstack-@ldebug.c@line: 527.....
+
+['f_entry()', 'f_exit()']
+1Paths generated!
+--------------Analysis-getupvalname-@ldebug.c@line: 538.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'upvalname()']
+2Paths generated!
+--------------Analysis-varinfo-@ldebug.c@line: 552.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaO_pushfstring()']
+['f_entry()', 'f_exit()', 'getupvalname()', 'isinstack()']
+['f_entry()', 'f_exit()', 'getobjname()', 'getupvalname()', 'isinstack()']
+4Paths generated!
+--------------Analysis-luaG_typeerror-@ldebug.c@line: 566.....
+
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_objtypename()']
+1Paths generated!
+--------------Analysis-luaG_concaterror-@ldebug.c@line: 572.....
+
+['f_entry()', 'f_exit()', 'luaG_typeerror()']
+1Paths generated!
+--------------Analysis-luaG_opinterror-@ldebug.c@line: 578.....
+
+['f_entry()', 'f_exit()', 'luaG_typeerror()']
+['f_entry()', 'f_exit()', 'luaG_typeerror()', 'luaV_tonumber_()']
+2Paths generated!
+--------------Analysis-luaG_tointerror-@ldebug.c@line: 590.....
+
+['f_entry()', 'f_exit()', 'luaG_runerror()']
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaV_tointeger()']
+2Paths generated!
+--------------Analysis-luaG_ordererror-@ldebug.c@line: 598.....
+
+['f_entry()', 'f_exit()', 'luaG_runerror()', 'luaT_objtypename()', 'strcmp()']
+1Paths generated!
+--------------Analysis-luaG_addinfo-@ldebug.c@line: 609.....
+
+['f_entry()', 'f_exit()', 'luaO_pushfstring()']
+['f_entry()', 'f_exit()', 'luaO_chunkid()', 'luaO_pushfstring()']
+2Paths generated!
+--------------Analysis-luaG_errormsg-@ldebug.c@line: 621.....
+
+['f_entry()', 'f_exit()', 'luaD_throw()']
+['f_entry()', 'f_exit()', 'luaD_callnoyield()', 'luaD_throw()']
+2Paths generated!
+--------------Analysis-luaG_runerror-@ldebug.c@line: 633.....
+
+['__builtin_va_start()', 'f_entry()', 'f_exit()', 'luaG_errormsg()', 'luaO_pushvfstring()']
+['__builtin_va_start()', 'f_entry()', 'f_exit()', 'luaG_addinfo()', 'luaG_errormsg()', 'luaO_pushvfstring()']
+2Paths generated!
+--------------Analysis-luaG_traceexec-@ldebug.c@line: 646.....
+
+['f_entry()', 'f_exit()']
+['f_entry()', 'f_exit()', 'luaD_throw()']
+['f_entry()', 'f_exit()', 'luaD_hook()']
+3Paths generated!

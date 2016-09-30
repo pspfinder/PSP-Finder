@@ -1,0 +1,12 @@
+directory  sqlite_pp  already exist
+compiling ./sqlite/shell.c >sqlite_pp/shell.c.c ......
+shell.c
+shell_pp.c
+compile finished!
+compiling ./sqlite/sqlite3.c >sqlite_pp/sqlite3.c.c ......
+sqlite3.c
+sqlite3_pp.c
+compile finished!
+not .c file
+not .c file
+2 file compiled!

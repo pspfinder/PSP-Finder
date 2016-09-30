@@ -4,7 +4,7 @@
 #create output directory
 if [ -d $2 ]
   then
-  echo 'directory ' $2 ' already exist'
+  echo 'output directory ' $2 ' already exist'
 else
   echo 'create output directory ' $2 
   mkdir $2
@@ -18,7 +18,7 @@ for file in ./$1/* ;do
     dir=${file%/*}
     #echo $dir
     fileName=${file##*/}
-    #check if it's .c file
+    #check if it's c file
     if [[ $fileName != *'.c' ]]
     then
        echo 'not .c file' 
@@ -30,8 +30,8 @@ for file in ./$1/* ;do
     echo $fileName
     destFileName=${fileName/.c/_pp.c}
     echo $destFileName
-    cc -nostdinc -E -DLUA_32BITS -D'__attribute__(x)=' -Ipycparser/utils/fake_libc_include $file  > $2/$destFileName
- 
+    cc -nostdinc -E -D'__attribute__(x)=' -Ipycparser/utils/fake_libc_include -Iredis/deps/lua/src -Iredis/deps/hiredis -Iredis/deps/linenoise -Iredis/complimentary $file  > $2/$destFileName
+
     echo "compile finished!"
     #cp -p $file > $2/$fileName
 done

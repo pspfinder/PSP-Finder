@@ -1,0 +1,5 @@
+output directory  sqlite_Funcs  already exist
+./sqlite_pp/shell_pp.c
+python AnylysisFuncs.py ./sqlite_pp/shell_pp.c >sqlite_Funcs/shell_pp.c.result
+./sqlite_pp/sqlite3_pp.c
+python AnylysisFuncs.py ./sqlite_pp/sqlite3_pp.c >sqlite_Funcs/sqlite3_pp.c.result

@@ -1,0 +1,19 @@
+output directory  redis_pp  already exist
+not .c file
+not .c file
+compiling ./redis/src/modules/hellotype.c >redis_pp/hellotype.c.c ......
+hellotype.c
+hellotype_pp.c
+compile finished!
+compiling ./redis/src/modules/helloworld.c >redis_pp/helloworld.c.c ......
+helloworld.c
+helloworld_pp.c
+compile finished!
+not .c file
+not .c file
+compiling ./redis/src/modules/testmodule.c >redis_pp/testmodule.c.c ......
+testmodule.c
+testmodule_pp.c
+compile finished!
+not .c file
+3 file compiled!

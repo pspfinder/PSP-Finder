@@ -8,9 +8,9 @@ import sys, os, copy
 sys.path.extend(['.', '..'])
 
 
-#筛选rules，出现在一个函数中计算support count时只计算一次
+#reduce association rules by supportCount_w and confidence_w
 def reduceRules(fileList,FPRuleList,minSup,minConf):
-   ruleCount=str(len(FPRuleList))#分析规则数
+   ruleCount=str(len(FPRuleList))#number of association rules
    funcSet=set([])
    for line in fileList:
       funcElement=line[len(line)-1]
@@ -18,34 +18,39 @@ def reduceRules(fileList,FPRuleList,minSup,minConf):
       funcName=funcElement[0:funcName.rfind('@')]
       funcSet.add(funcName)
    funcCount=len(funcSet)
-   minSupCount=minSup*funcCount
+   w=1
+   minSupCount=minSup*funcCount*w
 
-   trvailRuleCount=0#conf=1的规则数量
-   reducedFPRuleList=[]#约减后到规则
-   lineCount=str(len(fileList))#分析文件行数，即路径数
+   trvailRuleCount=0
+   reducedFPRuleList=[]#the list of rules reduced
+   lineCount=str(len(fileList))#number of lines, also number of paths
    for rule in FPRuleList:
       ruleLeftSet=set(rule[0])
       confirmCount=0
       againstCount=0
       totalCount=0
-      functionaAnalyzedForConfirm=set([])#出现在一个函数中计算support count时只计算一次
-      functionaAnalyzedForTotal=set([])#出现在一个函数中计算support count时只计算一次
-      functionaAnalyzedForAgainst=set([])#出现在一个函数中计算Against count时只计算一次
+      functionaAnalyzedForConfirm=set([])#only count w times in one fuction for supportCount
+      functionaAnalyzedForTotal=set([])#only count w times in one fuction for supportCount
+      functionaAnalyzedForAgainst=set([])#only count w times in one fuction for againt count
+      leftCount=dict()#map from function name to number, count the times left part contain in the paths of the function 
+      wholeCount=dict()#map from function name to number, count the times left and right parts contain in the paths of the function 
       for line in fileList:
-         lineSet=set(line[0:len(line)-1])#每一行所有函数调用组成到集合
+         lineSet=set(line[0:len(line)-1])#the set composed by all the func call statements in one line
          funcElement=line[len(line)-1]
          funcName=funcElement[0:funcElement.rfind('@')]
          funcName=funcElement[0:funcName.rfind('@')]
          #print(lineSet)
          leftContain=True
          for rls in ruleLeftSet:
-            if(rls not in line):#ruleLeftSet不在该行中，不需要分析该rule
+            if(rls not in line):#ruleLeftSet is not included in the line, continue without analysis
                leftContain=False
                break
-         if(leftContain == True):#rule 左边包含在line中，检查右边是否包含
-            if(funcName not in functionaAnalyzedForTotal):
-               functionaAnalyzedForTotal.add(funcName)
-               totalCount=totalCount+1
+         if(leftContain == True):#check if the left part of rule contains in the line, check right part
+            if(funcName not in leftCount.keys()):
+               leftCount[funcName]=1
+            else:
+               if(leftCount[funcName]<w):
+                  leftCount[funcName]=leftCount[funcName]+1
 
             rightContain=True
             ruleRightSet=set(rule[1])
@@ -53,15 +58,22 @@ def reduceRules(fileList,FPRuleList,minSup,minConf):
                if(rrs not in lineSet):#right item not contain in  rule
                   rightContain=False
                   break
-            if(rightContain==True and funcName not in functionaAnalyzedForConfirm):#confirm rule 
-               functionaAnalyzedForConfirm.add(funcName)
-               confirmCount=confirmCount+1
-            else:#against rule
-               functionaAnalyzedForAgainst.add(funcName)
-               againstCount=againstCount+1
-      if(confirmCount==totalCount and totalCount>minSupCount):
-         trvailRuleCount=trvailRuleCount+1 
+            if(rightContain==True):#confirm rule 
+               if(funcName not in wholeCount.keys()):
+                  wholeCount[funcName]=1
+               else:
+                  if(wholeCount[funcName]<w):
+                     wholeCount[funcName]=leftCount[funcName]+1
+      
+      totalCount=0
+      for k in leftCount.keys():
+          totalCount=totalCount+leftCount[k]
+      confirmCount=0
+      for k in wholeCount.keys():
+          confirmCount=confirmCount+leftCount[k]
+      
       if(totalCount>minSupCount and confirmCount/totalCount>minConf and confirmCount!=totalCount):
+      #if(confirmCount/totalCount>minConf and confirmCount!=totalCount):
          reducedFPRuleList.append(rule)
          print(rule)
          print('conf:'+str(confirmCount/totalCount)+','+str(confirmCount)+'/'+str(totalCount))  
@@ -71,13 +83,13 @@ def reduceRules(fileList,FPRuleList,minSup,minConf):
 
    return reducedFPRuleList
 
-#根据FPRules 查找bug，出现在一个函数中计算support count时只计算一次
+#find bugs by assocation fules, only count w times in one function for a rule
 def findBugsByFPRules(fileList,FPRuleList):
    bugList=[]
    bugCount=0
-   ruleCount=str(len(FPRuleList))#分析规则数
-   trvailRuleCount=0#conf=1的规则书
-   lineCount=str(len(fileList))#分析文件行数，即函数数
+   ruleCount=str(len(FPRuleList))#the number of rules need to be analyzed
+   trvailRuleCount=0#rules with conf=1
+   lineCount=str(len(fileList))#the number of functions
    for rule in FPRuleList:
       dicFuncBugCount=dict()
 
@@ -85,9 +97,9 @@ def findBugsByFPRules(fileList,FPRuleList):
       confirmCount=0
       againstCount=0
       totalCount=0
-      functionaFoundBugForCurrentRule=set([])#一个规则在一个函数中找到bug即可
+      functionaFoundBugForCurrentRule=set([])#in one function, only need to find one bug for one rule
       for line in fileList:
-         lineSet=set(line[0:len(line)-1])#每一行所有函数调用组成到集合
+         lineSet=set(line[0:len(line)-1])#the set composed by all the func call statements in one line
          funcElement=line[len(line)-1]
          funcName=funcElement[0:funcElement.rfind('@')]
          funcName=funcElement[0:funcName.rfind('@')]
@@ -96,10 +108,10 @@ def findBugsByFPRules(fileList,FPRuleList):
          #print(lineSet)
          leftContain=True
          for rls in ruleLeftSet:
-            if(rls not in line):#ruleLeftSet不在该行中，不需要分析该rule
+            if(rls not in line):#ruleLeftSet is not included in the line, continue without analysis
                leftContain=False
                break
-         if(leftContain == True):#rule 左边包含在line中，检查右边是否包含
+         if(leftContain == True):#check if the left part of rule contains in the line, check right part
             rightContain=True
             ruleRightSet=set(rule[1])
             for rrs in ruleRightSet:
@@ -120,19 +132,19 @@ def findBugsByFPRules(fileList,FPRuleList):
    return bugList
 
 
-#读取FPGrowth生成文件     
+#read the file generated by FPGrowth     
 def loadFPGReslut(fileName):
-   FPRuleList=[]#存放FPRule的list，每一条rule为一个两个元素的list，第二个元素是‘=>’右边，第一个为‘=>’左边的元素
+   FPRuleList=[]#save the list of association rules, one rule in FPRulelist composed by 2 elements, the first elment is the left part of association rule, the second element is the right part of association rule
    FPGFile = open(fileName,'r')
    for line in FPGFile:
-      if (line.find(' = T')==-1):#该行不是关联规则格式
+      if (line.find(' = T')==-1):#not a association rule
          continue
       line=line[line.find('	')+1:]
       line=line[0:line.rfind(' = T')+4]
       preLine=line[0:line.find('	')]
-      subLine=line[line.find('	')+1:]#关联规则后半部分
-      preLine=preLine.replace(' ', '')#去掉空格
-      subLine=subLine.replace(' ', '')#去掉空格
+      subLine=line[line.find('	')+1:]#the right side of association rules
+      preLine=preLine.replace(' ', '')#eliminate space
+      subLine=subLine.replace(' ', '')#eliminate space
       #print(line)
       #print(preLine)
       #print(subLine)
@@ -152,9 +164,9 @@ def loadFPGReslut(fileName):
 
 mappingFileName=sys.argv[1] 
 mappingFile = open(mappingFileName,'r')
-fileList=[]#所有行存到fileList中，每一个元素为一个lineList
+fileList=[]#save all lines in fileList, one line in a lineList
 for line in mappingFile:
-   lineList=[]#每一行存一个list 前面为func 信息 最后一个元素为位置信息
+   lineList=[]#one line save as a list, the first element is funcs, the second element is position info
    preLine=line[0:line.find('@')]
    lineList = preLine.split(',')  
    subLine=line[line.find('@'):len(line)-1]
